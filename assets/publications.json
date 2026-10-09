@@ -1,22 +1,40 @@
 [
   {
-    "id": "zhang2026linear",
-    "year": 2026,
+    "id": "wang2027bergematchings",
+    "year": 2027,
     "status": "published",
-    "title": "Turán type problems for a fixed graph and a linear forest",
+    "title": "The Turán number of Berge matchings",
     "authors": [
-      "Haixiang Zhang",
+      "Yichen Wang",
+      "Zixuan Yang",
       "Xiamiao Zhao",
-      "Mei Lu"
+      "Yuhang Bai",
+      "Junpeng Zhou"
     ],
-    "venue": "European Journal of Combinatorics 137, 104412 (2026)",
-    "journal": "https://doi.org/10.1016/j.ejc.2026.104412",
-    "arxiv": "2507.11034",
+    "venue": "Discrete Mathematics 350(1), 115403 (2027)",
+    "arxiv": "2510.05422",
     "overview": {
-      "en": "Determines exact Turán numbers when a fixed graph of chromatic number at least three and a linear forest are both forbidden.",
-      "zh": "研究同时禁用固定图与线性森林时的极值问题，确定相应条件下的精确 Turán 数。"
+      "en": "Resolves the remaining parameter range and completes the determination of the Turán number of Berge matchings.",
+      "zh": "解决尚未确定的参数范围，完成 Berge 匹配的 Turán 数的确定。"
     },
-    "bibtex": "@article{zhang2026linear,\n  author = {Haixiang Zhang and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n type problems for a fixed graph and a linear forest},\n  year = {2026},\n  journal = {European Journal of Combinatorics},\n  volume = {137},\n  pages = {104412},\n  doi = {10.1016/j.ejc.2026.104412},\n  url = {https://doi.org/10.1016/j.ejc.2026.104412}\n}"
+    "journal": "https://doi.org/10.1016/j.disc.2026.115403",
+    "journal_name": "Discrete Mathematics",
+    "volume": "350",
+    "number": "1",
+    "pages": "115403",
+    "doi": "10.1016/j.disc.2026.115403",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:UebtZRa9Y70C",
+    "scholarRecords": [
+      {
+        "title": "The Turán number of Berge matchings",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:UebtZRa9Y70C"
+      },
+      {
+        "title": "On Turán-type problems for Berge matchings",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Y0pCki6q_DkC"
+      }
+    ],
+    "bibtex": "@article{wang2027bergematchings,\n  author = {Yichen Wang and Zixuan Yang and Xiamiao Zhao and Yuhang Bai and Junpeng Zhou},\n  title = {The Tur\\'{a}n number of Berge matchings},\n  year = {2027},\n  journal = {Discrete Mathematics},\n  volume = {350},\n  number = {1},\n  pages = {115403},\n  doi = {10.1016/j.disc.2026.115403},\n  url = {https://doi.org/10.1016/j.disc.2026.115403}\n}"
   },
   {
     "id": "wang2026entropy",
@@ -35,7 +53,69 @@
       "en": "Uses entropy to study the maximum number of induced copies of a graph in a host graph with a prescribed number of edges, including bounds for paths and cycles.",
       "zh": "利用熵方法研究给定边数下的诱导子图计数，并给出路与圈的相关上界。"
     },
-    "bibtex": "@article{wang2026entropy,\n  author = {Yichen Wang and Xiamiao Zhao and Mei Lu},\n  title = {Edge Version of the Inducibility via the Entropy Method},\n  year = {2026},\n  journal = {The Electronic Journal of Combinatorics},\n  volume = {33},\n  number = {2},\n  pages = {P2.17},\n  doi = {10.37236/14422},\n  url = {https://doi.org/10.37236/14422}\n}"
+    "bibtex": "@article{wang2026entropy,\n  author = {Yichen Wang and Xiamiao Zhao and Mei Lu},\n  title = {Edge Version of the Inducibility via the Entropy Method},\n  year = {2026},\n  journal = {The Electronic Journal of Combinatorics},\n  volume = {33},\n  number = {2},\n  pages = {P2.17},\n  doi = {10.37236/14422},\n  url = {https://doi.org/10.37236/14422}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:zYLM7Y9cAGgC",
+    "scholarRecords": [
+      {
+        "title": "Edge version of the inducibility via the entropy method",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:zYLM7Y9cAGgC"
+      }
+    ]
+  },
+  {
+    "id": "zhang2026linear",
+    "year": 2026,
+    "status": "published",
+    "title": "Turán type problems for a fixed graph and a linear forest",
+    "authors": [
+      "Haixiang Zhang",
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "European Journal of Combinatorics 137, 104412 (2026)",
+    "journal": "https://doi.org/10.1016/j.ejc.2026.104412",
+    "arxiv": "2507.11034",
+    "overview": {
+      "en": "Determines exact Turán numbers when a fixed graph of chromatic number at least three and a linear forest are both forbidden.",
+      "zh": "研究同时禁用固定图与线性森林时的极值问题，确定相应条件下的精确 Turán 数。"
+    },
+    "bibtex": "@article{zhang2026linear,\n  author = {Haixiang Zhang and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n type problems for a fixed graph and a linear forest},\n  year = {2026},\n  journal = {European Journal of Combinatorics},\n  volume = {137},\n  pages = {104412},\n  doi = {10.1016/j.ejc.2026.104412},\n  url = {https://doi.org/10.1016/j.ejc.2026.104412}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:qjMakFHDy7sC",
+    "scholarRecords": [
+      {
+        "title": "Turán type problems for a fixed graph and a linear forest",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:qjMakFHDy7sC"
+      }
+    ]
+  },
+  {
+    "id": "zhao2026pancyclic",
+    "year": 2026,
+    "status": "published",
+    "title": "On the minimum size of an edge-pancyclic graph of a given order",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuxuan Yang"
+    ],
+    "venue": "Discrete Mathematics 349(3), 114888 (2026)",
+    "journal": "https://doi.org/10.1016/j.disc.2025.114888",
+    "overview": {
+      "en": "Improves the lower and upper bounds on the minimum number of edges in an edge-pancyclic graph of a given order.",
+      "zh": "针对给定顶点数的边泛圈图，改进其最小边数的上下界。"
+    },
+    "bibtex": "@article{zhao2026pancyclic,\n  author = {Xiamiao Zhao and Yuxuan Yang},\n  title = {On the minimum size of an edge-pancyclic graph of a given order},\n  year = {2026},\n  journal = {Discrete Mathematics},\n  volume = {349},\n  number = {3},\n  pages = {114888},\n  doi = {10.1016/j.disc.2025.114888},\n  url = {https://doi.org/10.1016/j.disc.2025.114888}\n}",
+    "arxiv": "2503.05506",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:W7OEmFMy1HYC",
+    "scholarRecords": [
+      {
+        "title": "On the minimum size of an edge-pancyclic graph of a given order",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:W7OEmFMy1HYC"
+      },
+      {
+        "title": "The minimum edge-pancyclic graph of a given order",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:_FxGoFyzp5QC"
+      }
+    ]
   },
   {
     "id": "zhao2026matchingcycles",
@@ -53,24 +133,14 @@
       "en": "Determines clique counts and edge maxima in graphs with bounded matching number and no long cycles, including the corresponding extremal structures.",
       "zh": "研究同时限制匹配数与最长圈时的团计数和边数极值，并刻画相关极值结构。"
     },
-    "bibtex": "@article{zhao2026matchingcycles,\n  author = {Xiamiao Zhao and Mei Lu},\n  title = {Generalized Tur\\'{a}n problems for a matching and long cycles},\n  year = {2026},\n  journal = {Discrete Applied Mathematics},\n  volume = {394},\n  pages = {52--61},\n  doi = {10.1016/j.dam.2026.07.012},\n  url = {https://doi.org/10.1016/j.dam.2026.07.012}\n}"
-  },
-  {
-    "id": "zhao2026pancyclic",
-    "year": 2026,
-    "status": "published",
-    "title": "On the minimum size of an edge-pancyclic graph of a given order",
-    "authors": [
-      "Xiamiao Zhao",
-      "Yuxuan Yang"
-    ],
-    "venue": "Discrete Mathematics 349(3), 114888 (2026)",
-    "journal": "https://doi.org/10.1016/j.disc.2025.114888",
-    "overview": {
-      "en": "Improves the lower and upper bounds on the minimum number of edges in an edge-pancyclic graph of a given order.",
-      "zh": "针对给定顶点数的边泛圈图，改进其最小边数的上下界。"
-    },
-    "bibtex": "@article{zhao2026pancyclic,\n  author = {Xiamiao Zhao and Yuxuan Yang},\n  title = {On the minimum size of an edge-pancyclic graph of a given order},\n  year = {2026},\n  journal = {Discrete Mathematics},\n  volume = {349},\n  number = {3},\n  pages = {114888},\n  doi = {10.1016/j.disc.2025.114888},\n  url = {https://doi.org/10.1016/j.disc.2025.114888}\n}"
+    "bibtex": "@article{zhao2026matchingcycles,\n  author = {Xiamiao Zhao and Mei Lu},\n  title = {Generalized Tur\\'{a}n problems for a matching and long cycles},\n  year = {2026},\n  journal = {Discrete Applied Mathematics},\n  volume = {394},\n  pages = {52--61},\n  doi = {10.1016/j.dam.2026.07.012},\n  url = {https://doi.org/10.1016/j.dam.2026.07.012}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:d1gkVwhDpl0C",
+    "scholarRecords": [
+      {
+        "title": "Generalized Turán problems for a matching and long cycles",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:d1gkVwhDpl0C"
+      }
+    ]
   },
   {
     "id": "luo2025bipartite",
@@ -89,7 +159,14 @@
       "en": "Studies the maximum edge count of complete-bipartite-free graphs with bounded matching number, obtaining exact values in several parameter ranges.",
       "zh": "研究匹配数有界且禁用完全二部图时的最大边数，在若干参数范围内确定精确值。"
     },
-    "bibtex": "@article{luo2025bipartite,\n  author = {Huan Luo and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n number of complete bipartite graphs with bounded matching number},\n  year = {2025},\n  journal = {Discrete Mathematics},\n  volume = {348},\n  number = {9},\n  pages = {114552},\n  doi = {10.1016/j.disc.2025.114552},\n  url = {https://doi.org/10.1016/j.disc.2025.114552}\n}"
+    "bibtex": "@article{luo2025bipartite,\n  author = {Huan Luo and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n number of complete bipartite graphs with bounded matching number},\n  year = {2025},\n  journal = {Discrete Mathematics},\n  volume = {348},\n  number = {9},\n  pages = {114552},\n  doi = {10.1016/j.disc.2025.114552},\n  url = {https://doi.org/10.1016/j.disc.2025.114552}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:u-x6o8ySG0sC",
+    "scholarRecords": [
+      {
+        "title": "Turan number of complete bipartite graphs with bounded matching number",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:u-x6o8ySG0sC"
+      }
+    ]
   },
   {
     "id": "cao2024scbutterfly",
@@ -129,7 +206,14 @@
       "en": "Determines the second-order term in the maximum size of an r-fork-free set family through a construction on adjacent middle levels.",
       "zh": "通过相邻中间层上的构造，确定最大 r-fork-free 集合族规模的二阶项。"
     },
-    "bibtex": "@misc{zhan2026fork,\n  author = {Yiyan Zhan and Mei Lu and Xiamiao Zhao},\n  title = {The second-order term for the largest r-fork-free families},\n  year = {2026},\n  eprint = {2609.30336},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.30336}\n}"
+    "bibtex": "@misc{zhan2026fork,\n  author = {Yiyan Zhan and Mei Lu and Xiamiao Zhao},\n  title = {The second-order term for the largest r-fork-free families},\n  year = {2026},\n  eprint = {2609.30336},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.30336}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:4DMP91E08xMC",
+    "scholarRecords": [
+      {
+        "title": "The second-order term for the largest r-fork-free families",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:4DMP91E08xMC"
+      }
+    ]
   },
   {
     "id": "zhao2026vertexlinear",
@@ -147,7 +231,14 @@
       "en": "Establishes a vertex-linear Turán-good threshold using a cluster method, and applies it to monotonicity of normalized chromatic polynomials.",
       "zh": "利用 Cluster 方法得到顶点数线性的 Turán-good 阈值，并应用于归一化色多项式的单调性问题。"
     },
-    "bibtex": "@misc{zhao2026vertexlinear,\n  author = {Xiamiao Zhao and Liying Kang and Yuanpei Wang},\n  title = {A Vertex-Linear Threshold for Eventually Tur\\'{a}n good and the Cluster Method},\n  year = {2026},\n  eprint = {2609.25038},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.25038}\n}"
+    "bibtex": "@misc{zhao2026vertexlinear,\n  author = {Xiamiao Zhao and Liying Kang and Yuanpei Wang},\n  title = {A Vertex-Linear Threshold for Eventually Tur\\'{a}n good and the Cluster Method},\n  year = {2026},\n  eprint = {2609.25038},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.25038}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:qxL8FJ1GzNcC",
+    "scholarRecords": [
+      {
+        "title": "A Vertex-Linear Threshold for Eventually Tur\\'an good and the Cluster Method",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:qxL8FJ1GzNcC"
+      }
+    ]
   },
   {
     "id": "wang2026monotonicity",
@@ -165,7 +256,14 @@
       "en": "Obtains an edge-linear sufficient condition for the Turán-good property and counterexamples to monotonicity, together with bounds on monotonicity thresholds.",
       "zh": "给出边数线性的 Turán-good 充分条件、单调性猜想的反例，以及相应单调性阈值的界。"
     },
-    "bibtex": "@misc{wang2026monotonicity,\n  author = {Yuanpei Wang and Liying Kang and Xiamiao Zhao},\n  title = {Tur\\'{a}n-good monotonicity thresholds},\n  year = {2026},\n  eprint = {2608.17134},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.17134}\n}"
+    "bibtex": "@misc{wang2026monotonicity,\n  author = {Yuanpei Wang and Liying Kang and Xiamiao Zhao},\n  title = {Tur\\'{a}n-good monotonicity thresholds},\n  year = {2026},\n  eprint = {2608.17134},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.17134}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Wp0gIr-vW9MC",
+    "scholarRecords": [
+      {
+        "title": "Turán-good monotonicity thresholds",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Wp0gIr-vW9MC"
+      }
+    ]
   },
   {
     "id": "zhao2026norm",
@@ -182,7 +280,64 @@
       "en": "Determines extremal degree-norm values and families for hypergraphs with restrictions on matchings, intersections, or expansion paths.",
       "zh": "研究匹配、交集和扩张路限制下超图度范数的极值，并刻画相关极值集合族。"
     },
-    "bibtex": "@misc{zhao2026norm,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {The (t,p)-Norm in Classical Extremal Problems},\n  year = {2026},\n  eprint = {2608.04615},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.04615}\n}"
+    "bibtex": "@misc{zhao2026norm,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {The (t,p)-Norm in Classical Extremal Problems},\n  year = {2026},\n  eprint = {2608.04615},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.04615}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:ULOm3_A8WrAC",
+    "scholarRecords": [
+      {
+        "title": "The (t,p)-Norm in Classical Extremal Problems",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:ULOm3_A8WrAC"
+      }
+    ]
+  },
+  {
+    "id": "arxiv260804603",
+    "year": 2026,
+    "status": "preprint",
+    "title": "A stability theorem for Berge Hamiltonian cycles under a minimum degree condition",
+    "authors": [
+      "Yichen Wang",
+      "Dániel Gerbner",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2608.04603 · 2026",
+    "arxiv": "2608.04603",
+    "overview": {
+      "en": "Establishes extremal and stability results for hypergraphs without Berge Hamiltonian cycles under a minimum degree condition.",
+      "zh": "研究最小度条件下不含 Berge Hamilton 圈的超图，给出极值与稳定性结果。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:YOwf2qJgpHMC",
+    "scholarRecords": [
+      {
+        "title": "A stability theorem for Berge Hamiltonian cycles under a minimum degree condition",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:YOwf2qJgpHMC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260804603,\n  author = {Yichen Wang and D\\'{a}niel Gerbner and Xiamiao Zhao},\n  title = {A stability theorem for Berge Hamiltonian cycles under a minimum degree condition},\n  year = {2026},\n  eprint = {2608.04603},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.04603}\n}"
+  },
+  {
+    "id": "arxiv260720157",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Matchings and Near-Optimal 2-Factor Packings in Percolated Vertex-Transitive Graphs",
+    "authors": [
+      "Mengyu Cao",
+      "Mei Lu",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2607.20157 · 2026",
+    "arxiv": "2607.20157",
+    "overview": {
+      "en": "Studies perfect matchings and asymptotically optimal packings of spanning 2-factors in random subgraphs of vertex-transitive graphs.",
+      "zh": "研究点传递图的随机子图中的完美匹配，以及渐近最优的生成 2-因子打包。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Zph67rFs4hoC",
+    "scholarRecords": [
+      {
+        "title": "Matchings and Near-Optimal 2-Factor Packings in Percolated Vertex-Transitive Graphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Zph67rFs4hoC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260720157,\n  author = {Mengyu Cao and Mei Lu and Xiamiao Zhao},\n  title = {Matchings and Near-Optimal 2-Factor Packings in Percolated Vertex-Transitive Graphs},\n  year = {2026},\n  eprint = {2607.20157},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2607.20157}\n}"
   },
   {
     "id": "zhao2026cycles",
@@ -199,7 +354,97 @@
       "en": "Studies sharp cycle-counting problems in graphs with bounded circumference and related forbidden-path settings.",
       "zh": "研究最长圈有界图中的精确圈计数问题，以及相关禁用路情形。"
     },
-    "bibtex": "@misc{zhao2026cycles,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {Counting Cycles in Graphs with Bounded Circumference},\n  year = {2026},\n  eprint = {2607.10779},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2607.10779}\n}"
+    "bibtex": "@misc{zhao2026cycles,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {Counting Cycles in Graphs with Bounded Circumference},\n  year = {2026},\n  eprint = {2607.10779},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2607.10779}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:4TOpqqG69KYC",
+    "scholarRecords": [
+      {
+        "title": "Counting Odd Cycles in Graphs with Bounded Circumference",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:4TOpqqG69KYC"
+      }
+    ]
+  },
+  {
+    "id": "arxiv260704347",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Strong Subgraph-Count Stability in C₂ℓ₊₁-Free Graphs",
+    "authors": [
+      "Yuanpei Wang",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2607.04347 · 2026",
+    "arxiv": "2607.04347",
+    "overview": {
+      "en": "Derives structural stability from path and even-cycle counts in graphs forbidding a fixed odd cycle.",
+      "zh": "通过路和偶圈的计数，研究禁用固定奇圈的图的结构稳定性。"
+    },
+    "bibTitle": "Strong Subgraph-Count Stability in $C_{2\\ell+1}$-Free Graphs",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:3fE2CSJIrl8C",
+    "scholarRecords": [
+      {
+        "title": "Strong Subgraph-Count Stability in C_{2\\ell+1}-Free Graphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:3fE2CSJIrl8C"
+      }
+    ],
+    "bibtex": "@misc{arxiv260704347,\n  author = {Yuanpei Wang and Xiamiao Zhao},\n  title = {Strong Subgraph-Count Stability in $C_{2\\ell+1}$-Free Graphs},\n  year = {2026},\n  eprint = {2607.04347},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2607.04347}\n}"
+  },
+  {
+    "id": "arxiv260611069",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Adjacent comparison bounds and extremal sets for Ruzsa numbers",
+    "authors": [
+      "Yuchen Ding",
+      "Huixi Li",
+      "Junfeng Li",
+      "Wei Niu",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2606.11069 · 2026",
+    "arxiv": "2606.11069",
+    "overview": {
+      "en": "Bounds differences between consecutive Ruzsa numbers and the sizes of extremal sets, with exact computations for small moduli.",
+      "zh": "研究相邻 Ruzsa 数之差及极值集合的规模，并计算小模数下的精确值。"
+    },
+    "primaryClass": "math.NT",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:MXK_kJrjxJIC",
+    "scholarRecords": [
+      {
+        "title": "Adjacent comparison bounds and extremal sets for Ruzsa numbers",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:MXK_kJrjxJIC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260611069,\n  author = {Yuchen Ding and Huixi Li and Junfeng Li and Wei Niu and Xiamiao Zhao},\n  title = {Adjacent comparison bounds and extremal sets for Ruzsa numbers},\n  year = {2026},\n  eprint = {2606.11069},\n  archivePrefix = {arXiv},\n  primaryClass = {math.NT},\n  url = {https://arxiv.org/abs/2606.11069}\n}"
+  },
+  {
+    "id": "arxiv260522397",
+    "year": 2026,
+    "status": "preprint",
+    "title": "On the Turán number of blow-ups of F₅",
+    "authors": [
+      "Xiamiao Zhao",
+      "Xin Cheng",
+      "Dániel Gerbner",
+      "Hilal Hama Karim",
+      "Shujing Miao",
+      "Yichen Wang",
+      "Junpeng Zhou"
+    ],
+    "venue": "arXiv:2605.22397 · 2026",
+    "arxiv": "2605.22397",
+    "overview": {
+      "en": "Studies Turán numbers and extremal constructions for blow-ups of the 3-uniform hypergraph F₅.",
+      "zh": "研究三一致超图 F₅ 的 blow-up 的 Turán 数及极值构造。"
+    },
+    "bibTitle": "On the Turán number of blow-ups of $\\mathcal{F}_5$",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:8k81kl-MbHgC",
+    "scholarRecords": [
+      {
+        "title": "On the Tur\\'an number of blow-ups of \\mathcal{F}_5",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:8k81kl-MbHgC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260522397,\n  author = {Xiamiao Zhao and Xin Cheng and D\\'{a}niel Gerbner and Hilal Hama Karim and Shujing Miao and Yichen Wang and Junpeng Zhou},\n  title = {On the Tur\\'{a}n number of blow-ups of $\\mathcal{F}_5$},\n  year = {2026},\n  eprint = {2605.22397},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.22397}\n}"
   },
   {
     "id": "zhao2026erdoshajnal",
@@ -217,7 +462,14 @@
       "en": "Confirms a conjecture of Chen and Ma on fixed odd-length paths whose endpoints have equal degree.",
       "zh": "证明 Chen–Ma 关于等度端点的固定奇数长度路的猜想。"
     },
-    "bibtex": "@misc{zhao2026erdoshajnal,\n  author = {Xiamiao Zhao and Yichen Wang and Mei Lu},\n  title = {A generalization of Erd\\H{o}s-Hajnal problem on paths with equal-degree endpoints},\n  year = {2026},\n  eprint = {2605.03825},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.03825}\n}"
+    "bibtex": "@misc{zhao2026erdoshajnal,\n  author = {Xiamiao Zhao and Yichen Wang and Mei Lu},\n  title = {A generalization of Erd\\H{o}s-Hajnal problem on paths with equal-degree endpoints},\n  year = {2026},\n  eprint = {2605.03825},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.03825}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:5nxA0vEk-isC",
+    "scholarRecords": [
+      {
+        "title": "A generalization of Erd\\H {o} s-Hajnal problem on paths with equal-degree endpoints",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:5nxA0vEk-isC"
+      }
+    ]
   },
   {
     "id": "zhao2026expansions",
@@ -235,6 +487,350 @@
       "en": "Studies hypergraph versions of bounded-matching Turán problems for graph expansions, together with rainbow Turán problems.",
       "zh": "研究图扩张对应的超图有界匹配 Turán 问题，以及相关彩虹 Turán 问题。"
     },
-    "bibtex": "@misc{zhao2026expansions,\n  author = {Xiamiao Zhao and Yuanpei Wang and Junpeng Zhou},\n  title = {Hypergraph extensions of the Alon--Frankl Theorem and rainbow Tur\\'{a}n problems},\n  year = {2026},\n  eprint = {2605.01768},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.01768}\n}"
+    "bibtex": "@misc{zhao2026expansions,\n  author = {Xiamiao Zhao and Yuanpei Wang and Junpeng Zhou},\n  title = {Hypergraph extensions of the Alon--Frankl Theorem and rainbow Tur\\'{a}n problems},\n  year = {2026},\n  eprint = {2605.01768},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.01768}\n}",
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:0EnyYjriUFMC",
+    "scholarRecords": [
+      {
+        "title": "Hypergraph extensions of the Alon--Frankl Theorem and rainbow Tur\\'an problems",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:0EnyYjriUFMC"
+      }
+    ]
+  },
+  {
+    "id": "arxiv260418217",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Generalized Turán problems for Berge hypergraphs",
+    "authors": [
+      "Xiamiao Zhao",
+      "Xin Cheng",
+      "Dániel Gerbner"
+    ],
+    "venue": "arXiv:2604.18217 · 2026",
+    "arxiv": "2604.18217",
+    "overview": {
+      "en": "Connects generalized Berge-Turán problems to shadow-graph counts and obtains exact extremal results.",
+      "zh": "将广义 Berge-Turán 问题与影图计数相联系，并给出精确极值结果。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:hqOjcs7Dif8C",
+    "scholarRecords": [
+      {
+        "title": "Generalized Tur\\'an problems for Berge hypergraphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:hqOjcs7Dif8C"
+      }
+    ],
+    "bibtex": "@misc{arxiv260418217,\n  author = {Xiamiao Zhao and Xin Cheng and D\\'{a}niel Gerbner},\n  title = {Generalized Tur\\'{a}n problems for Berge hypergraphs},\n  year = {2026},\n  eprint = {2604.18217},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2604.18217}\n}"
+  },
+  {
+    "id": "arxiv260411525",
+    "year": 2026,
+    "status": "preprint",
+    "title": "The number of induced paths in outerplanar graphs",
+    "authors": [
+      "Yichen Wang",
+      "Ervin Győri",
+      "Casey Tompkins",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2604.11525 · 2026",
+    "arxiv": "2604.11525",
+    "overview": {
+      "en": "Counts induced paths in outerplanar graphs, with exact results for short paths and bounds involving Fibonacci numbers.",
+      "zh": "研究外平面图中的诱导路计数，给出短路的精确结果及与 Fibonacci 数相关的界。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:roLk4NBRz8UC",
+    "scholarRecords": [
+      {
+        "title": "The number of induced paths in outerplanar graphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:roLk4NBRz8UC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260411525,\n  author = {Yichen Wang and Ervin Gy\\H{o}ri and Casey Tompkins and Xiamiao Zhao},\n  title = {The number of induced paths in outerplanar graphs},\n  year = {2026},\n  eprint = {2604.11525},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2604.11525}\n}"
+  },
+  {
+    "id": "arxiv260411495",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Forbidding matching as trace in uniform hypergraphs",
+    "authors": [
+      "Yichen Wang",
+      "Xin Cheng",
+      "Ervin Győri",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2604.11495 · 2026",
+    "arxiv": "2604.11495",
+    "overview": {
+      "en": "Determines sharp bounds for uniform hypergraphs forbidding a matching as a trace, including exact results for 3-uniform hypergraphs.",
+      "zh": "研究禁用匹配作为 trace 的一致超图，给出渐近精确的界及三一致情形的精确结果。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Se3iqnhoufwC",
+    "scholarRecords": [
+      {
+        "title": "Forbidding matching as trace in uniform hypergraphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Se3iqnhoufwC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260411495,\n  author = {Yichen Wang and Xin Cheng and Ervin Gy\\H{o}ri and Xiamiao Zhao},\n  title = {Forbidding matching as trace in uniform hypergraphs},\n  year = {2026},\n  eprint = {2604.11495},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2604.11495}\n}"
+  },
+  {
+    "id": "arxiv260411366",
+    "year": 2026,
+    "status": "preprint",
+    "title": "The Turán number of the Cartesian product of a star and an edge",
+    "authors": [
+      "Xiamiao Zhao",
+      "Xin Cheng",
+      "Cheng Chi",
+      "Ervin Győri",
+      "Casey Tompkins",
+      "Yichen Wang"
+    ],
+    "venue": "arXiv:2604.11366 · 2026",
+    "arxiv": "2604.11366",
+    "overview": {
+      "en": "Bounds the Turán number of the Cartesian product of a star and an edge in general and bipartite graphs.",
+      "zh": "研究星与一条边的笛卡尔积在一般图和二部图中的 Turán 数上下界。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:LkGwnXOMwfcC",
+    "scholarRecords": [
+      {
+        "title": "The Tur\\'{a} n number of the Cartesian product of a star and an edge",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:LkGwnXOMwfcC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260411366,\n  author = {Xiamiao Zhao and Xin Cheng and Cheng Chi and Ervin Gy\\H{o}ri and Casey Tompkins and Yichen Wang},\n  title = {The Tur\\'{a}n number of the Cartesian product of a star and an edge},\n  year = {2026},\n  eprint = {2604.11366},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2604.11366}\n}"
+  },
+  {
+    "id": "arxiv260407642",
+    "year": 2026,
+    "status": "preprint",
+    "title": "On the connected Turán number of Berge paths and Berge cycles",
+    "authors": [
+      "Xiamiao Zhao",
+      "Dániel Gerbner",
+      "Junpeng Zhou"
+    ],
+    "venue": "arXiv:2604.07642 · 2026",
+    "arxiv": "2604.07642",
+    "overview": {
+      "en": "Determines sharp thresholds for extremal results on connected Berge-path-free and 2-connected Berge-cycle-free hypergraphs.",
+      "zh": "确定连通 Berge 路禁用超图与二连通 Berge 圈禁用超图极值结果的精确阈值。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:ufrVoPGSRksC",
+    "scholarRecords": [
+      {
+        "title": "On the connected Tur\\'an number of Berge paths and Berge cycles",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:ufrVoPGSRksC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260407642,\n  author = {Xiamiao Zhao and D\\'{a}niel Gerbner and Junpeng Zhou},\n  title = {On the connected Tur\\'{a}n number of Berge paths and Berge cycles},\n  year = {2026},\n  eprint = {2604.07642},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2604.07642}\n}"
+  },
+  {
+    "id": "arxiv260109500",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Forbidding edge-critical graphs as trace in uniform hypergraphs",
+    "authors": [
+      "Yichen Wang",
+      "Xin Cheng",
+      "Ervin Győri",
+      "Yuanpei Wang",
+      "Xiamiao Zhao",
+      "Junpeng Zhou"
+    ],
+    "venue": "arXiv:2601.09500 · 2026",
+    "arxiv": "2601.09500",
+    "overview": {
+      "en": "Identifies the unique extremal hypergraph when an edge-critical graph is forbidden as a trace.",
+      "zh": "研究禁用边临界图作为 trace 的超图，并确定相应条件下唯一的极值超图。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:eQOLeE2rZwMC",
+    "scholarRecords": [
+      {
+        "title": "Forbidding edge-critical graphs as trace in uniform hypergraphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:eQOLeE2rZwMC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260109500,\n  author = {Yichen Wang and Xin Cheng and Ervin Gy\\H{o}ri and Yuanpei Wang and Xiamiao Zhao and Junpeng Zhou},\n  title = {Forbidding edge-critical graphs as trace in uniform hypergraphs},\n  year = {2026},\n  eprint = {2601.09500},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2601.09500}\n}"
+  },
+  {
+    "id": "arxiv260109244",
+    "year": 2026,
+    "status": "preprint",
+    "title": "On generalized Turán problems for expansions",
+    "authors": [
+      "Junpeng Zhou",
+      "Xiamiao Zhao",
+      "Xiying Yuan"
+    ],
+    "venue": "arXiv:2601.09244 · 2026",
+    "arxiv": "2601.09244",
+    "overview": {
+      "en": "Studies generalized Turán numbers for graph expansions, obtaining exact and asymptotic results for complete graphs and several classes of forests.",
+      "zh": "研究图扩张的广义 Turán 数，给出完全图及若干森林类对应的精确或渐近结果。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:WF5omc3nYNoC",
+    "scholarRecords": [
+      {
+        "title": "On generalized Tur\\'{a} n problems for expansions",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:WF5omc3nYNoC"
+      }
+    ],
+    "bibtex": "@misc{arxiv260109244,\n  author = {Junpeng Zhou and Xiamiao Zhao and Xiying Yuan},\n  title = {On generalized Tur\\'{a}n problems for expansions},\n  year = {2026},\n  eprint = {2601.09244},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2601.09244}\n}"
+  },
+  {
+    "id": "arxiv251223382",
+    "year": 2025,
+    "status": "preprint",
+    "title": "Extremal results on Berge disjoint paths",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yiyan Zhan",
+      "Mei Lu"
+    ],
+    "venue": "arXiv:2512.23382 · 2025",
+    "arxiv": "2512.23382",
+    "overview": {
+      "en": "Determines exact Turán numbers for families of disjoint Berge paths in a general parameter range.",
+      "zh": "在一般参数范围内确定不交 Berge 路的精确 Turán 数。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:YsMSGLbcyi4C",
+    "scholarRecords": [
+      {
+        "title": "Turán number of disjoint Berge paths",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:YsMSGLbcyi4C"
+      }
+    ],
+    "bibtex": "@misc{arxiv251223382,\n  author = {Xiamiao Zhao and Yiyan Zhan and Mei Lu},\n  title = {Extremal results on Berge disjoint paths},\n  year = {2025},\n  eprint = {2512.23382},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2512.23382}\n}"
+  },
+  {
+    "id": "arxiv250923160",
+    "year": 2025,
+    "status": "preprint",
+    "title": "The maximum sum of sizes of non-empty cross L-intersecting families",
+    "authors": [
+      "Xiamiao Zhao",
+      "Haixiang Zhang",
+      "Mei Lu"
+    ],
+    "venue": "arXiv:2509.23160 · 2025",
+    "arxiv": "2509.23160",
+    "overview": {
+      "en": "Determines maximum total sizes and extremal structures of non-empty cross L-intersecting families.",
+      "zh": "确定非空 cross L-intersecting 集合族的最大总规模及极值结构。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Tyk-4Ss8FVUC",
+    "scholarRecords": [
+      {
+        "title": "The maximum sum of sizes of non-empty cross L-intersecting families",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:Tyk-4Ss8FVUC"
+      }
+    ],
+    "bibtex": "@misc{arxiv250923160,\n  author = {Xiamiao Zhao and Haixiang Zhang and Mei Lu},\n  title = {The maximum sum of sizes of non-empty cross L-intersecting families},\n  year = {2025},\n  eprint = {2509.23160},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2509.23160}\n}"
+  },
+  {
+    "id": "arxiv250915466",
+    "year": 2025,
+    "status": "preprint",
+    "title": "Counting induced subgraphs with given intersection sizes",
+    "authors": [
+      "Haixiang Zhang",
+      "Yichen Wang",
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "arXiv:2509.15466 · 2025",
+    "arxiv": "2509.15466",
+    "overview": {
+      "en": "Uses entropy to count induced subgraphs whose copies have prescribed intersection sizes.",
+      "zh": "利用熵方法研究交集大小受限的诱导子图计数。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:IjCSPb-OGe4C",
+    "scholarRecords": [
+      {
+        "title": "Counting induced subgraphs with given intersection sizes",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:IjCSPb-OGe4C"
+      }
+    ],
+    "bibtex": "@misc{arxiv250915466,\n  author = {Haixiang Zhang and Yichen Wang and Xiamiao Zhao and Mei Lu},\n  title = {Counting induced subgraphs with given intersection sizes},\n  year = {2025},\n  eprint = {2509.15466},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2509.15466}\n}"
+  },
+  {
+    "id": "arxiv250812618",
+    "year": 2025,
+    "status": "preprint",
+    "title": "Edge pancyclic Cayley graphs on symmetric group",
+    "authors": [
+      "Mengyu Cao",
+      "Mei Lu",
+      "Zequn Lv",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2508.12618 · 2025",
+    "arxiv": "2508.12618",
+    "overview": {
+      "en": "Proves edge pancyclicity for derangement graphs and extends it to broader classes of Cayley graphs on symmetric groups.",
+      "zh": "证明错排图的边泛圈性质，并推广至对称群上的更广泛 Cayley 图类。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:UeHWp8X0CEIC",
+    "scholarRecords": [
+      {
+        "title": "Edge pancyclic Cayley graphs on symmetric group",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:UeHWp8X0CEIC"
+      }
+    ],
+    "bibtex": "@misc{arxiv250812618,\n  author = {Mengyu Cao and Mei Lu and Zequn Lv and Xiamiao Zhao},\n  title = {Edge pancyclic Cayley graphs on symmetric group},\n  year = {2025},\n  eprint = {2508.12618},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2508.12618}\n}"
+  },
+  {
+    "id": "arxiv241218861",
+    "year": 2024,
+    "status": "preprint",
+    "title": "The Minimum Weighting Ratio Problem and Its Application in Chordal Graphs",
+    "authors": [
+      "Hui Lei",
+      "Mei Lu",
+      "Yongtang Shi",
+      "Jian Sun",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2412.18861 · 2024",
+    "arxiv": "2412.18861",
+    "overview": {
+      "en": "Studies a minimum weighting-ratio problem for spanning trees and its application to chordal graphs.",
+      "zh": "研究生成树的最小权重比问题及其在弦图中的应用。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:9yKSN-GCB0IC",
+    "scholarRecords": [
+      {
+        "title": "The Minimum Weighting Ratio Problem and Its Application in Chordal Graphs",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:9yKSN-GCB0IC"
+      }
+    ],
+    "bibtex": "@misc{arxiv241218861,\n  author = {Hui Lei and Mei Lu and Yongtang Shi and Jian Sun and Xiamiao Zhao},\n  title = {The Minimum Weighting Ratio Problem and Its Application in Chordal Graphs},\n  year = {2024},\n  eprint = {2412.18861},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2412.18861}\n}"
+  },
+  {
+    "id": "zhaoCyclesTuranGood",
+    "year": "",
+    "status": "preprint",
+    "title": "Cycles are Turán-Good",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuanpei Wang"
+    ],
+    "venue": "Manuscript",
+    "venueZh": "手稿",
+    "pdf": "https://www.researchgate.net/profile/Xiamiao-Zhao/publication/413857813_Cycles_are_Turan-Good/links/6a9781d06170304d174a7034/Cycles-are-Turan-Good.pdf",
+    "overview": {
+      "en": "Studies sharp cycle counts in graphs forbidding complete graphs and the Turán-good property of cycles.",
+      "zh": "研究禁用完全图条件下的圈计数极值与圈的 Turán-good 性质。"
+    },
+    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:aqlVkmm33-oC",
+    "scholarRecords": [
+      {
+        "title": "Cycles are Turán-Good",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CRjqCMsAAAAJ&pagesize=100&citation_for_view=CRjqCMsAAAAJ:aqlVkmm33-oC"
+      }
+    ],
+    "bibtex": "@misc{zhaoCyclesTuranGood,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {Cycles are Tur\\'{a}n-Good},\n  note = {Manuscript},\n  url = {https://www.researchgate.net/profile/Xiamiao-Zhao/publication/413857813_Cycles_are_Turan-Good/links/6a9781d06170304d174a7034/Cycles-are-Turan-Good.pdf}\n}"
   }
 ]

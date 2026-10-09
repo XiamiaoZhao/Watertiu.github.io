@@ -8,7 +8,8 @@ Website: https://xiamiaozhao.github.io/Watertiu.github.io/
 
 - Chinese / English language switching (English by default)
 - Research interests, education, research visit, honors, and academic contact
-- Six published papers and seven selected preprints
+- Personal portrait and a concise introduction
+- Seven published papers and 25 preprints / manuscripts
 - Paper filters, short research overviews, journal / arXiv links, and BibTeX citations
 - Responsive layout, keyboard navigation, and print styles
 
@@ -22,6 +23,8 @@ The workflow in `.github/workflows/static.yml` publishes to GitHub Pages when th
 
 ## Content sources
 
-Education, research visit and honors were supplied in the owner's 2026 scholarship application. Academic contact is from the author's public arXiv paper [2608.04615](https://arxiv.org/abs/2608.04615). Paper metadata was checked against journal and arXiv pages on October 9, 2026. This site lists selected preprints, rather than claiming a complete publication count. It does not reproduce the application form.
+Education, research visit and honors were supplied in the owner's 2026 scholarship application. The portrait was supplied by the owner. Academic contact is from the author's public arXiv paper [2608.04615](https://arxiv.org/abs/2608.04615). Paper metadata was checked against Google Scholar, journal and arXiv pages on October 9, 2026.
+
+All 33 records visible on the owner's [Google Scholar profile](https://scholar.google.com/citations?user=CRjqCMsAAAAJ&pagesize=100) are represented by 31 distinct works. The journal and arXiv records for the Berge matching and minimum edge-pancyclic papers are combined, preserving both links. Revised arXiv titles and author orders are used. The existing Nature Communications paper is also retained, giving 32 website entries. The Scholar-listed manuscript *Cycles are Turán-Good* has a public PDF link; its year is left unspecified because the source does not provide one. Each Scholar-derived entry retains its source record links in `assets/publications.json`.
 
 The original `2.html` page remains available.

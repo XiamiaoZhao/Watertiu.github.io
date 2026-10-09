@@ -1,0 +1,240 @@
+[
+  {
+    "id": "zhang2026linear",
+    "year": 2026,
+    "status": "published",
+    "title": "Turán type problems for a fixed graph and a linear forest",
+    "authors": [
+      "Haixiang Zhang",
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "European Journal of Combinatorics 137, 104412 (2026)",
+    "journal": "https://doi.org/10.1016/j.ejc.2026.104412",
+    "arxiv": "2507.11034",
+    "overview": {
+      "en": "Determines exact Turán numbers when a fixed graph of chromatic number at least three and a linear forest are both forbidden.",
+      "zh": "研究同时禁用固定图与线性森林时的极值问题，确定相应条件下的精确 Turán 数。"
+    },
+    "bibtex": "@article{zhang2026linear,\n  author = {Haixiang Zhang and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n type problems for a fixed graph and a linear forest},\n  year = {2026},\n  journal = {European Journal of Combinatorics},\n  volume = {137},\n  pages = {104412},\n  doi = {10.1016/j.ejc.2026.104412},\n  url = {https://doi.org/10.1016/j.ejc.2026.104412}\n}"
+  },
+  {
+    "id": "wang2026entropy",
+    "year": 2026,
+    "status": "published",
+    "title": "Edge Version of the Inducibility via the Entropy Method",
+    "authors": [
+      "Yichen Wang",
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "The Electronic Journal of Combinatorics 33(2), P2.17 (2026)",
+    "journal": "https://doi.org/10.37236/14422",
+    "arxiv": "2509.17502",
+    "overview": {
+      "en": "Uses entropy to study the maximum number of induced copies of a graph in a host graph with a prescribed number of edges, including bounds for paths and cycles.",
+      "zh": "利用熵方法研究给定边数下的诱导子图计数，并给出路与圈的相关上界。"
+    },
+    "bibtex": "@article{wang2026entropy,\n  author = {Yichen Wang and Xiamiao Zhao and Mei Lu},\n  title = {Edge Version of the Inducibility via the Entropy Method},\n  year = {2026},\n  journal = {The Electronic Journal of Combinatorics},\n  volume = {33},\n  number = {2},\n  pages = {P2.17},\n  doi = {10.37236/14422},\n  url = {https://doi.org/10.37236/14422}\n}"
+  },
+  {
+    "id": "zhao2026matchingcycles",
+    "year": 2026,
+    "status": "published",
+    "title": "Generalized Turán problems for a matching and long cycles",
+    "authors": [
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "Discrete Applied Mathematics 394, 52–61 (2026)",
+    "journal": "https://doi.org/10.1016/j.dam.2026.07.012",
+    "arxiv": "2412.18853",
+    "overview": {
+      "en": "Determines clique counts and edge maxima in graphs with bounded matching number and no long cycles, including the corresponding extremal structures.",
+      "zh": "研究同时限制匹配数与最长圈时的团计数和边数极值，并刻画相关极值结构。"
+    },
+    "bibtex": "@article{zhao2026matchingcycles,\n  author = {Xiamiao Zhao and Mei Lu},\n  title = {Generalized Tur\\'{a}n problems for a matching and long cycles},\n  year = {2026},\n  journal = {Discrete Applied Mathematics},\n  volume = {394},\n  pages = {52--61},\n  doi = {10.1016/j.dam.2026.07.012},\n  url = {https://doi.org/10.1016/j.dam.2026.07.012}\n}"
+  },
+  {
+    "id": "zhao2026pancyclic",
+    "year": 2026,
+    "status": "published",
+    "title": "On the minimum size of an edge-pancyclic graph of a given order",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuxuan Yang"
+    ],
+    "venue": "Discrete Mathematics 349(3), 114888 (2026)",
+    "journal": "https://doi.org/10.1016/j.disc.2025.114888",
+    "overview": {
+      "en": "Improves the lower and upper bounds on the minimum number of edges in an edge-pancyclic graph of a given order.",
+      "zh": "针对给定顶点数的边泛圈图，改进其最小边数的上下界。"
+    },
+    "bibtex": "@article{zhao2026pancyclic,\n  author = {Xiamiao Zhao and Yuxuan Yang},\n  title = {On the minimum size of an edge-pancyclic graph of a given order},\n  year = {2026},\n  journal = {Discrete Mathematics},\n  volume = {349},\n  number = {3},\n  pages = {114888},\n  doi = {10.1016/j.disc.2025.114888},\n  url = {https://doi.org/10.1016/j.disc.2025.114888}\n}"
+  },
+  {
+    "id": "luo2025bipartite",
+    "year": 2025,
+    "status": "published",
+    "title": "Turán number of complete bipartite graphs with bounded matching number",
+    "authors": [
+      "Huan Luo",
+      "Xiamiao Zhao",
+      "Mei Lu"
+    ],
+    "venue": "Discrete Mathematics 348(9), 114552 (2025)",
+    "journal": "https://doi.org/10.1016/j.disc.2025.114552",
+    "arxiv": "2408.13994",
+    "overview": {
+      "en": "Studies the maximum edge count of complete-bipartite-free graphs with bounded matching number, obtaining exact values in several parameter ranges.",
+      "zh": "研究匹配数有界且禁用完全二部图时的最大边数，在若干参数范围内确定精确值。"
+    },
+    "bibtex": "@article{luo2025bipartite,\n  author = {Huan Luo and Xiamiao Zhao and Mei Lu},\n  title = {Tur\\'{a}n number of complete bipartite graphs with bounded matching number},\n  year = {2025},\n  journal = {Discrete Mathematics},\n  volume = {348},\n  number = {9},\n  pages = {114552},\n  doi = {10.1016/j.disc.2025.114552},\n  url = {https://doi.org/10.1016/j.disc.2025.114552}\n}"
+  },
+  {
+    "id": "cao2024scbutterfly",
+    "year": 2024,
+    "status": "published",
+    "title": "scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders",
+    "authors": [
+      "Yichuan Cao",
+      "Xiamiao Zhao",
+      "Songming Tang",
+      "Qun Jiang",
+      "Sijie Li",
+      "Siyu Li",
+      "Shengquan Chen"
+    ],
+    "venue": "Nature Communications 15, 2973 (2024)",
+    "journal": "https://doi.org/10.1038/s41467-024-47418-x",
+    "overview": {
+      "en": "A collaborative study of single-cell cross-modality translation using dual-aligned variational autoencoders and data augmentation.",
+      "zh": "关于单细胞跨模态转换的合作研究，采用双重对齐变分自编码器与数据增强方法。"
+    },
+    "bibtex": "@article{cao2024scbutterfly,\n  author = {Yichuan Cao and Xiamiao Zhao and Songming Tang and Qun Jiang and Sijie Li and Siyu Li and Shengquan Chen},\n  title = {scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders},\n  year = {2024},\n  journal = {Nature Communications},\n  volume = {15},\n  pages = {2973},\n  doi = {10.1038/s41467-024-47418-x},\n  url = {https://doi.org/10.1038/s41467-024-47418-x}\n}"
+  },
+  {
+    "id": "zhan2026fork",
+    "year": 2026,
+    "status": "preprint",
+    "title": "The second-order term for the largest r-fork-free families",
+    "authors": [
+      "Yiyan Zhan",
+      "Mei Lu",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2609.30336 · 2026",
+    "arxiv": "2609.30336",
+    "overview": {
+      "en": "Determines the second-order term in the maximum size of an r-fork-free set family through a construction on adjacent middle levels.",
+      "zh": "通过相邻中间层上的构造，确定最大 r-fork-free 集合族规模的二阶项。"
+    },
+    "bibtex": "@misc{zhan2026fork,\n  author = {Yiyan Zhan and Mei Lu and Xiamiao Zhao},\n  title = {The second-order term for the largest r-fork-free families},\n  year = {2026},\n  eprint = {2609.30336},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.30336}\n}"
+  },
+  {
+    "id": "zhao2026vertexlinear",
+    "year": 2026,
+    "status": "preprint",
+    "title": "A Vertex-Linear Threshold for Eventually Turán good and the Cluster Method",
+    "authors": [
+      "Xiamiao Zhao",
+      "Liying Kang",
+      "Yuanpei Wang"
+    ],
+    "venue": "arXiv:2609.25038 · 2026",
+    "arxiv": "2609.25038",
+    "overview": {
+      "en": "Establishes a vertex-linear Turán-good threshold using a cluster method, and applies it to monotonicity of normalized chromatic polynomials.",
+      "zh": "利用 Cluster 方法得到顶点数线性的 Turán-good 阈值，并应用于归一化色多项式的单调性问题。"
+    },
+    "bibtex": "@misc{zhao2026vertexlinear,\n  author = {Xiamiao Zhao and Liying Kang and Yuanpei Wang},\n  title = {A Vertex-Linear Threshold for Eventually Tur\\'{a}n good and the Cluster Method},\n  year = {2026},\n  eprint = {2609.25038},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2609.25038}\n}"
+  },
+  {
+    "id": "wang2026monotonicity",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Turán-good monotonicity thresholds",
+    "authors": [
+      "Yuanpei Wang",
+      "Liying Kang",
+      "Xiamiao Zhao"
+    ],
+    "venue": "arXiv:2608.17134 · 2026",
+    "arxiv": "2608.17134",
+    "overview": {
+      "en": "Obtains an edge-linear sufficient condition for the Turán-good property and counterexamples to monotonicity, together with bounds on monotonicity thresholds.",
+      "zh": "给出边数线性的 Turán-good 充分条件、单调性猜想的反例，以及相应单调性阈值的界。"
+    },
+    "bibtex": "@misc{wang2026monotonicity,\n  author = {Yuanpei Wang and Liying Kang and Xiamiao Zhao},\n  title = {Tur\\'{a}n-good monotonicity thresholds},\n  year = {2026},\n  eprint = {2608.17134},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.17134}\n}"
+  },
+  {
+    "id": "zhao2026norm",
+    "year": 2026,
+    "status": "preprint",
+    "title": "The (t,p)-Norm in Classical Extremal Problems",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuanpei Wang"
+    ],
+    "venue": "arXiv:2608.04615 · 2026",
+    "arxiv": "2608.04615",
+    "overview": {
+      "en": "Determines extremal degree-norm values and families for hypergraphs with restrictions on matchings, intersections, or expansion paths.",
+      "zh": "研究匹配、交集和扩张路限制下超图度范数的极值，并刻画相关极值集合族。"
+    },
+    "bibtex": "@misc{zhao2026norm,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {The (t,p)-Norm in Classical Extremal Problems},\n  year = {2026},\n  eprint = {2608.04615},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2608.04615}\n}"
+  },
+  {
+    "id": "zhao2026cycles",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Counting Cycles in Graphs with Bounded Circumference",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuanpei Wang"
+    ],
+    "venue": "arXiv:2607.10779 · 2026",
+    "arxiv": "2607.10779",
+    "overview": {
+      "en": "Studies sharp cycle-counting problems in graphs with bounded circumference and related forbidden-path settings.",
+      "zh": "研究最长圈有界图中的精确圈计数问题，以及相关禁用路情形。"
+    },
+    "bibtex": "@misc{zhao2026cycles,\n  author = {Xiamiao Zhao and Yuanpei Wang},\n  title = {Counting Cycles in Graphs with Bounded Circumference},\n  year = {2026},\n  eprint = {2607.10779},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2607.10779}\n}"
+  },
+  {
+    "id": "zhao2026erdoshajnal",
+    "year": 2026,
+    "status": "preprint",
+    "title": "A generalization of Erdős-Hajnal problem on paths with equal-degree endpoints",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yichen Wang",
+      "Mei Lu"
+    ],
+    "venue": "arXiv:2605.03825 · 2026",
+    "arxiv": "2605.03825",
+    "overview": {
+      "en": "Confirms a conjecture of Chen and Ma on fixed odd-length paths whose endpoints have equal degree.",
+      "zh": "证明 Chen–Ma 关于等度端点的固定奇数长度路的猜想。"
+    },
+    "bibtex": "@misc{zhao2026erdoshajnal,\n  author = {Xiamiao Zhao and Yichen Wang and Mei Lu},\n  title = {A generalization of Erd\\H{o}s-Hajnal problem on paths with equal-degree endpoints},\n  year = {2026},\n  eprint = {2605.03825},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.03825}\n}"
+  },
+  {
+    "id": "zhao2026expansions",
+    "year": 2026,
+    "status": "preprint",
+    "title": "Hypergraph extensions of the Alon–Frankl Theorem and rainbow Turán problems",
+    "authors": [
+      "Xiamiao Zhao",
+      "Yuanpei Wang",
+      "Junpeng Zhou"
+    ],
+    "venue": "arXiv:2605.01768 · 2026",
+    "arxiv": "2605.01768",
+    "overview": {
+      "en": "Studies hypergraph versions of bounded-matching Turán problems for graph expansions, together with rainbow Turán problems.",
+      "zh": "研究图扩张对应的超图有界匹配 Turán 问题，以及相关彩虹 Turán 问题。"
+    },
+    "bibtex": "@misc{zhao2026expansions,\n  author = {Xiamiao Zhao and Yuanpei Wang and Junpeng Zhou},\n  title = {Hypergraph extensions of the Alon--Frankl Theorem and rainbow Tur\\'{a}n problems},\n  year = {2026},\n  eprint = {2605.01768},\n  archivePrefix = {arXiv},\n  primaryClass = {math.CO},\n  url = {https://arxiv.org/abs/2605.01768}\n}"
+  }
+]

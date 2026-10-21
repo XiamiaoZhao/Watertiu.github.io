@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f3e9">
+  <meta name="description" content="沿武康路、安福路与复兴西路，读六处真实建筑：地块怎样决定房子的形状，人在这里留下了什么作品与历史。 原创手绘地图、6段人文讲解、自然中文语音。">
+  <title>武康路—衡复街区 · 行读中国人文导览</title>
+  <link rel="stylesheet" href="../shared/history.css">
+  <script src="data.js" defer></script>
+  <script src="map.js" defer></script>
+  <script src="../shared/history-app.js" defer></script>
+<link rel="stylesheet" href="../shared/trip-guide.css"><script src="../shared/trip-guide.js" defer></script></head>
+<body><nav class="trip-guide-nav" aria-label="旅行与语音导览"><a href="../index.html">← 选择景点</a><a href="../../index.html">旅行首页</a><label for="trip-guide-select">切换导览<select id="trip-guide-select"><option value="../yunlong/index.html">徐州 · 云龙山</option><option value="../liuyuan/index.html">苏州 · 留园</option><option value="../zhuozheng/index.html">苏州 · 拙政园</option><option value="../pingjiang/index.html">苏州 · 平江路</option><option value="../bund/index.html">上海 · 苏州河—外滩</option><option value="../wukang/index.html" selected>上海 · 武康路—衡复街区</option></select></label></nav>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="4"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 13h3v8H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 1-2Zm16 0h-3v8h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-1-2Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M5 5v14m13-14-10 7 10 7Z"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M19 5v14M6 5l10 7-10 7Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3C7 2 1 8 5 15s16 2 15-12ZM4 21 16 8M10 15l-1-6m1 6 6 1"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="5" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M7 5h9a4 4 0 0 1 0 8H8a3 3 0 0 0 0 6h9"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="行读中国首页"><span class="seal">读</span><span>行读中国<span class="brand-en">HISTORY WALKS</span></span></a>
+    <span class="header-caption">先读历史，再看风景</span>
+    <button class="text-button" id="about-button"><svg class="icon"><use href="#i-headphones"/></svg> 使用指南</button>
+  </header>
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy"><p class="eyebrow trip-guide-date">上海 · 武康路—衡复街区 / 2026.10.31</p><h1 id="page-title">武康路—衡复街区<span>建筑师、革命者与写作者的住址</span></h1><p class="intro-description">沿武康路、安福路与复兴西路，读六处真实建筑：地块怎样决定房子的形状，人在这里留下了什么作品与历史。</p><div class="intro-meta"><span><svg class="icon"><use href="#i-headphones"/></svg>1 段历史开篇 ＋ 6 处现场讲解</span><i></i><span>全篇约 12 分钟</span></div></div><div class="intro-art"><img src="../../assets/photos/wukang.webp" alt="景点往期实景照片"/><span class="small-seal">上海</span></div>
+    </section>
+    <section class="prologue" aria-label="历史导入"><span class="prologue-serial">00</span><div class="prologue-copy"><strong>先听历史，把眼前的风景放回时间里。</strong><p>从租界扩展与住宅开发讲起，把建筑形成的年代和居住者活动的年代分开，才能看见街区真正的层次。</p></div><div class="prologue-actions"><button class="primary-button" id="intro-start" aria-pressed="false">先听历史导入</button><button class="intro-transcript" id="intro-transcript">读开篇讲稿 ↗</button></div></section><section class="explore" aria-label="武康路—衡复街区语音导览">
+      <div class="map-column">
+        <div class="section-top"><div><span class="section-index">01 —</span><h2>地图上的历史</h2></div><span class="map-instruction"><span class="live-dot"></span>点选景点，开启讲解</span></div>
+        <div class="map-shell">
+          <div class="map-toolbar"><div class="zone-tabs" id="zone-tabs" role="group" aria-label="按区域查看"></div><button id="route-toggle" aria-label="显示讲解顺序" class="route-toggle" aria-pressed="false"><svg class="icon"><use href="#i-route"/></svg><span>讲解顺序</span></button></div>
+          <div class="map-viewport" id="map-viewport"><div id="map-canvas" class="map-canvas"><div id="map-art"></div><div id="map-markers"></div></div></div>
+          <div class="map-bottom"><span><i class="legend-water" style="background:#a9b99a"></i> 绿地 <i class="legend-point"></i> 语音景点</span><div class="zoom-controls"><button id="zoom-out" aria-label="缩小地图">−</button><button id="zoom-reset" aria-label="重置地图缩放">100%</button><button id="zoom-in" aria-label="放大地图">＋</button></div></div>
+        </div>
+        <p class="map-note">北朝上。武康路位于图西侧，安福路在北部东西向延伸，乌鲁木齐中路在东侧，复兴西路在南部回接武康路。街道弯折与距离作示意处理，不等比例。 AI 合成语音 · 实际通行及开放以现场为准。</p>
+        <div class="journey-note"><span class="note-symbol">行</span><div><strong>这一路，按历史线索串联。</strong><p>从淮海中路武康大楼出发，沿武康路向北，依次看黄兴旧居、开普敦公寓与巴金故居。继续到安福路后向东，经上海话剧艺术中心到乌鲁木齐中路，再向南转复兴西路，向西至柯灵故居。所有住宅均以公共街道外观讲解为基础，院内、楼道及展馆开放另查公告。</p></div><svg class="icon"><use href="#i-route"/></svg></div>
+      </div>
+      <aside class="detail-card" aria-label="当前景点"><div class="detail-heading"><span id="detail-zone" class="tag">中园</span><span class="detail-count" id="detail-count">02 / 08</span></div><div class="detail-image"><img id="detail-art" alt=""/><span class="image-caption" id="image-caption"></span></div><div class="detail-copy"><p class="eyebrow" id="detail-kicker"></p><h2 id="detail-name"></h2><p class="detail-summary" id="detail-summary"></p><button class="primary-button" id="detail-play"><svg class="icon"><use href="#i-play"/></svg><span>听听这里的故事</span><span class="duration" id="detail-duration">—</span></button><button class="transcript-button" id="transcript-button">看看讲解词 <svg class="icon"><use href="#i-arrow"/></svg></button><div class="look-tip"><span>驻足一看</span><p id="detail-tip"></p></div></div></aside>
+    </section>
+    <section class="history-section" aria-label="历史时间线"><div class="section-top"><div><span class="section-index">02 —</span><h2>放回历史的坐标</h2></div><span class="map-instruction">人物 · 年代 · 城市</span></div><div class="history-line"><div class="history-event"><strong>1907</strong><p>福开森路筑路，后改名武康路。</p></div><div class="history-event"><strong>1924</strong><p>邬达克设计的诺曼底公寓，即今武康大楼落成。</p></div><div class="history-event"><strong>1955</strong><p>巴金一家迁入武康路113号。</p></div><div class="history-event"><strong>1995</strong><p>上海人民艺术剧院与上海青年话剧团合并为上海话剧艺术中心。</p></div></div></section><section class="chapters-section" aria-labelledby="chapters-title"><div class="section-top"><div><span class="section-index">03 —</span><h2 id="chapters-title">六处现场，六段历史</h2></div><span id="listened-count">已听 0 / 6</span></div><div class="chapters-grid" id="chapters"></div></section>
+    <footer class="page-footer"><span class="footer-brand">行读中国 <i>·</i> 读建筑，也读人</span><button class="text-button" id="sources-button">内容来源与说明 ↗</button><p>原创讲解与手绘插画 · AI 神经语音合成</p><nav class="series-links" aria-label="其他人文导览"><span>同程导览</span><a href="../yunlong/index.html">云龙山</a><a href="../liuyuan/index.html">留园</a><a href="../pingjiang/index.html">平江路</a><a href="../bund/index.html">苏州河—外滩</a><a href="../wukang/index.html" aria-current="page">武康路—衡复街区</a></nav><p class="photo-credit"><a href="../../photo-credits.html">实景照片作者与授权 ↗</a></p></footer>
+  </main>
+  <section class="audio-player" aria-label="语音播放器"><div class="caption-row"><span class="caption-badge">字幕</span><p id="live-caption" aria-live="off">带着一个具体的问题，读懂眼前的建筑与历史。</p></div><div class="player-inner"><div class="now-playing"><img id="player-art" alt=""/><div><span class="player-eyebrow" id="player-status">AI 女声 · 人文导览</span><strong id="player-name">历史导入</strong><span id="player-zone">人物 · 建筑 · 城市</span></div></div><div class="playback"><div class="player-buttons"><button id="prev-track" aria-label="上一个景点"><svg class="icon"><use href="#i-prev"/></svg></button><button class="skip" id="skip-back" aria-label="后退15秒"><span>↶</span><b>15</b></button><button class="main-play" id="main-play" aria-label="播放讲解"><svg class="icon"><use href="#i-play"/></svg></button><button class="skip" id="skip-forward" aria-label="前进15秒"><span>↷</span><b>15</b></button><button id="next-track" aria-label="下一个景点"><svg class="icon"><use href="#i-next"/></svg></button></div><div class="progress-row"><time id="current-time">00:00</time><input type="range" id="audio-progress" min="0" max="100" step="0.1" value="0" aria-label="讲解播放进度"><time id="total-time">00:00</time></div></div><div class="player-options"><button id="speed-button" aria-label="播放速度，当前1倍">1.0×</button><label class="autoplay-label"><input type="checkbox" id="autoplay"><span class="switch"></span> 连续播放</label><span class="voice-label">AI 自然女声 · 普通话</span></div></div></section>
+  <audio id="narration" preload="metadata"></audio>
+  <dialog id="info-dialog"><button class="dialog-close" aria-label="关闭弹窗"><svg class="icon"><use href="#i-close"/></svg></button><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

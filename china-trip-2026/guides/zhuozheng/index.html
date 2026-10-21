@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f3e9">
+  <meta name="description" content="沿着手绘地图漫游拙政园，听八处园林景点的故事。自然中文语音、景点插画与随身导览。">
+  <title>听见拙政园 · 园游记</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="map.js" defer></script>
+  <script src="app.js" defer></script>
+<link rel="stylesheet" href="../shared/trip-guide.css"><script src="captions.js" defer></script><script src="../shared/trip-guide.js" defer></script></head>
+<body><nav class="trip-guide-nav" aria-label="旅行与语音导览"><a href="../index.html">← 选择景点</a><a href="../../index.html">旅行首页</a><label for="trip-guide-select">切换导览<select id="trip-guide-select"><option value="../yunlong/index.html">徐州 · 云龙山</option><option value="../liuyuan/index.html">苏州 · 留园</option><option value="../zhuozheng/index.html" selected>苏州 · 拙政园</option><option value="../pingjiang/index.html">苏州 · 平江路</option><option value="../bund/index.html">上海 · 苏州河—外滩</option><option value="../wukang/index.html">上海 · 武康路—衡复街区</option></select></label></nav>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="4"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 13h3v8H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 1-2Zm16 0h-3v8h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-1-2Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M5 5v14m13-14-10 7 10 7Z"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M19 5v14M6 5l10 7-10 7Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3C7 2 1 8 5 15s16 2 15-12ZM4 21 16 8M10 15l-1-6m1 6 6 1"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="5" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M7 5h9a4 4 0 0 1 0 8H8a3 3 0 0 0 0 6h9"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="园游记首页"><span class="seal">园</span><span>园游记<span class="brand-en">GARDEN NOTES</span></span></a>
+    <span class="header-caption">一座园林，一段慢时光</span>
+    <button class="text-button" id="about-button"><svg class="icon"><use href="#i-headphones"/></svg> 使用指南</button>
+  </header>
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy"><p class="eyebrow trip-guide-date">苏州 · 拙政园 / 2026.10.29</p><h1 id="page-title">把脚步放慢，<span>听见拙政园。</span></h1><p class="intro-description">从王献臣与文徵明读起，走进水面、亭廊与园主生活交织的历史。</p>
+        <div class="intro-meta"><span><svg class="icon"><use href="#i-headphones"/></svg>8 处精选讲解</span><i></i><span><svg class="icon"><use href="#i-leaf"/></svg>随走 · 随听 · 随心</span></div>
+      </div>
+      <div class="intro-art"><img src="../../assets/photos/zhuozheng.webp" alt="景点往期实景照片"/><span class="vertical-note">咫尺之内 · 再造乾坤</span><span class="small-seal">姑苏</span></div>
+    </section>
+    <section class="trip-intro" aria-label="拙政园历史开篇"><h2>先听历史，再走进园林</h2><p>从王献臣归居、文徵明图咏，到园林的理水与借景。约 2 分钟，AI 自然女声。</p><audio id="history-intro-audio" controls preload="metadata" src="assets/audio/zhuozheng-intro.mp3"></audio><div class="trip-intro-controls"><button type="button" data-intro-seek="-15">↶ 后退 15 秒</button><button type="button" data-intro-seek="15">前进 15 秒 ↷</button><button id="intro-speed" type="button" aria-label="历史开篇播放速度">1×</button></div><p id="intro-caption" class="trip-intro-caption" aria-live="off">王献臣、文徵明与一座文人园林的历史。</p><details><summary>展开历史开篇讲稿与来源</summary><div class="trip-transcript"><p>拙政园的起点，是一位失意官员重新安排生活的决定。明正德四年，也就是一五〇九年，曾任御史的王献臣回到苏州，在大弘寺旧址一带营建宅园。它原先是一片有积水的地块，园主疏浚池水、种植林木，逐步形成园景；这不是一年之内完成的整齐工程。</p><p>“拙政”并不是赞美办事笨拙。园名取意于西晋潘岳《闲居赋》，把种树、灌园、卖菜和奉养家人，也看成一种安顿人生的事务。王献臣以“不善官场周旋”自嘲，将仕途上的失意，转换成归居后的生活选择。因此，这座园既是住宅后面的山水空间，也是园主对自身经历的解释。</p><p>文徵明与这段历史关系密切。他为王氏园林写记、作画并题诗，留下三十一景的记录。关于他参与总体设计的说法，官方介绍也使用“据传”；可靠的直接材料，是他保存下来的文字与图咏。读《王氏拙政园记》，会发现许多亭台都顺着水面布置，水的转折决定了观看和行走的顺序。</p><p>今天的东、中、西三园，则经历了后世分割、易主和改建，不能把所有亭屋都认作王献臣时代的原物。参观中园，重点看宽水面如何被岛山、桥梁与树木分成层次；再从远香堂望向荷风四面亭和香洲，比较建筑怎样既是观景点，又成为对岸的景物。文人的文学记忆、实际的排蓄水需要和造园构图，在这里共同起作用。这也是它成为文人园林代表的重要原因。</p><h2>参考资料</h2><ul><li><a href="https://ylj.suzhou.gov.cn/szsylj/ylml/201904/f64435b7b293433cb70bc9734e76eff2.shtml" target="_blank" rel="noopener noreferrer">苏州市园林局：拙政园沿革</a></li><li><a href="https://ylj.suzhou.gov.cn/szsylj/ylwh/201604/0aa1729654784346a463e9e46d2cbcae.shtml" target="_blank" rel="noopener noreferrer">苏州市园林局：园名拙政园的释义</a></li><li><a href="https://ylj.suzhou.gov.cn/szsylj/ylwh/201911/b852c23fcc704e738e1f59f22ac3ce06.shtml" target="_blank" rel="noopener noreferrer">文徵明《王氏拙政园记》</a></li><li><a href="https://ylj.suzhou.gov.cn/szsylj/ylys/201903/df5a3bf3bdbd49b0b787076f355b1074.shtml" target="_blank" rel="noopener noreferrer">苏州市园林局：理水</a></li><li><a href="https://ylj.suzhou.gov.cn/szsylj/sjyc/201905/c1df393edc8745abb20e8a9bd5525782.shtml" target="_blank" rel="noopener noreferrer">苏州市园林局：拙政园世界遗产介绍</a></li></ul></div></details></section><section class="explore" aria-label="拙政园语音导览">
+      <div class="map-column">
+        <div class="section-top"><div><span class="section-index">01 —</span><h2>一图游园</h2></div><span class="map-instruction"><span class="live-dot"></span>点选景点，开启讲解</span></div>
+        <div class="map-shell">
+          <div class="map-toolbar"><div class="zone-tabs" role="group" aria-label="按园区查看"><button class="active" data-zone="all" aria-pressed="true">全园</button><button data-zone="东园" aria-pressed="false">东园</button><button data-zone="中园" aria-pressed="false">中园</button><button data-zone="西园" aria-pressed="false">西园</button></div><button id="route-toggle" class="route-toggle" aria-pressed="false"><svg class="icon"><use href="#i-route"/></svg><span>漫游顺序</span></button></div>
+          <div class="map-viewport" id="map-viewport"><div id="map-canvas" class="map-canvas"><div id="map-art"></div><div id="map-markers"></div></div></div>
+          <div class="map-bottom"><span><i class="legend-water"></i> 水域 <i class="legend-point"></i> 语音景点</span><div class="zoom-controls"><button id="zoom-out" aria-label="缩小地图">−</button><button id="zoom-reset" aria-label="重置地图缩放">100%</button><button id="zoom-in" aria-label="放大地图">＋</button></div></div>
+        </div>
+        <p class="map-note">AI 合成语音 · 手绘方位示意，非测绘导航；实际开放与游线以园内指引为准。</p>
+        <div class="journey-note"><span class="note-symbol">游</span><div><strong>不必赶路，园林适合慢慢看。</strong><p>建议从东园入境，经中园赏水，最后在西园听雨。地图上的编号，是我们为你编排的听园顺序。</p></div><svg class="icon"><use href="#i-leaf"/></svg></div>
+      </div>
+      <aside class="detail-card" aria-label="当前景点"><div class="detail-heading"><span id="detail-zone" class="tag">中园</span><span class="detail-count" id="detail-count">02 / 08</span></div><div class="detail-image"><img id="detail-art" alt=""/><span class="image-caption" id="image-caption"></span></div><div class="detail-copy"><p class="eyebrow" id="detail-kicker"></p><h2 id="detail-name"></h2><p class="detail-summary" id="detail-summary"></p><button class="primary-button" id="detail-play"><svg class="icon"><use href="#i-play"/></svg><span>听听这里的故事</span><span class="duration" id="detail-duration">—</span></button><button class="transcript-button" id="transcript-button">看看讲解词 <svg class="icon"><use href="#i-arrow"/></svg></button><div class="look-tip"><span>驻足一看</span><p id="detail-tip"></p></div></div></aside>
+    </section>
+    <section class="chapters-section" aria-labelledby="chapters-title"><div class="section-top"><div><span class="section-index">02 —</span><h2 id="chapters-title">八景，八段园中故事</h2></div><span id="listened-count">已听 0 / 8</span></div><div class="chapters-grid" id="chapters"></div></section>
+    <footer class="page-footer"><span class="footer-brand">园游记 <i>·</i> 把风景听进心里</span><button class="text-button" id="sources-button">内容来源与说明 ↗</button><p>原创讲解与手绘插画 · AI 神经语音合成</p><p class="photo-credit"><a href="../../photo-credits.html">实景照片作者与授权 ↗</a></p></footer>
+  </main>
+  <section class="audio-player" aria-label="语音播放器"><div class="caption-row"><span class="caption-badge">字幕</span><p id="live-caption" aria-live="off">AI 合成语音 · 随时可展开完整讲稿</p></div><div class="player-inner"><div class="now-playing"><img id="player-art" alt=""/><div><span class="player-eyebrow" id="player-status">此刻，听园</span><strong id="player-name">远香堂</strong><span id="player-zone">中园 · 荷香里的四面厅</span></div></div><div class="playback"><div class="player-buttons"><button id="prev-track" aria-label="上一个景点"><svg class="icon"><use href="#i-prev"/></svg></button><button class="skip" id="skip-back" aria-label="后退15秒"><span>↶</span><b>15</b></button><button class="main-play" id="main-play" aria-label="播放讲解"><svg class="icon"><use href="#i-play"/></svg></button><button class="skip" id="skip-forward" aria-label="前进15秒"><span>↷</span><b>15</b></button><button id="next-track" aria-label="下一个景点"><svg class="icon"><use href="#i-next"/></svg></button></div><div class="progress-row"><time id="current-time">00:00</time><input type="range" id="audio-progress" min="0" max="100" step="0.1" value="0" aria-label="讲解播放进度"><time id="total-time">00:00</time></div></div><div class="player-options"><button id="speed-button" aria-label="播放速度，当前1倍">1.0×</button><label class="autoplay-label"><input type="checkbox" id="autoplay"><span class="switch"></span> 连续播放</label><span class="voice-label">自然女声 · 普通话</span></div></div></section>
+  <audio id="narration" preload="metadata"></audio>
+  <dialog id="info-dialog"><button class="dialog-close" aria-label="关闭弹窗"><svg class="icon"><use href="#i-close"/></svg></button><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

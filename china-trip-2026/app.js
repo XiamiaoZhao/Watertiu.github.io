@@ -1859,4 +1859,42 @@ WALK_DRAWINGS['qz-temples'].badges=[[285,568,'下午可选蟳埔 · 乘车接驳
 sketchBuilding=function(kind,x,y){if(kind==='twinpagoda')return '<g transform="translate('+x+' '+y+')">'+buildingBaseV5('pagoda',-24,0)+buildingBaseV5('pagoda',24,-5)+'</g>';return buildingBaseV5(kind,x,y);};
 
 VENUES.push(...FUJIAN_V5.venues);FORECASTS.splice(0,FORECASTS.length,...FUJIAN_V5.weather);for(const t of FUJIAN_V5.tickets){TICKETS.push(t.row);TICKET_CHANNELS.push(t.channel);}ATLAS_V3.push(...FUJIAN_V5.routes);
+
+const REPLAN_V6={"weather":{"date":"2026-11-01","city":"上海","high":16,"low":11,"condition":"阴转多云","kind":"8–15天趋势","source":"https://www.weather.com.cn/weather15d/101020100.shtml","issuedLabel":"10/23 08:00更新"},"train":{"date":"11.02","timing":"09:07 → 12:50 · 3小时43分","dayDescription":"11/2主选G255，上海南09:07→福州12:50，尚未购票。酒店约07:00出门，打车40–60分钟，计划08:15前到站。","description":"11/2主选，尚未购票。酒店约07:00出门，打车40–60分钟，计划08:15前到上海南站。备选G1631 07:45–12:23、G1635 10:23–14:42，均上海南出发。到福州后先入住休息。","source":"https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-02&leftTicketDTO.from_station=SNH&leftTicketDTO.to_station=FZS&purpose_codes=ADULT"}};
+// November 1 stays in Shanghai; Fujian starts November 2, return remains November 6.
+const arrivalFuzhouV6=JSON.parse(JSON.stringify(DAYS[6]));
+arrivalFuzhouV6.date='11.02';arrivalFuzhouV6.week='周一';
+arrivalFuzhouV6.tip='福州11/2、11/3连住两晚。周一先走公共街巷，院落按当日开放选择。';
+arrivalFuzhouV6.stops[0][2]=REPLAN_V6.train.dayDescription;
+arrivalFuzhouV6.stops[1][2]='福州站到东街口酒店约25–40分钟。11/2–11/4连住两晚，放行李、午饭后休息。';
+const riverFuzhouV6=JSON.parse(JSON.stringify(DAYS[7]));riverFuzhouV6.date='11.03';riverFuzhouV6.week='周二';
+riverFuzhouV6.tip='烟台山有坡与台阶，累了只走仓前路。雨天可整段换成西湖＋福建博物院；11/4早班动车，晚上收拾行李。';
+riverFuzhouV6.desc='上午走上下杭，午后休息，再去烟台山看洋楼与闽江。雨天改走西湖与福建博物院，两套路线选一套。';
+DAYS[7]=arrivalFuzhouV6;DAYS[8]=riverFuzhouV6;
+DAYS[4].tip='上海10/30、10/31两晚已订；11/1晚待续订，计划11/2退房去福州。';
+DAYS[5].tip='周六街区可能热闹，按体力缩短路线。明天继续留在上海，11/1晚需续订酒店。';
+DAYS[6]={date:'11.01',week:'周日',city:'上海',title:'老城厢与石库门 · 再留一天上海',tag:'豫园 / 九曲桥 / 新天地',desc:'上午逛豫园与九曲桥，午饭后休息，下午乘车到新天地看石库门。今天不转场，行李留在酒店。',route:'新会路酒店 → 豫园 → 九曲桥 → 豫园商城 → 午饭休息 → 新天地 → 酒店',stay:SH_HOTEL_V5+'（11/1晚待续订）',food:'南翔小笼选一笼分享；午饭坐下来吃，下午新天地喝茶或咖啡。',ticket:'豫园园林成人¥40，60岁及以上半价¥20；九曲桥与商城公共街区免费。新天地只看开放街区。',tip:'11/1周日，可安排豫园；计划11/2早班高铁，晚饭后回酒店收拾行李。',stops:[['08:30','酒店出发 → 豫园','先确认11/1晚续住；打车到福佑路豫园北门约30–45分钟，按路况留余量。','上海豫园北门 福佑路168号','上海'],['09:00','豫园园林','按预约时段入园，慢逛约1.5–2小时；若不想再逛园林，可直接九曲桥和商城。','上海豫园','上海'],['11:00','九曲桥 → 老城厢街巷','看湖心亭与传统街巷，顺路尝南翔小笼；遇长队就换一家坐下来吃。','上海豫园九曲桥','上海'],['12:00','午饭 · 休息','就近坐下休息1–1.5小时。体力不足可回酒店，下午新天地不必强行完成。','上海南翔馒头店 豫园路87号','上海'],['14:30','乘车到新天地','从老城厢打车约15–25分钟到新天地，避免走完整段城市道路。','上海新天地 太仓路','上海'],['15:00','新天地 · 石库门慢走','沿太仓路、兴业路看开放街区与建筑外观，走约45–60分钟后找店坐下。','上海新天地','上海'],['17:30','晚饭 → 回酒店','早点结束，整理行李；明天去上海南站，具体车次见交通页。',state.hotel,'上海']]};
+FORECASTS[6]={...REPLAN_V6.weather};
+FUJIAN_V5.transport[3]={...FUJIAN_V5.transport[3],date:'11.02',timing:REPLAN_V6.train.timing,description:REPLAN_V6.train.description};
+TICKETS[16][4]='11/2';TICKETS[17][4]='11/3';TICKETS[18][4]='11/3 雨天替换';TICKETS[19][4]='11/3 雨天替换';TICKETS[15][4]='10/31；张园可替换11/1。';
+TICKET_CHANNELS[17].help='街区免费；室内展馆按当日开放参观。';
+const yuyuanTicketV6=TICKETS.length;
+TICKETS.push(['上海','豫园园林（与商城分开）','成人¥40；老人¥20','09:00–16:30，16:00停止入园；周一闭园。','11/1 周日','https://www.yugarden.com.cn/page/articleview/message.html']);
+TICKET_CHANNELS.push({wx:'上海豫园',map:'上海豫园北门售票处 福佑路168号',city:'上海',label:'高德去官方售票处',senior:'70+按老人半价¥20，凭有效证件；并非免票。',help:'微信搜“上海豫园”官方小程序购票，或南北门窗口购买。11月成人旺季票¥40。'});
+const yuyuanV6=ATLAS_V3.find(r=>r.id==='sh-yuyuan'),oldYuyuanNodeV6=yuyuanV6.nodes[0];
+Object.assign(yuyuanV6,{date:'11.01',title:'豫园—九曲桥—新天地',optional:false,duration:'上午老城厢 · 下午石库门',note:'上午看豫园与九曲桥，午饭后休息，再乘车去新天地。商城与九曲桥公共街区免费，豫园园林单独买票。',nodes:[{...oldYuyuanNodeV6,name:'豫园园林',price:null,ticket:yuyuanTicketV6,intro:'明代起建的江南园林。沿池水、廊榭与假山慢逛约1.5–2小时，从南门出来接九曲桥。'}, {id:'sh-jiuqu',name:'九曲桥',query:'上海豫园九曲桥',intro:'在曲折的桥面看湖心亭与池水，周末人多时慢行。茶馆消费另计。',ticket:null,price:'公共街区免费'}, {id:'sh-yuyuanmall',name:'豫园商城',query:'上海豫园商城',intro:'传统屋檐、老字号与老城厢街巷。南翔小笼就在一带；午饭后坐下来休息。',ticket:null,price:'公共街区免费'}, {id:'sh-xintiandi',name:'新天地',query:'上海新天地 太仓路',intro:'沿太仓路、兴业路看石库门与更新后的里弄街区。以建筑外观和公共街区为主，室内场馆另看开放。',ticket:null,price:'公共街区免费'}],legs:[{from:0,to:1,mode:'步行',time:'出南门约5–10分钟'},{from:1,to:2,mode:'步行',time:'5–10分钟'},{from:2,to:3,mode:'打车（午休后）',time:'约15–25分钟'}]});
+yuyuanV6.snacks[0].priority='11/1老城厢顺路小吃';
+const zhangV6=ATLAS_V3.find(r=>r.id==='sh-depart');Object.assign(zhangV6,{date:'11.01',title:'张园—南京西路（替换）',optional:true,duration:'约1–2小时 · 轻松替换',note:'不想再逛园林时，以张园与南京西路替换上午豫园。下午仍可按体力去新天地。'});zhangV6.nodes[0].intro='看开放的石库门街区与里弄尺度，特展另购票。';zhangV6.nodes[1].intro='王家沙就在一带，买少量点心或吃馄饨，随后回酒店休息。';
+WALK_DRAWINGS['sh-depart'].caption='石库门里 · 留一段沪上闲逛';
+const lanesV6=ATLAS_V3.find(r=>r.id==='fz-lanes');lanesV6.date='11.02';
+const riverV6=ATLAS_V3.find(r=>r.id==='fz-river');riverV6.date='11.03';
+const lakeV6=ATLAS_V3.find(r=>r.id==='fz-lake');lakeV6.optional=true;lakeV6.title='西湖—福建博物院（雨天替换）';lakeV6.note='11/3替换上下杭与烟台山，不与主线叠加。固定展免费、无需预约；左海按天气和体力可选。';
+ATLAS_V3.sort((a,b)=>a.date.localeCompare(b.date)||Number(!!a.optional)-Number(!!b.optional));
+WALK_DRAWINGS['sh-yuyuan']={caption:'老城厢到石库门 · 沪上旧时光',nodes:[[335,175,'pavilion'],[340,320,'bridge'],[220,395,'shop'],[100,535,'shikumen']],snacks:[[270,300]],roads:[['福佑路','M200 110L455 110',290,93,0],['安仁街','M430 110L430 390',452,220,-90],['丽水路','M245 220L245 380',224,250,-90],['方浜中路','M185 405L455 405',355,429,0],['河南南路','M185 110L185 485',165,360,-90],['复兴东路','M185 480L455 480',345,503,0],['太仓路','M30 560L160 560',100,585,0],['马当路','M60 475L60 610',38,545,-90]],legs:['M335 190L370 190L370 335L340 335','M340 335L340 365L245 365L245 410L220 410','M220 410L185 410Q130 445 100 550'],water:[['M290 255Q325 225 375 260L385 300Q340 335 290 300Z','湖心亭池水',352,365,0]],greens:[[335,175,70,85],[120,300,40,55]],districts:[[90,180,'老城厢'],[315,570,'午休后 · 乘车接驳']],trees:[[275,460],[395,535],[85,415]],noWater:false};
+TASKS.unshift(['shanghai-renew-v6','续订上海11/1晚酒店','原订单到11/1退房；新增11/1–11/2一晚，优先原店同房，房价待确认。']);
+for(const t of TASKS){if(t[0]==='shanghai-fuzhou-v5'){t[0]='shanghai-fuzhou-v6';t[1]='订11/2上海南→福州车票';t[2]='上午出发，下午逛三坊七巷。';}if(t[0]==='fujian-hotels-v5'){t[0]='fujian-hotels-v6';t[1]='订福州两晚、泉州两晚酒店';t[2]='11/2–4福州东街口/南门兜；11/4–6泉州古城外围。';}}
+for(const p of PHOTOS){if(p[0]==='福州 · 11/1')p[0]='福州 · 11/2';else if(p[0]==='福州 · 11/2')p[0]='福州 · 11/3';}
+PHOTOS.push(['上海 · 11/1','九曲桥与石库门','上午看老城厢屋檐与池水，下午在新天地街口拍建筑。','上海豫园九曲桥','上海']);
+const dayBaseV6=renderDay;renderDay=function(){dayBaseV6();if(state.day===6&&document.getElementById('day-aside'))document.querySelector('#day-aside .side-card').innerHTML='<div class="side-title">今晚住这里</div><h4>'+esc(SH_HOTEL_V5)+'</h4><p>11/1晚待续订 · 新会路504号<br>新增房价待确认</p>'+mapLink(state.hotel,'上海','高德去酒店 ↗');};
+
 const routeRequestV5=new URLSearchParams(location.search).get("route");const routeIndexV5=ATLAS_V3.findIndex(r=>r.id===routeRequestV5);if(routeIndexV5>=0){activeWalk=routeIndexV5;activeSpot=0;}renderAll();mobilizeTables();cleanCopyV5();initAppLinksV4();

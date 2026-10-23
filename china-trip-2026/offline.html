@@ -63,6 +63,8 @@ html{scroll-padding-top:80px}body{background-color:var(--paper);color:var(--ink)
 @media print{.travel-calendar{break-inside:avoid}.calendar-day{-webkit-print-color-adjust:exact;print-color-adjust:exact}.painted-day-heading{break-inside:avoid}}
 
 @media(max-width:760px){#day-content{padding:0 14px 14px}#day-content .painted-day-heading{margin-left:-14px;margin-right:-14px}}
+
+.travel-calendar .calendar-day.active .calendar-number{color:#233e31}.travel-calendar .calendar-day.active.is-today .calendar-number{color:#a14431}
 </style></head><body class="home" data-page="offline"><svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><defs>
 <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M18 4C7 3 3 8 5 15c5 5 14 2 13-11Z M6 18 15 8 M10 13l-1-4 M11 12l5 1"/></symbol>
 <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v5m8-5v5M4 11h16m-12 4h3m2 0h3m-8 3h3"/></symbol>
@@ -2023,7 +2025,7 @@ function refreshCalendarV7(){const tabs=document.getElementById('day-tabs');if(!
 const renderDayBeforeV7=renderDay;
 renderDay=function(){renderDayBeforeV7();if(!document.getElementById('day-tabs'))return;refreshCalendarV7();const art=DAILY_ART_V7[state.day],heading=document.querySelector('#day-content .day-heading');if(heading){const content=heading.innerHTML;heading.classList.add('painted-day-heading');heading.innerHTML='<img class="daily-painting" src="'+art.src+'" alt="'+esc(art.alt)+'" fetchpriority="high"><div class="painted-day-caption"><span class="painted-day-title">'+esc(art.title)+'</span><div class="painted-day-text">'+content+'</div></div>';}};
 const renderSpotBeforeV7=renderSpot;
-renderSpot=function(){renderSpotBeforeV7();const box=document.getElementById('landmark-info');if(!box)return;const route=selectedRoute(),node=route.nodes[activeSpot]||route.nodes[0],photo=SCENE_PHOTOS_V7[node.id];const art=box.querySelector('.detail-art');if(!art)return;if(photo){art.classList.add('real-scene');art.innerHTML='<img src="'+esc(photo.src)+'" alt="'+esc(photo.alt||node.name+'实景')+'" decoding="async"><a class="photo-credit" href="'+localPage('photo-credits.html#scene-'+node.id)+'">'+esc(node.name)+' · 实景 / 图片来源 ↗</a>';}else{art.remove();} };
+renderSpot=function(){renderSpotBeforeV7();const box=document.getElementById('landmark-info');if(!box)return;const route=selectedRoute(),node=route.nodes[activeSpot]||route.nodes[0],photo=SCENE_PHOTOS_V7[node.id];const art=box.querySelector('.detail-art');if(!art)return;if(photo){art.classList.add('real-scene');art.innerHTML='<img src="'+esc(photo.src)+'" alt="'+esc(photo.alt||node.name+'实景')+'" decoding="async"><a class="photo-credit" href="'+localPage('photo-credits.html#scene-'+node.id)+'">'+esc(photo.caption||node.name)+' · 实景 / '+esc(photo.author)+' ↗</a>';}else{art.remove();} };
 function initVisualV7(){
  const tabs=document.getElementById('day-tabs');if(!tabs)return;
  tabs.addEventListener('keydown',e=>{if(!['ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();state.day=Math.max(0,Math.min(DAYS.length-1,state.day+(e.key==='ArrowDown'?7:-7)));renderDay();save();document.getElementById('day-tab-'+state.day)?.focus();});

@@ -63,3 +63,5 @@ html{scroll-padding-top:80px}body{background-color:var(--paper);color:var(--ink)
 @media print{.travel-calendar{break-inside:avoid}.calendar-day{-webkit-print-color-adjust:exact;print-color-adjust:exact}.painted-day-heading{break-inside:avoid}}
 
 @media(max-width:760px){#day-content{padding:0 14px 14px}#day-content .painted-day-heading{margin-left:-14px;margin-right:-14px}}
+
+.travel-calendar .calendar-day.active .calendar-number{color:#233e31}.travel-calendar .calendar-day.active.is-today .calendar-number{color:#a14431}

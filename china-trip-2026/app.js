@@ -1935,4 +1935,7 @@ function initVisualV7(){
  tick();document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});window.addEventListener('pageshow',tick);window.addEventListener('pagehide',()=>clearTimeout(timer));
 }
 
+
+// New Xuzhou guides: retain the rest of the itinerary and routing.
+GUIDE_LINKS.baolian='guides/baolian/index.html';GUIDE_LINKS['xuzhou-museum']='guides/xuzhou-museum/index.html';GUIDE_NAMES.baolian='宝莲寺';GUIDE_NAMES['xuzhou-museum']='徐州博物馆';DAY_GUIDES[1]=['baolian','xuzhou-museum','yunlong'];for(const r of ATLAS_V3)for(const n of r.nodes){if(n.id==='xz-baolian')n.guide='baolian';if(n.id==='xz-museum')n.guide='xuzhou-museum';}
 const routeRequestV5=new URLSearchParams(location.search).get("route");const routeIndexV5=ATLAS_V3.findIndex(r=>r.id===routeRequestV5);if(routeIndexV5>=0){activeWalk=routeIndexV5;activeSpot=0;}renderAll();mobilizeTables();cleanCopyV5();initAppLinksV4();initVisualV7();

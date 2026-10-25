@@ -65,3 +65,6 @@ html{scroll-padding-top:80px}body{background-color:var(--paper);color:var(--ink)
 @media(max-width:760px){#day-content{padding:0 14px 14px}#day-content .painted-day-heading{margin-left:-14px;margin-right:-14px}}
 
 .travel-calendar .calendar-day.active .calendar-number{color:#233e31}.travel-calendar .calendar-day.active.is-today .calendar-number{color:#a14431}
+
+/* Approved square brush logo, preserving the existing brand layout. */
+.brand-mark{border-radius:3px!important;background:none!important;border:0!important;overflow:hidden;width:40px!important;height:40px!important;flex:0 0 40px}.brand-mark img{display:block;width:100%;height:100%;object-fit:contain}.guide-logo-v8{display:block;width:42px;height:42px;object-fit:contain;border-radius:3px;flex-shrink:0}

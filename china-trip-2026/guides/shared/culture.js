@@ -24,7 +24,7 @@
     select(roomTracks(id)[0].id,false,false);writeHash();if(move)$('room-section').scrollIntoView({behavior:'smooth',block:'start'});
   }
   function showPhoto(t){const el=$('object-photo');if(t.photo){el.hidden=false;el.innerHTML=`<img src="${esc(t.photo.src)}" alt="${esc(t.photo.alt||t.title)}"><figcaption>${esc(t.photo.caption||t.title)}<br>${esc(t.photo.author||t.photo.artist||'')} · ${t.photo.licenseURL?`<a href="${esc(t.photo.licenseURL)}" target="_blank" rel="noopener">${esc(t.photo.license)}</a>`:esc(t.photo.license||'')} · <a href="${esc(t.photo.source)}" target="_blank" rel="noopener">原始照片 ↗</a><br>仅缩放与 WebP 压缩。</figcaption>`;}else{el.hidden=true;el.innerHTML='';}}
-  function select(id,play=false,move=false){const t=find(id);if(!t)return;token++;audio.pause();selected=id;audio.src=t.audio;audio.playbackRate=rate;
+  function select(id,play=false,move=false){const t=find(id);if(!t)return;token++;audio.pause();selected=id;audio.src=t.audio;audio.playbackRate=rate;if(id!==g.intro.id)$('player-shell').hidden=false;
     $('detail-title').textContent=t.title;$('detail-summary').textContent=t.summary;$('detail-label').textContent=t.period||t.eyebrow||(t.id===g.intro.id?'历史开篇':'重点讲解');showPhoto(t);
     $('facts').innerHTML=[['历史',t.history],['工艺',t.craft],['地位',t.significance]].filter(x=>x[1]).map(([k,v])=>`<div><h3>${k}</h3><p>${esc(v)}</p></div>`).join('');
     $('script-text').innerHTML=t.narration.split(/\n+/).filter(Boolean).map(p=>`<p>${esc(p)}</p>`).join('');$('track-sources').innerHTML=sources(t.sources);$('full-text').open=false;
@@ -35,7 +35,7 @@
     writeHash();renderPlaying();if(play)start();if(move)$('detail-section').scrollIntoView({behavior:'smooth',block:'start'});
   }
   function renderPlaying(){const playing=!audio.paused&&!audio.ended;$('listen').textContent=playing?'暂停讲解':'▶ 听这段讲解';$('listen').setAttribute('aria-pressed',String(playing));}
-  async function start(){const request=++token;try{if(audio.error){audio.load();audio.playbackRate=rate;}await audio.play();$('audio-status').textContent='';}catch(e){if(request===token&&e.name!=='AbortError')$('audio-status').textContent='暂时无法播放，请检查网络后再点播放。';}}
+  async function start(){$('player-shell').hidden=false;const request=++token;try{if(audio.error){audio.load();audio.playbackRate=rate;}await audio.play();$('audio-status').textContent='';}catch(e){if(request===token&&e.name!=='AbortError')$('audio-status').textContent='暂时无法播放，请检查网络后再点播放。';}}
   function step(direction){const q=activeQueue(),i=q.findIndex(t=>t.id===selected),t=q[i+direction];if(t)select(t.id,true,false);}
   function seek(seconds){if(Number.isFinite(audio.duration))audio.currentTime=Math.max(0,Math.min(audio.duration,audio.currentTime+seconds));}
   $('listen').addEventListener('click',()=>audio.paused?start():audio.pause());

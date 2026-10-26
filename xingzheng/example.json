@@ -1,0 +1,3822 @@
+{
+  "version": 1,
+  "libraryVersion": "2026-10-25.1",
+  "title": "江南慢游 · 一份示例手册",
+  "input": {
+    "version": 1,
+    "title": "江南慢游 · 一份示例手册",
+    "start": "2026-11-02",
+    "end": "2026-11-06",
+    "people": 2,
+    "seniors": 0,
+    "children": 0,
+    "origin": "",
+    "cities": [
+      {
+        "name": "苏州",
+        "days": 2
+      },
+      {
+        "name": "上海",
+        "days": 3
+      }
+    ],
+    "timezone": "Asia/Shanghai",
+    "pace": "balanced",
+    "walkLimit": 5,
+    "budget": 350,
+    "priority": "time",
+    "intercity": "train",
+    "diet": "",
+    "interests": [],
+    "avoid": "",
+    "notes": "",
+    "audio": true,
+    "hotels": [],
+    "transport": [],
+    "must": [
+      {
+        "city": "上海",
+        "name": "陆家嘴",
+        "date": "",
+        "time": "",
+        "duration": 60,
+        "lon": null,
+        "lat": null,
+        "guide": ""
+      }
+    ],
+    "privacy": {
+      "hotels": false,
+      "transport": false
+    }
+  },
+  "days": [
+    {
+      "date": "2026-11-02",
+      "city": "苏州",
+      "routeId": "sz-west",
+      "title": "西园寺—留园—山塘夜色",
+      "drawing": {
+        "caption": "城西园林 · 一路到山塘灯火",
+        "nodes": [
+          [
+            85,
+            390,
+            "pagoda"
+          ],
+          [
+            245,
+            385,
+            "pavilion"
+          ],
+          [
+            325,
+            250,
+            "bridge"
+          ]
+        ],
+        "snacks": [
+          [
+            375,
+            320
+          ],
+          [
+            245,
+            165
+          ]
+        ],
+        "roads": [
+          [
+            "东北街",
+            "M320 155L465 155",
+            395,
+            182,
+            0
+          ],
+          [
+            "西园路",
+            "M25 445Q150 450 270 435",
+            95,
+            472,
+            0
+          ],
+          [
+            "留园路",
+            "M70 425L285 425Q335 420 335 350",
+            220,
+            455,
+            0
+          ],
+          [
+            "广济路",
+            "M320 80Q350 260 350 565",
+            380,
+            425,
+            -90
+          ],
+          [
+            "山塘街",
+            "M175 90Q225 185 315 280",
+            213,
+            235,
+            45
+          ],
+          [
+            "桐泾北路",
+            "M28 240L28 590",
+            48,
+            575,
+            -90
+          ]
+        ],
+        "legs": [
+          "M385 130C435 550 80 530 85 405",
+          "M85 405L85 425L245 425L245 400",
+          "M245 400L335 400L335 280L325 265"
+        ],
+        "water": [
+          [
+            "M140 45Q165 130 215 190T310 280L328 264Q265 215 235 170T163 40Z",
+            "山塘河",
+            165,
+            145,
+            45
+          ],
+          [
+            "M0 510Q140 485 285 510L315 530Q140 510 0 535Z",
+            "上塘河",
+            145,
+            540,
+            0
+          ]
+        ],
+        "greens": [
+          [
+            90,
+            350,
+            65,
+            88
+          ],
+          [
+            240,
+            360,
+            65,
+            80
+          ]
+        ],
+        "districts": [
+          [
+            110,
+            592,
+            "姑苏城西"
+          ],
+          [
+            400,
+            70,
+            "东北街"
+          ]
+        ],
+        "trees": [
+          [
+            35,
+            330
+          ],
+          [
+            40,
+            500
+          ],
+          [
+            285,
+            485
+          ],
+          [
+            415,
+            535
+          ]
+        ]
+      },
+      "snacks": [
+        {
+          "venueId": "sz-qiujuan",
+          "venueName": "秋娟馄饨店",
+          "lon": 120.600963,
+          "lat": 31.316878,
+          "buy": "大馄饨；肉汤圆看当天供应",
+          "detour": "广济路进山塘前约5–10分钟",
+          "near": "留园→山塘的广济路接驳段",
+          "sources": [
+            "https://www.amap.com/place/B0FFJ2AAIX"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "高德门店POI，西杨安浜3号楼",
+          "approximate": false,
+          "estimateOnly": true,
+          "priority": "想坐下歇脚可选",
+          "note": "不能默认晚间营业；若到山塘已晚，跳过不折返。"
+        },
+        {
+          "venueId": "sz-rongyanglou",
+          "venueName": "荣阳楼（山塘街店）",
+          "lon": 120.599,
+          "lat": 31.32,
+          "buy": "油氽团子，趁热两人分一份",
+          "detour": "由山塘177号段向西北约10–15分钟单程",
+          "near": "山塘街329号街段",
+          "sources": [
+            "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=248",
+            "https://gs.ctrip.com/html5/you/foods/fooddetail/11/5123655.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "约位：山塘街329号所在西北街段，精确门口以导航为准",
+          "approximate": true,
+          "estimateOnly": true,
+          "priority": "提前到山塘时优先",
+          "note": "公开门店页标到17:30，售完可能提前结束；晚船前到得太迟便跳过。"
+        }
+      ],
+      "art": {
+        "title": "山塘灯影",
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/daily/day-1028.webp"
+      },
+      "stops": [
+        {
+          "id": "sz-xiyuan",
+          "name": "西园寺",
+          "query": "西园寺",
+          "lon": 120.587,
+          "lat": 31.315,
+          "intro": "西园寺在留园西侧，先逛寺院，再向东走到留园。礼佛区域保持安静，素面视供应与排队决定。",
+          "minutes": 75,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-xiyuan.webp",
+            "alt": "西园寺内池水与石桥",
+            "author": "kevinmcgill from Den Bosch, Netherlands",
+            "source": "https://commons.wikimedia.org/wiki/File:Xiyuan_Temple,_Suzhou_(24).jpg",
+            "license": "CC BY-SA 2.0"
+          },
+          "ticket": {
+            "price": "¥5",
+            "reservation": "参考官方价格公示；以当日售票为准。",
+            "url": "https://piao.qunar.com/ticket/detail_12937.html",
+            "wx": "",
+            "senior": "70周岁（含）以上凭本人有效身份证件免日间门票。",
+            "help": "去哪儿景点售票页；70+请先携证核验免票资格，不必购买成人票。",
+            "source": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B02000K6IM",
+          "approximate": true,
+          "time": "09:00",
+          "end": "10:15"
+        },
+        {
+          "id": "sz-liuyuan",
+          "name": "留园",
+          "query": "留园",
+          "lon": 120.59226,
+          "lat": 31.315369,
+          "intro": "从园主更替与厅堂布局读留园。留意曲廊如何控制视线、冠云峰怎样成为庭院中心；语音导览含历史开篇和六处讲解。",
+          "minutes": 75,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/liuyuan/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-liuyuan.webp",
+            "alt": "留园实景照片",
+            "author": "钉钉",
+            "source": "https://commons.wikimedia.org/wiki/File:Lingering_Garden2.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "¥55",
+            "reservation": "10月旺季票参考；通过官方“苏州园林旅游”等核对实名票和时段。",
+            "url": "https://www.szylly.com/",
+            "wx": "苏州园林旅游",
+            "senior": "70+凭证免日间门票；当日是否需预约或窗口核验，出发前在官方渠道确认。",
+            "help": "进入官方平台选择“留园”与入园时段。",
+            "source": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B02000IFFA",
+          "approximate": false,
+          "time": "10:30",
+          "end": "11:45"
+        },
+        {
+          "id": "sz-shantang",
+          "name": "七里山塘",
+          "query": "七里山塘",
+          "lon": 120.602105,
+          "lat": 31.317059,
+          "intro": "把傍晚留给运河、桥与灯影。街区免费，游船另付费。想吃荣阳楼应提前到，晚间售罄或关门就跳过。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-shantang.webp",
+            "alt": "七里山塘实景照片",
+            "author": "Sirseanroy",
+            "source": "https://commons.wikimedia.org/wiki/File:Shantang_Street_Canal.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "约¥50/人",
+            "reservation": "文旅2026公示参考：往返约30分钟，08:00–20:50。",
+            "url": "https://m.ly.com/scenery_1/detail/?sceneryId=20718",
+            "wx": "七里山塘",
+            "senior": "不统一承诺70+免船票。白居易码头个别产品列陪同免票，须先向该码头确认；其他船型另询。",
+            "help": "核对船型、码头、是否夜航与末班时间；画舫与手摇船分开选。",
+            "source": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=2782",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B0200178TG",
+          "approximate": false,
+          "time": "17:00",
+          "end": "17:45"
+        }
+      ],
+      "deferred": [],
+      "anchors": [],
+      "routeSource": "城市资料包",
+      "foods": [
+        {
+          "id": "sz-yuxingji",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "裕兴记（西北街总店）",
+          "dishes": [
+            "爆鱼面",
+            "焖肉面",
+            "两面黄"
+          ],
+          "area": "西北街 / 东北街酒店附近",
+          "address": "西北街 11 号",
+          "budget": "人均约 35–65 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            35,
+            65
+          ],
+          "mapQuery": "苏州 裕兴记 西北街总店",
+          "tip": "29日进园前或30日转场前可就近吃苏式面；十月底不预设供应三虾面，按当天菜单选浇头。",
+          "verificationNote": "高德具体门店地址与携程菜品资料核对。",
+          "sources": [
+            {
+              "title": "高德地图：裕兴记西北街总店",
+              "url": "https://www.amap.com/place/B0200177KR",
+              "kind": "map_listing"
+            },
+            {
+              "title": "携程：裕兴记",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2015750/5125945.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-deyuelou",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "得月楼（观前店）",
+          "dishes": [
+            "松鼠鳜鱼",
+            "响油鳝糊",
+            "苏式时蔬"
+          ],
+          "area": "观前街 / 太监弄",
+          "address": "太监弄 43 号",
+          "budget": "人均约 90–160 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            90,
+            160
+          ],
+          "mapQuery": "苏州 得月楼 观前店 太监弄",
+          "tip": "适合专门安排一顿苏帮菜，需从平江路接驳到观前片区。不必同时点整鱼和多道大菜。",
+          "verificationNote": "核对观前店具体地址和苏帮菜门店资料；价格为规划估计。",
+          "sources": [
+            {
+              "title": "高德地图：得月楼观前店",
+              "url": "https://ditu.amap.com/place/B020000FA2",
+              "kind": "map_listing"
+            },
+            {
+              "title": "携程：得月楼观前店",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/11/4925252.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-songhelou",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "松鹤楼（山塘店）",
+          "dishes": [
+            "松鼠鳜鱼",
+            "清炒虾仁",
+            "响油鳝糊"
+          ],
+          "area": "七里山塘",
+          "address": "山塘街 198 号",
+          "budget": "人均约 100–180 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            100,
+            180
+          ],
+          "mapQuery": "苏州 松鹤楼 山塘店",
+          "tip": "28日山塘夜游前后坐下来吃苏帮菜，按胃口少点几道；是否排队及价格以门店为准。",
+          "verificationNote": "苏州市文旅公开美食文章核对具体山塘店和地址。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘美食",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-danfeng",
+          "city": "苏州",
+          "type": "snack",
+          "name": "丹凤楼食府（新民桥菜场）",
+          "dishes": [
+            "包子",
+            "大馄饨",
+            "赤豆糊小圆子"
+          ],
+          "area": "新民桥菜场入口",
+          "address": "新民桥菜场入口附近，门牌以导航为准",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "苏州 丹凤楼食府 新民桥",
+          "tip": "28日留园到山塘这段的正餐备选，先确认当日营业和定位，不把它当路边小吃。",
+          "verificationNote": "2025 年苏州文旅新民桥美食专题具体介绍这家店及小吃。",
+          "sources": [
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-xiekehuang",
+          "city": "苏州",
+          "type": "snack",
+          "name": "江南蟹壳皇（西北街店）",
+          "dishes": [
+            "蟹壳黄烧饼"
+          ],
+          "area": "西北街 / 酒店附近",
+          "address": "西北街 33 号",
+          "budget": "人均约 10–20 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            10,
+            20
+          ],
+          "mapQuery": "苏州 江南蟹壳皇 西北街33号",
+          "tip": "住东北街时买一两只作早餐或路上点心即可。名称里的蟹壳指外形，馅料以当天菜单为准。",
+          "verificationNote": "苏州文旅文章同时介绍新民桥店与西北街 33 号分店；本行选择靠近酒店的分店。",
+          "sources": [
+            {
+              "title": "苏州文旅：江南蟹壳皇分店信息",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-madongpei",
+          "city": "苏州",
+          "type": "snack",
+          "name": "马栋佩烧卖（新民桥店）",
+          "dishes": [
+            "糯米烧卖",
+            "蛋黄烧卖"
+          ],
+          "area": "广济路 / 新民桥菜市场",
+          "address": "广济路 236 号一楼 A7、A8",
+          "budget": "人均约 15–30 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 马栋佩烧卖 新民桥",
+          "tip": "可与丹凤楼二选一，再向山塘方向走；糯米烧卖顶饱，先少量买。",
+          "verificationNote": "苏州文旅介绍烧卖店与菜品，具体铺位由门店资料补充。",
+          "sources": [
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "Trip.com：马栋佩烧卖",
+              "url": "https://hk.trip.com/restaurant/china/suzhou/detail/restaurant-36970933/",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-rongyanglou",
+          "city": "苏州",
+          "type": "snack",
+          "name": "荣阳楼（山塘街店）",
+          "dishes": [
+            "油氽团子",
+            "小馄饨"
+          ],
+          "area": "山塘街",
+          "address": "山塘街 329 号",
+          "budget": "人均约 15–30 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 荣阳楼 山塘街329号",
+          "tip": "29 日尽量在傍晚前尝，先买一只团子现吃；不要默认夜游结束后老店仍营业。",
+          "verificationNote": "苏州文旅公开文章核对地址与油氽团子；晚间时段请现场确认。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘老字号",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "携程：荣阳楼",
+              "url": "https://gs.ctrip.com/html5/you/foods/Suzhou11/5123655.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-taohuayuan",
+          "city": "苏州",
+          "type": "snack",
+          "name": "平江桃花源记（平江 1 店）",
+          "dishes": [
+            "赤豆糊糖粥",
+            "酱鸡脚",
+            "鸡汤馄饨"
+          ],
+          "area": "平江路",
+          "address": "平江路 115 号",
+          "budget": "人均约 20–40 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            20,
+            40
+          ],
+          "mapQuery": "苏州 平江桃花源记 平江1店 平江路115号",
+          "tip": "30 日平江路手摇船前后作甜口歇脚站，排队长就换附近店，不挤占船和园林时间。",
+          "verificationNote": "具体分店、地址和菜品核对公开门店资料，未使用未经核验的社交平台评分。",
+          "sources": [
+            {
+              "title": "携程：平江桃花源记平江1店",
+              "url": "https://gs.ctrip.com/html5/you/foods/Suzhou11/5133429.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-wanfuxing",
+          "city": "苏州",
+          "type": "snack",
+          "name": "万福兴（山塘街店）",
+          "dishes": [
+            "苏式糕团",
+            "时令糕点"
+          ],
+          "area": "山塘街",
+          "address": "山塘街 303 号",
+          "budget": "人均约 10–25 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            10,
+            25
+          ],
+          "mapQuery": "苏州 万福兴 山塘街303号",
+          "tip": "与荣阳楼相邻片区，适合买少量糕团分着尝；品种随时令与当日出品变化。",
+          "verificationNote": "苏州文旅文章核对山塘分店及地址；不保证某一时令糕点持续供应。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘美食与万福兴",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+            "kind": "xiaohongshu_note",
+            "text": "笔记推荐糕团，但评论里有人觉得口感偏实、黏牙。先买少量试口味，两人分食即可。"
+          },
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-qiujuan",
+          "city": "苏州",
+          "type": "snack",
+          "name": "秋娟馄饨店",
+          "dishes": [
+            "大馄饨",
+            "肉汤圆"
+          ],
+          "area": "山塘附近 · 居民巷子",
+          "address": "广济路西杨安浜3号楼（高德公开店址）",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 秋娟馄饨店 西杨安浜",
+          "tip": "适合西园—山塘这天的早午餐或小吃停靠。店在巷内，先查营业再走过去；不能默认夜间仍营业。",
+          "verificationNote": "已读10/09小红书笔记，并用高德店址交叉确认。",
+          "sources": [
+            {
+              "title": "高德：秋娟馄饨店",
+              "url": "https://www.amap.com/place/B0FFJ2AAIX",
+              "kind": "map_listing"
+            },
+            {
+              "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+              "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+              "kind": "xiaohongshu_note"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+            "kind": "xiaohongshu_note",
+            "text": "笔记推荐大馄饨和肉汤圆。个人消费只作参考，按当天菜单点单。"
+          },
+          "checkedAt": "2026-10-25"
+        }
+      ],
+      "hotel": null,
+      "mapPositions": {
+        "sz-xiyuan": [
+          85,
+          390,
+          "pagoda"
+        ],
+        "sz-liuyuan": [
+          245,
+          385,
+          "pavilion"
+        ],
+        "sz-shantang": [
+          325,
+          250,
+          "bridge"
+        ]
+      },
+      "transport": [],
+      "rest": [
+        {
+          "time": "12:30",
+          "end": "13:30",
+          "title": "午饭与休息"
+        }
+      ],
+      "legs": [
+        {
+          "from": "sz-xiyuan",
+          "to": "sz-liuyuan",
+          "mode": "步行",
+          "minutes": 15,
+          "label": "约 15–25 分钟",
+          "estimated": true,
+          "km": 0.7
+        },
+        {
+          "from": "sz-liuyuan",
+          "to": "sz-shantang",
+          "mode": "步行",
+          "minutes": 25,
+          "label": "约 25–35 分钟",
+          "estimated": true,
+          "km": 1.2
+        }
+      ],
+      "walkKm": 1.9,
+      "hotelLeg": null
+    },
+    {
+      "date": "2026-11-03",
+      "city": "苏州",
+      "routeId": "sz-gardens",
+      "title": "东北街园林与平江水巷",
+      "drawing": {
+        "caption": "园林与水巷 · 姑苏慢慢走",
+        "nodes": [
+          [
+            225,
+            100,
+            "pavilion"
+          ],
+          [
+            85,
+            205,
+            "museum"
+          ],
+          [
+            185,
+            290,
+            "rock"
+          ],
+          [
+            275,
+            445,
+            "bridge"
+          ],
+          [
+            365,
+            555,
+            "gate"
+          ],
+          [
+            400,
+            350,
+            "pavilion"
+          ]
+        ],
+        "snacks": [
+          [
+            350,
+            470
+          ]
+        ],
+        "roads": [
+          [
+            "东北街",
+            "M25 155L455 155",
+            285,
+            181,
+            0
+          ],
+          [
+            "园林路",
+            "M215 165L215 345",
+            195,
+            250,
+            -90
+          ],
+          [
+            "白塔东路",
+            "M25 335L455 335",
+            100,
+            360,
+            0
+          ],
+          [
+            "平江路",
+            "M285 365L285 625",
+            305,
+            400,
+            -90
+          ],
+          [
+            "中张家巷",
+            "M285 525L460 525",
+            379,
+            513,
+            0
+          ],
+          [
+            "干将东路",
+            "M25 615L460 615",
+            130,
+            603,
+            0
+          ],
+          [
+            "小新桥巷",
+            "M285 385L440 385",
+            384,
+            407,
+            0
+          ]
+        ],
+        "legs": [
+          "M385 110L385 155L225 155L225 115",
+          "M225 115L225 155L85 155L85 220",
+          "M85 220L85 335L185 335L185 305",
+          "M185 305L185 335L285 335L285 460",
+          "M285 460L285 525L365 525L365 570",
+          "M365 570L285 570L285 385L400 385L400 365"
+        ],
+        "water": [
+          [
+            "M250 340Q240 405 245 475L245 650H265V475Q260 405 268 340Z",
+            "平江河",
+            233,
+            505,
+            -90
+          ],
+          [
+            "M465 65L480 65V650H457Q468 420 465 65Z",
+            "外城河",
+            449,
+            495,
+            -90
+          ]
+        ],
+        "greens": [
+          [
+            225,
+            90,
+            72,
+            55
+          ],
+          [
+            400,
+            345,
+            55,
+            60
+          ]
+        ],
+        "districts": [
+          [
+            85,
+            460,
+            "平江历史街区"
+          ]
+        ],
+        "trees": [
+          [
+            40,
+            400
+          ],
+          [
+            70,
+            535
+          ],
+          [
+            420,
+            455
+          ],
+          [
+            435,
+            590
+          ]
+        ]
+      },
+      "snacks": [
+        {
+          "venueId": "sz-taohuayuan",
+          "venueName": "平江桃花源记（平江路115号店）",
+          "lon": 120.633675,
+          "lat": 31.314561,
+          "buy": "赤豆糊或糖粥；只安排一份小吃",
+          "detour": "主步行街旁约0–5分钟",
+          "near": "平江路中段",
+          "sources": [
+            "https://www.amap.com/place/B0FFF35FRK",
+            "https://gs.ctrip.com/html5/you/foods/Suzhou11/5133429.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "高德门店POI",
+          "approximate": false,
+          "estimateOnly": true,
+          "priority": "平江路甜口停靠",
+          "note": "这家也做正餐；图中只推荐糖粥/赤豆糊的小吃停靠，不把整桌菜当小吃。"
+        }
+      ],
+      "art": {
+        "title": "姑苏园梦",
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/daily/day-1029.webp"
+      },
+      "stops": [
+        {
+          "id": "sz-zhuozheng",
+          "name": "拙政园",
+          "query": "拙政园",
+          "lon": 120.629211,
+          "lat": 31.324194,
+          "intro": "先听王献臣、文徵明与园林理水的历史开篇，再看水面、岛山和亭廊如何组织景物。按预约时段入园。",
+          "minutes": 120,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/zhuozheng/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-zhuozheng.webp",
+            "alt": "拙政园实景照片",
+            "author": "King of Hearts",
+            "source": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_008.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "¥80",
+            "reservation": "10月旺季票参考；官方渠道实名购票。",
+            "url": "https://www.szylly.com/",
+            "wx": "苏州园林旅游",
+            "senior": "70+凭证免日间门票；2026当地公开信息说明可凭身份证免预约，临行复核入园安排。",
+            "help": "进入官方平台选择“拙政园”；同行成人按自身资格购票。",
+            "source": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B020001R2Q/",
+          "approximate": false,
+          "time": "09:00",
+          "end": "11:00"
+        },
+        {
+          "id": "sz-museum",
+          "name": "苏博本馆",
+          "query": "苏州博物馆本馆",
+          "lon": 120.627856,
+          "lat": 31.322948,
+          "intro": "参观前落实预约，拙政园与苏博先后可随预约时段调整。除了建筑，也给馆藏留足时间；不是打卡外观就离开。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-museum.webp",
+            "alt": "苏博本馆实景照片",
+            "author": "© Peter Potrowl",
+            "source": "https://commons.wikimedia.org/wiki/File:Suzhou_Museum_-_new_buildings.jpg",
+            "license": "CC BY 3.0"
+          },
+          "ticket": {
+            "price": "免费",
+            "reservation": "实名分时预约，提前7天（含预约当天），系统服务8:00–23:00。",
+            "url": "https://www.szmuseum.com/",
+            "wx": "苏州博物馆全预约",
+            "senior": "参观免费。70+行动不便者按官网可带1名登记成人免预约、同时进出；每三个月一次。其他情况提前预约或电话核实。",
+            "help": "微信小程序“苏州博物馆全预约”，选择本馆。普通观众提前7天（含预约当天）查看名额。",
+            "source": "https://www.suzhou.gov.cn/szsrmzf/mszx/202603/b998c7daa6944c1fb26aac4faf7a1186.shtml",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B020001285",
+          "approximate": false,
+          "time": "11:15",
+          "end": "12:00"
+        },
+        {
+          "id": "sz-lion",
+          "name": "狮子林",
+          "query": "狮子林",
+          "lon": 120.629095,
+          "lat": 31.321068,
+          "intro": "可替换一处园林或只路过外观。以叠石与曲折路径见长，不与拙政园、苏博、耦园全叠加。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-lion.webp",
+            "alt": "狮子林实景照片",
+            "author": "King of Hearts",
+            "source": "https://commons.wikimedia.org/wiki/File:Lion_Grove_Garden_Suzhou_November_2017_007.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "¥40",
+            "reservation": "10月旺季票参考；官方渠道实名购票。",
+            "url": "https://www.szylly.com/",
+            "wx": "苏州园林旅游",
+            "senior": "70+凭证免日间门票；预约豁免以官方当前入园方式为准。",
+            "help": "进入官方平台选择“狮子林”，先选游览日期。",
+            "source": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B020001B0C",
+          "approximate": false,
+          "time": "13:30",
+          "end": "14:15"
+        },
+        {
+          "id": "sz-kunqu",
+          "name": "昆曲博物馆",
+          "query": "中国昆曲博物馆",
+          "lon": 120.635691,
+          "lat": 31.313091,
+          "intro": "可选文化停靠，了解昆曲与会馆。免费参观、预约和付费演出分开核对；累了只走平江路即可。",
+          "minutes": 120,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-kunqu.webp",
+            "alt": "昆曲博物馆实景照片",
+            "author": "Ohtashinichiro",
+            "source": "https://commons.wikimedia.org/wiki/File:The_China_Kunqu_Museum_180420_01.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "免费*",
+            "reservation": "公开开放公告为周二至周日09–17，16:30停入；预约及临时展另核实。",
+            "url": "",
+            "wx": "苏州戏曲博物馆",
+            "senior": "常规免费参观不分年龄；付费演出不默认免票。",
+            "help": "常规参观与昆曲演出是不同项目；演出票及临时展请在馆方核对。",
+            "source": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202409/e8a1594e70774b499c3ee1a384b5df2c.shtml",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.amap.com/place/B02000IFFD",
+          "approximate": false,
+          "time": "14:40",
+          "end": "16:40"
+        }
+      ],
+      "deferred": [
+        {
+          "id": "sz-pingjiang",
+          "name": "平江路",
+          "query": "平江路中段",
+          "lon": 120.634,
+          "lat": 31.315,
+          "intro": "从宋代城图、古桥、家族与昆曲读水巷。白天适合手摇船，但船程可能返回原码头；地图中的街段点不代表具体售票口。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/pingjiang/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-pingjiang.webp",
+            "alt": "平江路实景照片",
+            "author": "song songroov",
+            "source": "https://commons.wikimedia.org/wiki/File:Riverside_of_Pingjiang_Road,_Gusu,_Suzhou,_Jiangsu,_China,_215000.jpg",
+            "license": "CC BY 3.0"
+          },
+          "ticket": {
+            "price": "约¥40/人",
+            "reservation": "文旅2026公示参考：约40分钟，08:30–17:30。",
+            "url": "",
+            "wx": "",
+            "senior": "船票单独计费；70+免船票未核实，凭证向码头询价。",
+            "help": "未找到稳定网页直购入口，码头按当日船型与票价购买；不跳转新闻“资料”。",
+            "source": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=2782",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.amap.com/place/B0FFF35FRK",
+          "approximate": true
+        },
+        {
+          "id": "sz-ouyuan",
+          "name": "耦园",
+          "query": "耦园",
+          "lon": 120.63835,
+          "lat": 31.31623,
+          "intro": "位于平江路东侧的可选园林，从平江中段单独往返。不要假定能从园内穿行到下一条街；与狮子林二选一即可。",
+          "minutes": 75,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-ouyuan.webp",
+            "alt": "耦园实景照片",
+            "author": "Jakub Hałun",
+            "source": "https://commons.wikimedia.org/wiki/File:20090905_Suzhou_Couple%27s_Retreat_Garden_4442.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "¥25",
+            "reservation": "10月旺季票参考；按官方售票与当日开放。",
+            "url": "https://www.szylly.com/",
+            "wx": "苏州园林旅游",
+            "senior": "70+凭证免日间门票；预约与验证方式按官方当天说明。",
+            "help": "在官方平台选择“耦园”，不混选夜游或讲解产品。",
+            "source": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B0FFF5U2QK",
+          "approximate": false
+        }
+      ],
+      "anchors": [],
+      "routeSource": "城市资料包",
+      "foods": [
+        {
+          "id": "sz-yuxingji",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "裕兴记（西北街总店）",
+          "dishes": [
+            "爆鱼面",
+            "焖肉面",
+            "两面黄"
+          ],
+          "area": "西北街 / 东北街酒店附近",
+          "address": "西北街 11 号",
+          "budget": "人均约 35–65 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            35,
+            65
+          ],
+          "mapQuery": "苏州 裕兴记 西北街总店",
+          "tip": "29日进园前或30日转场前可就近吃苏式面；十月底不预设供应三虾面，按当天菜单选浇头。",
+          "verificationNote": "高德具体门店地址与携程菜品资料核对。",
+          "sources": [
+            {
+              "title": "高德地图：裕兴记西北街总店",
+              "url": "https://www.amap.com/place/B0200177KR",
+              "kind": "map_listing"
+            },
+            {
+              "title": "携程：裕兴记",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2015750/5125945.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-deyuelou",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "得月楼（观前店）",
+          "dishes": [
+            "松鼠鳜鱼",
+            "响油鳝糊",
+            "苏式时蔬"
+          ],
+          "area": "观前街 / 太监弄",
+          "address": "太监弄 43 号",
+          "budget": "人均约 90–160 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            90,
+            160
+          ],
+          "mapQuery": "苏州 得月楼 观前店 太监弄",
+          "tip": "适合专门安排一顿苏帮菜，需从平江路接驳到观前片区。不必同时点整鱼和多道大菜。",
+          "verificationNote": "核对观前店具体地址和苏帮菜门店资料；价格为规划估计。",
+          "sources": [
+            {
+              "title": "高德地图：得月楼观前店",
+              "url": "https://ditu.amap.com/place/B020000FA2",
+              "kind": "map_listing"
+            },
+            {
+              "title": "携程：得月楼观前店",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/11/4925252.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-songhelou",
+          "city": "苏州",
+          "type": "restaurant",
+          "name": "松鹤楼（山塘店）",
+          "dishes": [
+            "松鼠鳜鱼",
+            "清炒虾仁",
+            "响油鳝糊"
+          ],
+          "area": "七里山塘",
+          "address": "山塘街 198 号",
+          "budget": "人均约 100–180 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            100,
+            180
+          ],
+          "mapQuery": "苏州 松鹤楼 山塘店",
+          "tip": "28日山塘夜游前后坐下来吃苏帮菜，按胃口少点几道；是否排队及价格以门店为准。",
+          "verificationNote": "苏州市文旅公开美食文章核对具体山塘店和地址。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘美食",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-danfeng",
+          "city": "苏州",
+          "type": "snack",
+          "name": "丹凤楼食府（新民桥菜场）",
+          "dishes": [
+            "包子",
+            "大馄饨",
+            "赤豆糊小圆子"
+          ],
+          "area": "新民桥菜场入口",
+          "address": "新民桥菜场入口附近，门牌以导航为准",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "苏州 丹凤楼食府 新民桥",
+          "tip": "28日留园到山塘这段的正餐备选，先确认当日营业和定位，不把它当路边小吃。",
+          "verificationNote": "2025 年苏州文旅新民桥美食专题具体介绍这家店及小吃。",
+          "sources": [
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-xiekehuang",
+          "city": "苏州",
+          "type": "snack",
+          "name": "江南蟹壳皇（西北街店）",
+          "dishes": [
+            "蟹壳黄烧饼"
+          ],
+          "area": "西北街 / 酒店附近",
+          "address": "西北街 33 号",
+          "budget": "人均约 10–20 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            10,
+            20
+          ],
+          "mapQuery": "苏州 江南蟹壳皇 西北街33号",
+          "tip": "住东北街时买一两只作早餐或路上点心即可。名称里的蟹壳指外形，馅料以当天菜单为准。",
+          "verificationNote": "苏州文旅文章同时介绍新民桥店与西北街 33 号分店；本行选择靠近酒店的分店。",
+          "sources": [
+            {
+              "title": "苏州文旅：江南蟹壳皇分店信息",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-madongpei",
+          "city": "苏州",
+          "type": "snack",
+          "name": "马栋佩烧卖（新民桥店）",
+          "dishes": [
+            "糯米烧卖",
+            "蛋黄烧卖"
+          ],
+          "area": "广济路 / 新民桥菜市场",
+          "address": "广济路 236 号一楼 A7、A8",
+          "budget": "人均约 15–30 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 马栋佩烧卖 新民桥",
+          "tip": "可与丹凤楼二选一，再向山塘方向走；糯米烧卖顶饱，先少量买。",
+          "verificationNote": "苏州文旅介绍烧卖店与菜品，具体铺位由门店资料补充。",
+          "sources": [
+            {
+              "title": "苏州市文旅局：新民桥美食",
+              "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hcgms/202510/df94c7c1a829418ab825ead853f8838c.shtml",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "Trip.com：马栋佩烧卖",
+              "url": "https://hk.trip.com/restaurant/china/suzhou/detail/restaurant-36970933/",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-rongyanglou",
+          "city": "苏州",
+          "type": "snack",
+          "name": "荣阳楼（山塘街店）",
+          "dishes": [
+            "油氽团子",
+            "小馄饨"
+          ],
+          "area": "山塘街",
+          "address": "山塘街 329 号",
+          "budget": "人均约 15–30 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 荣阳楼 山塘街329号",
+          "tip": "29 日尽量在傍晚前尝，先买一只团子现吃；不要默认夜游结束后老店仍营业。",
+          "verificationNote": "苏州文旅公开文章核对地址与油氽团子；晚间时段请现场确认。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘老字号",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            },
+            {
+              "title": "携程：荣阳楼",
+              "url": "https://gs.ctrip.com/html5/you/foods/Suzhou11/5123655.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-taohuayuan",
+          "city": "苏州",
+          "type": "snack",
+          "name": "平江桃花源记（平江 1 店）",
+          "dishes": [
+            "赤豆糊糖粥",
+            "酱鸡脚",
+            "鸡汤馄饨"
+          ],
+          "area": "平江路",
+          "address": "平江路 115 号",
+          "budget": "人均约 20–40 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            20,
+            40
+          ],
+          "mapQuery": "苏州 平江桃花源记 平江1店 平江路115号",
+          "tip": "30 日平江路手摇船前后作甜口歇脚站，排队长就换附近店，不挤占船和园林时间。",
+          "verificationNote": "具体分店、地址和菜品核对公开门店资料，未使用未经核验的社交平台评分。",
+          "sources": [
+            {
+              "title": "携程：平江桃花源记平江1店",
+              "url": "https://gs.ctrip.com/html5/you/foods/Suzhou11/5133429.html",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-wanfuxing",
+          "city": "苏州",
+          "type": "snack",
+          "name": "万福兴（山塘街店）",
+          "dishes": [
+            "苏式糕团",
+            "时令糕点"
+          ],
+          "area": "山塘街",
+          "address": "山塘街 303 号",
+          "budget": "人均约 10–25 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            10,
+            25
+          ],
+          "mapQuery": "苏州 万福兴 山塘街303号",
+          "tip": "与荣阳楼相邻片区，适合买少量糕团分着尝；品种随时令与当日出品变化。",
+          "verificationNote": "苏州文旅文章核对山塘分店及地址；不保证某一时令糕点持续供应。",
+          "sources": [
+            {
+              "title": "苏州文旅：山塘美食与万福兴",
+              "url": "https://visitsz.wglj.suzhou.com.cn/news-detail.aspx?id=298",
+              "kind": "official_tourism"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+            "kind": "xiaohongshu_note",
+            "text": "笔记推荐糕团，但评论里有人觉得口感偏实、黏牙。先买少量试口味，两人分食即可。"
+          },
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sz-qiujuan",
+          "city": "苏州",
+          "type": "snack",
+          "name": "秋娟馄饨店",
+          "dishes": [
+            "大馄饨",
+            "肉汤圆"
+          ],
+          "area": "山塘附近 · 居民巷子",
+          "address": "广济路西杨安浜3号楼（高德公开店址）",
+          "budgetCnyPerPerson": [
+            15,
+            30
+          ],
+          "mapQuery": "苏州 秋娟馄饨店 西杨安浜",
+          "tip": "适合西园—山塘这天的早午餐或小吃停靠。店在巷内，先查营业再走过去；不能默认夜间仍营业。",
+          "verificationNote": "已读10/09小红书笔记，并用高德店址交叉确认。",
+          "sources": [
+            {
+              "title": "高德：秋娟馄饨店",
+              "url": "https://www.amap.com/place/B0FFJ2AAIX",
+              "kind": "map_listing"
+            },
+            {
+              "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+              "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+              "kind": "xiaohongshu_note"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：苏州纯吃攻略丨本地人的逛吃清单（10/09，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6ac8a226000000001c01eea6",
+            "kind": "xiaohongshu_note",
+            "text": "笔记推荐大馄饨和肉汤圆。个人消费只作参考，按当天菜单点单。"
+          },
+          "checkedAt": "2026-10-25"
+        }
+      ],
+      "hotel": null,
+      "mapPositions": {
+        "sz-zhuozheng": [
+          225,
+          100,
+          "pavilion"
+        ],
+        "sz-museum": [
+          85,
+          205,
+          "museum"
+        ],
+        "sz-lion": [
+          185,
+          290,
+          "rock"
+        ],
+        "sz-pingjiang": [
+          275,
+          445,
+          "bridge"
+        ],
+        "sz-kunqu": [
+          365,
+          555,
+          "gate"
+        ],
+        "sz-ouyuan": [
+          400,
+          350,
+          "pavilion"
+        ]
+      },
+      "transport": [],
+      "rest": [
+        {
+          "time": "12:30",
+          "end": "13:30",
+          "title": "午饭与休息"
+        }
+      ],
+      "legs": [
+        {
+          "from": "sz-zhuozheng",
+          "to": "sz-museum",
+          "mode": "步行",
+          "minutes": 5,
+          "label": "约 5–15 分钟",
+          "estimated": true,
+          "km": 0.2
+        },
+        {
+          "from": "sz-museum",
+          "to": "sz-lion",
+          "mode": "步行",
+          "minutes": 10,
+          "label": "约 10–20 分钟",
+          "estimated": true,
+          "km": 0.3
+        },
+        {
+          "from": "sz-lion",
+          "to": "sz-kunqu",
+          "mode": "步行",
+          "minutes": 25,
+          "label": "约 25–35 分钟",
+          "estimated": true,
+          "km": 1.4
+        }
+      ],
+      "walkKm": 1.9,
+      "hotelLeg": null
+    },
+    {
+      "date": "2026-11-04",
+      "city": "上海",
+      "routeId": "sh-river",
+      "title": "苏州河—外滩—南京东路—陆家嘴",
+      "drawing": {
+        "caption": "从苏州河畔，到浦江两岸",
+        "nodes": [
+          [
+            75,
+            140,
+            "clock"
+          ],
+          [
+            180,
+            220,
+            "bridge"
+          ],
+          [
+            280,
+            220,
+            "bridge"
+          ],
+          [
+            285,
+            355,
+            "dome"
+          ],
+          [
+            125,
+            450,
+            "shop"
+          ],
+          [
+            430,
+            365,
+            "pearl"
+          ]
+        ],
+        "snacks": [
+          [
+            170,
+            490
+          ],
+          [
+            65,
+            535
+          ]
+        ],
+        "roads": [
+          [
+            "北苏州路",
+            "M15 175L295 175",
+            105,
+            167,
+            0
+          ],
+          [
+            "中山东一路",
+            "M285 245Q300 420 295 610",
+            307,
+            525,
+            -90
+          ],
+          [
+            "南京东路",
+            "M20 445L295 445",
+            190,
+            470,
+            0
+          ],
+          [
+            "四川中路",
+            "M220 265L220 610",
+            205,
+            570,
+            -90
+          ],
+          [
+            "世纪大道",
+            "M415 410L475 450",
+            443,
+            455,
+            25
+          ]
+        ],
+        "legs": [
+          "M75 155L75 175L180 175L180 235",
+          "M180 235L180 175L280 175L280 235",
+          "M280 235L285 370",
+          "M285 370L295 445L125 465",
+          "M125 465C235 540 410 520 430 380"
+        ],
+        "water": [
+          [
+            "M335 35Q320 175 340 300T385 480L455 650H480V605L432 470Q398 380 382 300T390 35Z",
+            "黄浦江",
+            430,
+            545,
+            60
+          ],
+          [
+            "M0 200Q130 205 220 195L345 195V222L220 220Q120 230 0 220Z",
+            "苏州河",
+            95,
+            249,
+            0
+          ]
+        ],
+        "greens": [
+          [
+            395,
+            200,
+            45,
+            65
+          ]
+        ],
+        "districts": [
+          [
+            88,
+            330,
+            "浦西 · 外滩"
+          ],
+          [
+            420,
+            95,
+            "浦东 · 陆家嘴"
+          ]
+        ],
+        "trees": [
+          [
+            35,
+            380
+          ],
+          [
+            245,
+            560
+          ],
+          [
+            445,
+            300
+          ]
+        ],
+        "badges": [
+          [
+            260,
+            505,
+            "地铁 2 号线 · 过江"
+          ]
+        ]
+      },
+      "snacks": [
+        {
+          "venueId": "sh-dahuchun",
+          "venueName": "大壶春（山西南路店）",
+          "lon": 121.482303,
+          "lat": 31.23689,
+          "buy": "生煎，小份现吃",
+          "detour": "南京东路转山西南路约0–5分钟",
+          "near": "南京东路山西南路口",
+          "sources": [
+            "https://www.amap.com/place/B0L3TX90XG",
+            "https://mzj.sh.gov.cn/lnb-xw/20260113/492b829efb374c35953724c97036d5b4.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "高德门店POI",
+          "approximate": false,
+          "estimateOnly": true,
+          "priority": "咸口优先"
+        },
+        {
+          "venueId": "sh-shendacheng",
+          "venueName": "沈大成（南京东路总店）",
+          "lon": 121.478317,
+          "lat": 31.235726,
+          "buy": "条头糕、双酿团，挑一两样",
+          "detour": "从山西南路口继续向西约8–12分钟单程；回南京东路站需折返",
+          "near": "南京东路636号",
+          "sources": [
+            "https://www.amap.com/place/B00155H99S",
+            "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260618/a74fedaf5c884243855303f04741060b.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "高德门店POI",
+          "approximate": false,
+          "estimateOnly": true,
+          "priority": "甜口二选一",
+          "note": "若按南京东路地铁跨江，买完向东返回地铁；赶日落时不加这段，不能写零绕路。"
+        }
+      ],
+      "art": {
+        "title": "浦江夜色",
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/daily/day-1030.webp"
+      },
+      "stops": [
+        {
+          "id": "sh-pearl",
+          "name": "陆家嘴·东方明珠",
+          "query": "陆家嘴·东方明珠外观",
+          "lon": 121.499718,
+          "lat": 31.239703,
+          "intro": "从南京东路站坐2号线一站到陆家嘴，再步行看东方明珠等建筑外观。这里的免费是公共空间，登塔门票另计。",
+          "minutes": 60,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-pearl.webp",
+            "alt": "陆家嘴天际线，含东方明珠",
+            "author": "King of Hearts",
+            "source": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B00150F6D6",
+          "approximate": false,
+          "city": "上海",
+          "must": true,
+          "fixed": "",
+          "custom": false,
+          "time": "13:30",
+          "end": "14:30"
+        },
+        {
+          "id": "sh-post",
+          "name": "邮政大楼",
+          "query": "邮政大楼",
+          "lon": 121.484749,
+          "lat": 31.244286,
+          "intro": "从邮政大楼外观开始，听通信、贸易与近代城市的关系。建筑内部开放另查，路线不依赖进馆。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/bund/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-post.webp",
+            "alt": "苏州河畔上海邮政大楼外观",
+            "author": "钉钉",
+            "source": "https://commons.wikimedia.org/wiki/File:Shanghai_General_Post_Office_Building_from_Suzhou_Creek.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.amap.com/place/B00155F9RW",
+          "approximate": false,
+          "time": "15:05",
+          "end": "15:50"
+        },
+        {
+          "id": "sh-bund",
+          "name": "外滩",
+          "query": "外滩·南京东路口观景段",
+          "lon": 121.491,
+          "lat": 31.239,
+          "intro": "一边是海关、银行等历史建筑，一边是黄浦江。按体力走南京东路口附近一段即可，不必把整条江岸走完。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/bund/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-bund.webp",
+            "alt": "外滩实景照片",
+            "author": "Hermann Luyken",
+            "source": "https://commons.wikimedia.org/wiki/File:2014.11.16.144807_HSBC_Building_Customs_House_The_Bund_Shanghai.jpg",
+            "license": "CC0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.shanghai.gov.cn/xxzfgzwj/20220127/d2c2979752314dc69738454f24cd515c.html",
+          "approximate": true,
+          "time": "16:10",
+          "end": "16:55"
+        },
+        {
+          "id": "sh-nanjinge",
+          "name": "南京东路",
+          "query": "南京东路步行街",
+          "lon": 121.482303,
+          "lat": 31.23689,
+          "intro": "南京路正式放进这天主线。生煎、糕团二选一；沈大成在更西侧，买完去陆家嘴要折返南京东路地铁站。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-nanjinge.webp",
+            "alt": "南京东路实景照片",
+            "author": "Hermann Luyken",
+            "source": "https://commons.wikimedia.org/wiki/File:2014.11.15.184711_East_Nanjing_Road_Pedestrian_Zone_Shanghai.jpg",
+            "license": "CC0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.amap.com/place/B0L3TX90XG",
+          "approximate": true,
+          "time": "17:15",
+          "end": "18:00"
+        }
+      ],
+      "deferred": [
+        {
+          "id": "sh-zhapu",
+          "name": "乍浦路桥",
+          "query": "乍浦路桥",
+          "lon": 121.487653,
+          "lat": 31.243871,
+          "intro": "站在人行区域看苏州河与陆家嘴方向的层次。拍完照继续向东到外白渡桥，留出行人通行空间。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-zhapu.webp",
+            "alt": "乍浦路桥与苏州河实景",
+            "author": "kgbkgbkgb",
+            "source": "https://commons.wikimedia.org/wiki/File:Zhapu_road_bridge2010_01_07.JPG",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B0FFF7M0EA",
+          "approximate": false
+        },
+        {
+          "id": "sh-waibaidu",
+          "name": "外白渡桥",
+          "query": "外白渡桥",
+          "lon": 121.49006,
+          "lat": 31.242896,
+          "intro": "外白渡桥连接苏州河两岸，过桥后向南进入外滩。语音导览会讲钢桥、邮局和金融建筑的关系。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/bund/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-waibaidu.webp",
+            "alt": "外白渡桥实景照片",
+            "author": "kallerna",
+            "source": "https://commons.wikimedia.org/wiki/File:Waibaidu_Bridge_Shanghai.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B00155IL1T",
+          "approximate": false
+        }
+      ],
+      "anchors": [],
+      "routeSource": "城市资料包",
+      "foods": [
+        {
+          "id": "sh-lanxin",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "兰心餐厅（进贤路）",
+          "dishes": [
+            "红烧肉",
+            "酱鸭",
+            "油爆虾"
+          ],
+          "area": "进贤路 / 茂名南路",
+          "address": "进贤路 130 号",
+          "budget": "人均约 80–130 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            80,
+            130
+          ],
+          "mapQuery": "上海 兰心餐厅 进贤路130号",
+          "tip": "11 月 1 日若想吃本帮菜，可从复兴西路一带接驳过来；它不在武康路沿线，别当成步行必经点。",
+          "verificationNote": "2026 年上海政府英文美食专题提及兰心红烧肉；具体地址由门店页面补充。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 上海本地风味",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260509/3cb184e834064f4cbb1af26cfc34dc1e.html",
+              "kind": "official"
+            },
+            {
+              "title": "去哪儿：兰心餐厅",
+              "url": "https://touch.travel.qunar.com/poi/3165802",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-haijinze",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "海金滋（陕西南路店）",
+          "dishes": [
+            "葱烤大排",
+            "红烧肉",
+            "本帮时蔬"
+          ],
+          "area": "进贤路 / 陕西南路",
+          "address": "进贤路 240 号",
+          "budget": "人均约 70–110 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            70,
+            110
+          ],
+          "mapQuery": "上海 海金滋 陕西南路店 进贤路240号",
+          "tip": "可与兰心二选一，适合点两三道菜。分店名称虽写陕西南路，实际核对地址为进贤路 240 号。",
+          "verificationNote": "2026 年更新的公开店铺资料核对地址；本地媒体历史报道支持葱烤大排等菜式线索。",
+          "sources": [
+            {
+              "title": "城市惠：海金滋陕西南路店",
+              "url": "https://www.cityhui.com/shop/17938.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "周到上海：海金滋",
+              "url": "https://static.zhoudaosh.com/files/63AE2C5EC299E10FDAB0550435E2BD18969CC2B31B39961F436485FF8706393C/6ab32a272a99cc126725643ea2f4ddb84ac50a08.html",
+              "kind": "local_media"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-oldjesse",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "老吉士饭馆（天平路店）",
+          "dishes": [
+            "红烧肉",
+            "熏鱼",
+            "蟹粉豆腐"
+          ],
+          "area": "天平路 / 淮海中路",
+          "address": "天平路 41 号",
+          "budget": "人均约 150–250 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            150,
+            250
+          ],
+          "mapQuery": "上海 老吉士饭馆 天平路41号",
+          "tip": "离武康大楼片区较近，作为提高一餐预算的可选项。先确认订位和菜单；若按经济预算吃，可选兰心或海金滋。",
+          "verificationNote": "高德核对具体天平路门店地址；菜式为公开餐厅介绍线索，预算不代表当前菜单。",
+          "sources": [
+            {
+              "title": "高德地图：老吉士饭馆",
+              "url": "https://ditu.amap.com/place/B00156G74J",
+              "kind": "map_listing"
+            },
+            {
+              "title": "上海餐厅指南：Old Jesse",
+              "url": "https://www.shanghai-restaurant.com/restaurant/old-jesse/",
+              "kind": "restaurant_guide"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiaoshaoxing",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "小绍兴（山西南路新店）",
+          "dishes": [
+            "白斩鸡",
+            "鸡粥",
+            "桂花米乳"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路新店，具体门牌请高德确认",
+          "budget": "人均约 50–90 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            50,
+            90
+          ],
+          "mapQuery": "上海 小绍兴 山西南路",
+          "tip": "10 月 31 日南京东路步行前后吃白斩鸡，点半只或小份先问店员。2026 年有迁址信息，别照旧攻略跑云南南路。",
+          "verificationNote": "上海市政府 2026-02-11 公开报道核对迁至山西南路；未编造新店门牌。鸡粥是否当日供应请看菜单。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiandelai",
+          "city": "上海",
+          "type": "snack",
+          "name": "鲜得来（福建中路新总店）",
+          "dishes": [
+            "排骨年糕"
+          ],
+          "area": "福建中路 / 南京东路片区",
+          "address": "福建中路新总店，具体门牌请高德确认",
+          "budget": "人均约 30–50 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            30,
+            50
+          ],
+          "mapQuery": "上海 鲜得来 总店 福建中路",
+          "tip": "31 日想用一份上海小吃解决简餐时可选，与小绍兴挑一个就够。优先核对新总店，旧云南南路信息可能已过时。",
+          "verificationNote": "2026 年上海市政府报道明确其总店迁至福建中路，并介绍排骨年糕。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-dahuchun",
+          "city": "上海",
+          "type": "snack",
+          "name": "大壶春（山西南路店）",
+          "dishes": [
+            "生煎"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路与南京路步行街交叉口附近，西北方向约 40 米",
+          "budget": "人均约 20–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            20,
+            35
+          ],
+          "mapQuery": "上海 大壶春 山西南路店",
+          "tip": "住人民广场或南京东路时适合早餐；生煎先小口咬开，趁热慢吃。",
+          "verificationNote": "上海民政局转发的 2026 年公开报道核对山西南路新店已开；高德核对路口位置。",
+          "sources": [
+            {
+              "title": "上海民政：山西南路新店信息",
+              "url": "https://mzj.sh.gov.cn/lnb-xw/20260113/492b829efb374c35953724c97036d5b4.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：大壶春山西南路店",
+              "url": "https://www.amap.com/place/B0L3TX90XG",
+              "kind": "map_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-shendacheng",
+          "city": "上海",
+          "type": "snack",
+          "name": "沈大成（南京东路总店）",
+          "dishes": [
+            "条头糕",
+            "双酿团",
+            "时令糕团"
+          ],
+          "area": "南京东路步行街",
+          "address": "南京东路 636 号",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 沈大成 南京东路636号",
+          "tip": "在步行街顺路买一两样分着吃；打包前确认保存方式，鲜糕团不宜一路久放。",
+          "verificationNote": "2026 年上海政府美食专题与高德均核对南京东路 636 号；糕团品种按当日出品。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 沈大成风味信息",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260618/a74fedaf5c884243855303f04741060b.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：沈大成南京东路总店",
+              "url": "https://www.amap.com/place/B00155H99S",
+              "kind": "map_listing"
+            },
+            {
+              "title": "Trip.com：沈大成",
+              "url": "https://tw.trip.com/restaurant/china/shanghai/detail/shen-dacheng-10561270/",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-baiyulan",
+          "city": "上海",
+          "type": "snack",
+          "name": "白玉兰食品（甜云店）",
+          "dishes": [
+            "烧卖",
+            "肉包",
+            "蟹壳黄"
+          ],
+          "area": "北外滩 / 白玉兰广场",
+          "address": "东长治路 588 号白玉兰广场 LG2-M59-60",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 白玉兰食品 甜云店 白玉兰广场",
+          "tip": "只在外滩线愿意延伸到北外滩时选，不为了它硬加路程。",
+          "yamiEvidence": "partner_program_brand_only",
+          "yamiLabel": "鸭觅合作节目提及品牌 · 非 App 当前推荐认证",
+          "verificationNote": "具体分店地址由门店资料核对；鸭觅合作节目只支持品牌线索，不支持该分店的当前 App 推荐、评分或金勺子状态。",
+          "sources": [
+            {
+              "title": "Trip.com：白玉兰食品甜云店",
+              "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-70027295/",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "携程：白玉兰食品甜云店",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/24937256.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "小宇宙：鸭觅合作节目大食话 Vol-102",
+              "url": "https://www.xiaoyuzhoufm.com/episode/697c7834073030367a788c20",
+              "kind": "partner_program"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-jiangzhanggui",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "蒋掌柜·老上海本帮美食（武康大楼店）",
+          "dishes": [
+            "排骨年糕",
+            "响油鳝丝面",
+            "罗宋汤"
+          ],
+          "area": "武康大楼 · 淮海中路",
+          "address": "淮海中路1793号",
+          "budgetCnyPerPerson": [
+            60,
+            100
+          ],
+          "mapQuery": "上海 蒋掌柜 老上海本帮美食 武康大楼店 淮海中路1793号",
+          "tip": "适合武康路开始前吃午饭。喜欢浓油赤酱可选本帮面，清淡口味可少点浇头；分一份排骨年糕再各选主食。",
+          "verificationNote": "已读09/30探店正文；高德与Trip.com交叉核对门牌。",
+          "sources": [
+            {
+              "title": "高德：蒋掌柜老上海本帮美食",
+              "url": "https://www.amap.com/place/B0HA9U9FSU",
+              "kind": "map_listing"
+            },
+            {
+              "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+              "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+              "kind": "xiaohongshu_note"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+            "kind": "xiaohongshu_note",
+            "text": "探店笔记偏爱排骨年糕与鳝丝面，同时提到咸甜偏浓、吃多易腻；可按口味少量点。"
+          },
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-kukuang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "酷矿冰淇淋（武康大楼店）",
+          "area": "武康大楼淮海中路1852号",
+          "address": "武康大楼淮海中路1852号",
+          "mapQuery": "上海 酷矿冰淇淋（武康大楼店）",
+          "dishes": [
+            "牛乳冰淇淋"
+          ],
+          "tip": "若天冷不想吃冰可直接跳过。 武康大楼底层约0–3分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B0FFKSCPJF"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://k.sina.com.cn/article_5140679079_1326889a701900ujs6.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-wangjiasha-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "王家沙点心店（南京西路总店）",
+          "area": "南京西路805号",
+          "address": "南京西路805号",
+          "mapQuery": "上海 王家沙点心店（南京西路总店）",
+          "dishes": [
+            "挑当日柜台点心，或以一碗馄饨作简餐"
+          ],
+          "tip": "柜台糕点适合带走；青团属季节品，不保证11月供应。 张园北行至南京西路约5–10分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B00155HNAR"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260123/1cc9dd0a374945aeb3bb8517d30adb28.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-nanxiang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "南翔馒头店（城隍庙店）",
+          "area": "豫园路87号",
+          "address": "豫园路87号",
+          "mapQuery": "上海 南翔馒头店（城隍庙店）",
+          "dishes": [
+            "鲜肉小笼，一笼分着尝"
+          ],
+          "tip": "小笼店也有堂食套餐；只安排一笼传统点心，不默认要吃整餐。排队过长就跳过。 豫园外商城约3–5分钟",
+          "budgetCnyPerPerson": [
+            30,
+            60
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://ditu.amap.com/place/B00155IMN4"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        }
+      ],
+      "hotel": null,
+      "mapPositions": {
+        "sh-post": [
+          75,
+          140,
+          "clock"
+        ],
+        "sh-zhapu": [
+          180,
+          220,
+          "bridge"
+        ],
+        "sh-waibaidu": [
+          280,
+          220,
+          "bridge"
+        ],
+        "sh-bund": [
+          285,
+          355,
+          "dome"
+        ],
+        "sh-nanjinge": [
+          125,
+          450,
+          "shop"
+        ],
+        "sh-pearl": [
+          430,
+          365,
+          "pearl"
+        ]
+      },
+      "transferPending": true,
+      "transport": [],
+      "rest": [],
+      "legs": [
+        {
+          "from": "sh-pearl",
+          "to": "sh-post",
+          "mode": "步行",
+          "minutes": 35,
+          "label": "约 35–45 分钟",
+          "estimated": true,
+          "km": 2
+        },
+        {
+          "from": "sh-post",
+          "to": "sh-bund",
+          "mode": "步行",
+          "minutes": 20,
+          "label": "约 20–30 分钟",
+          "estimated": true,
+          "km": 1.1
+        },
+        {
+          "from": "sh-bund",
+          "to": "sh-nanjinge",
+          "mode": "步行",
+          "minutes": 20,
+          "label": "约 20–30 分钟",
+          "estimated": true,
+          "km": 1.1
+        }
+      ],
+      "walkKm": 4.2,
+      "hotelLeg": null
+    },
+    {
+      "date": "2026-11-05",
+      "city": "上海",
+      "routeId": "sh-northbund",
+      "title": "北外滩国客中心滨江",
+      "drawing": {
+        "caption": "桥边出发 · 北外滩看天际线",
+        "nodes": [
+          [
+            100,
+            490,
+            "bridge"
+          ],
+          [
+            355,
+            270,
+            "pavilion"
+          ]
+        ],
+        "snacks": [
+          [
+            265,
+            160
+          ]
+        ],
+        "roads": [
+          [
+            "北苏州路",
+            "M15 455L155 455",
+            80,
+            440,
+            0
+          ],
+          [
+            "东长治路",
+            "M50 380Q210 285 420 150",
+            190,
+            300,
+            -30
+          ],
+          [
+            "旅顺路",
+            "M155 200Q190 315 215 425",
+            170,
+            360,
+            -70
+          ],
+          [
+            "东大名路",
+            "M90 430Q240 355 435 210",
+            285,
+            315,
+            -30
+          ],
+          [
+            "滨江步道",
+            "M140 465Q230 430 300 350T420 275",
+            320,
+            397,
+            -30
+          ]
+        ],
+        "legs": [
+          "M100 505L155 455Q225 420 280 350T355 285"
+        ],
+        "water": [
+          [
+            "M480 285Q360 365 275 460T230 650H480Z",
+            "黄浦江",
+            380,
+            495,
+            -45
+          ],
+          [
+            "M0 490L160 490Q200 490 245 520L238 545Q195 520 150 515H0Z",
+            "苏州河",
+            65,
+            550,
+            0
+          ]
+        ],
+        "greens": [
+          [
+            325,
+            300,
+            65,
+            60
+          ]
+        ],
+        "districts": [
+          [
+            105,
+            100,
+            "虹口 · 北外滩"
+          ],
+          [
+            370,
+            615,
+            "对岸 · 陆家嘴"
+          ]
+        ],
+        "trees": [
+          [
+            300,
+            255
+          ],
+          [
+            245,
+            375
+          ],
+          [
+            175,
+            405
+          ]
+        ],
+        "skyline": true,
+        "badges": [
+          [
+            130,
+            590,
+            "从外白渡桥北端出发"
+          ]
+        ]
+      },
+      "snacks": [
+        {
+          "venueId": "sh-baiyulan",
+          "venueName": "白玉兰食品（甜云店）",
+          "lon": 121.498,
+          "lat": 31.249,
+          "buy": "小烧卖、肉包；按人数小份购买",
+          "detour": "滨江转白玉兰广场约8–15分钟单程，含找地下层",
+          "near": "白玉兰广场LG2",
+          "sources": [
+            "https://ditu.amap.com/place/B0FFLG5O9K",
+            "https://gs.ctrip.com/html5/you/foods/fooddetail/2/24937256.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "约位：采用白玉兰广场商场锚点，店在地下LG2-M59-60，不能以地面坐标当铺位",
+          "approximate": true,
+          "estimateOnly": true,
+          "priority": "北外滩支线顺路",
+          "note": "不在浦西外滩主线；只有真的去北外滩才推荐，不为买包子专程跨区。"
+        }
+      ],
+      "art": {
+        "title": "梧桐街角",
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/daily/day-1031.webp"
+      },
+      "stops": [
+        {
+          "id": "sh-waibaidu",
+          "name": "外白渡桥",
+          "query": "外白渡桥",
+          "lon": 121.49006,
+          "lat": 31.242896,
+          "intro": "外白渡桥连接苏州河两岸，过桥后向南进入外滩。语音导览会讲钢桥、邮局和金融建筑的关系。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/bund/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-waibaidu.webp",
+            "alt": "外白渡桥实景照片",
+            "author": "kallerna",
+            "source": "https://commons.wikimedia.org/wiki/File:Waibaidu_Bridge_Shanghai.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B00155IL1T",
+          "approximate": false,
+          "time": "09:00",
+          "end": "09:45"
+        },
+        {
+          "id": "sh-northbund",
+          "name": "北外滩滨江",
+          "query": "北外滩国客中心滨江",
+          "lon": 121.501,
+          "lat": 31.249,
+          "intro": "从苏州河北岸看黄浦江与陆家嘴天际线。可替换一次江边散步，不和陆家嘴同晚强行加满。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-northbund.webp",
+            "alt": "北外滩滨江与黄浦江对岸天际线",
+            "author": "钉钉",
+            "source": "https://commons.wikimedia.org/wiki/File:The_North_Bund,_Shanghai.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "步行无需购买船票或观景台票。",
+            "url": "",
+            "wx": "",
+            "senior": "公共区域免费，不分年龄。",
+            "help": "公共河岸、桥梁与步行街无需门票。游船和观景台另购。",
+            "source": "https://www.shanghai.gov.cn/xxzfgzwj/20210608/f92e05cdda3041dfbd6cfcf9950d38eb.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://www.shhk.gov.cn/xwzx/002014/20250418/67c9d29b-3a84-4f30-9201-ee60f32a223a.html",
+          "approximate": true,
+          "time": "10:15",
+          "end": "11:00"
+        }
+      ],
+      "deferred": [],
+      "anchors": [],
+      "routeSource": "城市资料包",
+      "foods": [
+        {
+          "id": "sh-lanxin",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "兰心餐厅（进贤路）",
+          "dishes": [
+            "红烧肉",
+            "酱鸭",
+            "油爆虾"
+          ],
+          "area": "进贤路 / 茂名南路",
+          "address": "进贤路 130 号",
+          "budget": "人均约 80–130 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            80,
+            130
+          ],
+          "mapQuery": "上海 兰心餐厅 进贤路130号",
+          "tip": "11 月 1 日若想吃本帮菜，可从复兴西路一带接驳过来；它不在武康路沿线，别当成步行必经点。",
+          "verificationNote": "2026 年上海政府英文美食专题提及兰心红烧肉；具体地址由门店页面补充。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 上海本地风味",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260509/3cb184e834064f4cbb1af26cfc34dc1e.html",
+              "kind": "official"
+            },
+            {
+              "title": "去哪儿：兰心餐厅",
+              "url": "https://touch.travel.qunar.com/poi/3165802",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-haijinze",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "海金滋（陕西南路店）",
+          "dishes": [
+            "葱烤大排",
+            "红烧肉",
+            "本帮时蔬"
+          ],
+          "area": "进贤路 / 陕西南路",
+          "address": "进贤路 240 号",
+          "budget": "人均约 70–110 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            70,
+            110
+          ],
+          "mapQuery": "上海 海金滋 陕西南路店 进贤路240号",
+          "tip": "可与兰心二选一，适合点两三道菜。分店名称虽写陕西南路，实际核对地址为进贤路 240 号。",
+          "verificationNote": "2026 年更新的公开店铺资料核对地址；本地媒体历史报道支持葱烤大排等菜式线索。",
+          "sources": [
+            {
+              "title": "城市惠：海金滋陕西南路店",
+              "url": "https://www.cityhui.com/shop/17938.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "周到上海：海金滋",
+              "url": "https://static.zhoudaosh.com/files/63AE2C5EC299E10FDAB0550435E2BD18969CC2B31B39961F436485FF8706393C/6ab32a272a99cc126725643ea2f4ddb84ac50a08.html",
+              "kind": "local_media"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-oldjesse",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "老吉士饭馆（天平路店）",
+          "dishes": [
+            "红烧肉",
+            "熏鱼",
+            "蟹粉豆腐"
+          ],
+          "area": "天平路 / 淮海中路",
+          "address": "天平路 41 号",
+          "budget": "人均约 150–250 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            150,
+            250
+          ],
+          "mapQuery": "上海 老吉士饭馆 天平路41号",
+          "tip": "离武康大楼片区较近，作为提高一餐预算的可选项。先确认订位和菜单；若按经济预算吃，可选兰心或海金滋。",
+          "verificationNote": "高德核对具体天平路门店地址；菜式为公开餐厅介绍线索，预算不代表当前菜单。",
+          "sources": [
+            {
+              "title": "高德地图：老吉士饭馆",
+              "url": "https://ditu.amap.com/place/B00156G74J",
+              "kind": "map_listing"
+            },
+            {
+              "title": "上海餐厅指南：Old Jesse",
+              "url": "https://www.shanghai-restaurant.com/restaurant/old-jesse/",
+              "kind": "restaurant_guide"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiaoshaoxing",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "小绍兴（山西南路新店）",
+          "dishes": [
+            "白斩鸡",
+            "鸡粥",
+            "桂花米乳"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路新店，具体门牌请高德确认",
+          "budget": "人均约 50–90 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            50,
+            90
+          ],
+          "mapQuery": "上海 小绍兴 山西南路",
+          "tip": "10 月 31 日南京东路步行前后吃白斩鸡，点半只或小份先问店员。2026 年有迁址信息，别照旧攻略跑云南南路。",
+          "verificationNote": "上海市政府 2026-02-11 公开报道核对迁至山西南路；未编造新店门牌。鸡粥是否当日供应请看菜单。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiandelai",
+          "city": "上海",
+          "type": "snack",
+          "name": "鲜得来（福建中路新总店）",
+          "dishes": [
+            "排骨年糕"
+          ],
+          "area": "福建中路 / 南京东路片区",
+          "address": "福建中路新总店，具体门牌请高德确认",
+          "budget": "人均约 30–50 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            30,
+            50
+          ],
+          "mapQuery": "上海 鲜得来 总店 福建中路",
+          "tip": "31 日想用一份上海小吃解决简餐时可选，与小绍兴挑一个就够。优先核对新总店，旧云南南路信息可能已过时。",
+          "verificationNote": "2026 年上海市政府报道明确其总店迁至福建中路，并介绍排骨年糕。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-dahuchun",
+          "city": "上海",
+          "type": "snack",
+          "name": "大壶春（山西南路店）",
+          "dishes": [
+            "生煎"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路与南京路步行街交叉口附近，西北方向约 40 米",
+          "budget": "人均约 20–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            20,
+            35
+          ],
+          "mapQuery": "上海 大壶春 山西南路店",
+          "tip": "住人民广场或南京东路时适合早餐；生煎先小口咬开，趁热慢吃。",
+          "verificationNote": "上海民政局转发的 2026 年公开报道核对山西南路新店已开；高德核对路口位置。",
+          "sources": [
+            {
+              "title": "上海民政：山西南路新店信息",
+              "url": "https://mzj.sh.gov.cn/lnb-xw/20260113/492b829efb374c35953724c97036d5b4.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：大壶春山西南路店",
+              "url": "https://www.amap.com/place/B0L3TX90XG",
+              "kind": "map_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-shendacheng",
+          "city": "上海",
+          "type": "snack",
+          "name": "沈大成（南京东路总店）",
+          "dishes": [
+            "条头糕",
+            "双酿团",
+            "时令糕团"
+          ],
+          "area": "南京东路步行街",
+          "address": "南京东路 636 号",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 沈大成 南京东路636号",
+          "tip": "在步行街顺路买一两样分着吃；打包前确认保存方式，鲜糕团不宜一路久放。",
+          "verificationNote": "2026 年上海政府美食专题与高德均核对南京东路 636 号；糕团品种按当日出品。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 沈大成风味信息",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260618/a74fedaf5c884243855303f04741060b.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：沈大成南京东路总店",
+              "url": "https://www.amap.com/place/B00155H99S",
+              "kind": "map_listing"
+            },
+            {
+              "title": "Trip.com：沈大成",
+              "url": "https://tw.trip.com/restaurant/china/shanghai/detail/shen-dacheng-10561270/",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-baiyulan",
+          "city": "上海",
+          "type": "snack",
+          "name": "白玉兰食品（甜云店）",
+          "dishes": [
+            "烧卖",
+            "肉包",
+            "蟹壳黄"
+          ],
+          "area": "北外滩 / 白玉兰广场",
+          "address": "东长治路 588 号白玉兰广场 LG2-M59-60",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 白玉兰食品 甜云店 白玉兰广场",
+          "tip": "只在外滩线愿意延伸到北外滩时选，不为了它硬加路程。",
+          "yamiEvidence": "partner_program_brand_only",
+          "yamiLabel": "鸭觅合作节目提及品牌 · 非 App 当前推荐认证",
+          "verificationNote": "具体分店地址由门店资料核对；鸭觅合作节目只支持品牌线索，不支持该分店的当前 App 推荐、评分或金勺子状态。",
+          "sources": [
+            {
+              "title": "Trip.com：白玉兰食品甜云店",
+              "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-70027295/",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "携程：白玉兰食品甜云店",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/24937256.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "小宇宙：鸭觅合作节目大食话 Vol-102",
+              "url": "https://www.xiaoyuzhoufm.com/episode/697c7834073030367a788c20",
+              "kind": "partner_program"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-jiangzhanggui",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "蒋掌柜·老上海本帮美食（武康大楼店）",
+          "dishes": [
+            "排骨年糕",
+            "响油鳝丝面",
+            "罗宋汤"
+          ],
+          "area": "武康大楼 · 淮海中路",
+          "address": "淮海中路1793号",
+          "budgetCnyPerPerson": [
+            60,
+            100
+          ],
+          "mapQuery": "上海 蒋掌柜 老上海本帮美食 武康大楼店 淮海中路1793号",
+          "tip": "适合武康路开始前吃午饭。喜欢浓油赤酱可选本帮面，清淡口味可少点浇头；分一份排骨年糕再各选主食。",
+          "verificationNote": "已读09/30探店正文；高德与Trip.com交叉核对门牌。",
+          "sources": [
+            {
+              "title": "高德：蒋掌柜老上海本帮美食",
+              "url": "https://www.amap.com/place/B0HA9U9FSU",
+              "kind": "map_listing"
+            },
+            {
+              "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+              "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+              "kind": "xiaohongshu_note"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+            "kind": "xiaohongshu_note",
+            "text": "探店笔记偏爱排骨年糕与鳝丝面，同时提到咸甜偏浓、吃多易腻；可按口味少量点。"
+          },
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-kukuang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "酷矿冰淇淋（武康大楼店）",
+          "area": "武康大楼淮海中路1852号",
+          "address": "武康大楼淮海中路1852号",
+          "mapQuery": "上海 酷矿冰淇淋（武康大楼店）",
+          "dishes": [
+            "牛乳冰淇淋"
+          ],
+          "tip": "若天冷不想吃冰可直接跳过。 武康大楼底层约0–3分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B0FFKSCPJF"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://k.sina.com.cn/article_5140679079_1326889a701900ujs6.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-wangjiasha-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "王家沙点心店（南京西路总店）",
+          "area": "南京西路805号",
+          "address": "南京西路805号",
+          "mapQuery": "上海 王家沙点心店（南京西路总店）",
+          "dishes": [
+            "挑当日柜台点心，或以一碗馄饨作简餐"
+          ],
+          "tip": "柜台糕点适合带走；青团属季节品，不保证11月供应。 张园北行至南京西路约5–10分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B00155HNAR"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260123/1cc9dd0a374945aeb3bb8517d30adb28.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-nanxiang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "南翔馒头店（城隍庙店）",
+          "area": "豫园路87号",
+          "address": "豫园路87号",
+          "mapQuery": "上海 南翔馒头店（城隍庙店）",
+          "dishes": [
+            "鲜肉小笼，一笼分着尝"
+          ],
+          "tip": "小笼店也有堂食套餐；只安排一笼传统点心，不默认要吃整餐。排队过长就跳过。 豫园外商城约3–5分钟",
+          "budgetCnyPerPerson": [
+            30,
+            60
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://ditu.amap.com/place/B00155IMN4"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        }
+      ],
+      "hotel": null,
+      "mapPositions": {
+        "sh-waibaidu": [
+          100,
+          490,
+          "bridge"
+        ],
+        "sh-northbund": [
+          355,
+          270,
+          "pavilion"
+        ]
+      },
+      "transport": [],
+      "rest": [
+        {
+          "time": "12:30",
+          "end": "13:30",
+          "title": "午饭与休息"
+        }
+      ],
+      "legs": [
+        {
+          "from": "sh-waibaidu",
+          "to": "sh-northbund",
+          "mode": "步行",
+          "minutes": 30,
+          "label": "约 30–40 分钟",
+          "estimated": true,
+          "km": 1.6
+        }
+      ],
+      "walkKm": 1.6,
+      "hotelLeg": null
+    },
+    {
+      "date": "2026-11-06",
+      "city": "上海",
+      "routeId": "sh-hengfu",
+      "title": "衡复街区梧桐散步",
+      "drawing": {
+        "caption": "梧桐树下 · 街角与旧时光",
+        "nodes": [
+          [
+            105,
+            535,
+            "wukang"
+          ],
+          [
+            150,
+            365,
+            "house"
+          ],
+          [
+            285,
+            165,
+            "shop"
+          ],
+          [
+            380,
+            285,
+            "shop"
+          ],
+          [
+            255,
+            425,
+            "house"
+          ]
+        ],
+        "snacks": [
+          [
+            65,
+            580
+          ]
+        ],
+        "roads": [
+          [
+            "武康路",
+            "M85 590Q145 390 190 170",
+            112,
+            435,
+            -75
+          ],
+          [
+            "安福路",
+            "M50 170Q270 190 460 145",
+            345,
+            145,
+            0
+          ],
+          [
+            "乌鲁木齐中路",
+            "M380 105L380 570",
+            404,
+            390,
+            -90
+          ],
+          [
+            "复兴西路",
+            "M100 465Q250 420 430 405",
+            280,
+            475,
+            -9
+          ],
+          [
+            "淮海中路",
+            "M20 610L460 555",
+            340,
+            580,
+            -7
+          ]
+        ],
+        "legs": [
+          "M105 550Q130 460 150 380",
+          "M150 380Q165 250 190 180L285 180",
+          "M285 180L380 180L380 300",
+          "M380 300L380 410Q315 410 255 440"
+        ],
+        "greens": [
+          [
+            75,
+            270,
+            55,
+            65
+          ],
+          [
+            280,
+            310,
+            65,
+            65
+          ]
+        ],
+        "districts": [
+          [
+            265,
+            565,
+            "衡复风貌区"
+          ]
+        ],
+        "trees": [
+          [
+            95,
+            235
+          ],
+          [
+            100,
+            330
+          ],
+          [
+            180,
+            475
+          ],
+          [
+            315,
+            240
+          ],
+          [
+            320,
+            345
+          ],
+          [
+            425,
+            480
+          ],
+          [
+            215,
+            550
+          ]
+        ],
+        "noWater": true
+      },
+      "snacks": [
+        {
+          "venueId": "sh-kukuang-new",
+          "venueName": "酷矿冰淇淋（武康大楼店）",
+          "lon": 121.438137,
+          "lat": 31.204222,
+          "buy": "牛乳冰淇淋；口味看柜台当日供应",
+          "detour": "武康大楼底层约0–3分钟",
+          "near": "武康大楼淮海中路1852号",
+          "sources": [
+            "https://www.amap.com/place/B0FFKSCPJF",
+            "https://k.sina.com.cn/article_5140679079_1326889a701900ujs6.html"
+          ],
+          "coordinateSystem": "GCJ-02（高德）或同底图约位",
+          "coordinateNote": "高德门店POI",
+          "approximate": false,
+          "estimateOnly": true,
+          "priority": "可选甜品",
+          "outsideOriginalFoodPool": true,
+          "note": "若天冷不想吃冰可直接跳过。"
+        }
+      ],
+      "art": {
+        "title": "海上旧梦",
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/daily/day-1101.webp"
+      },
+      "stops": [
+        {
+          "id": "sh-wukangbuilding",
+          "name": "武康大楼",
+          "query": "武康大楼",
+          "lon": 121.438278,
+          "lat": 31.20443,
+          "intro": "辨认船头般的转角、底层拱廊与上层阳台。建筑是居民住处，在街道上听历史和看外观即可。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/wukang/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-wukangbuilding.webp",
+            "alt": "武康大楼实景照片",
+            "author": "钉钉",
+            "source": "https://commons.wikimedia.org/wiki/File:Wukang_Mansion.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "公共街区散步；特展、场馆及私有建筑另看规则。",
+            "url": "",
+            "wx": "",
+            "senior": "公共街区免费；收费展馆按具体场馆核对70+优惠。",
+            "help": "公共街道及开放街区无需门票；故居、特展和私人空间另看规则。",
+            "source": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B00155ITJ1",
+          "approximate": false,
+          "time": "09:00",
+          "end": "09:45"
+        },
+        {
+          "id": "sh-wukang",
+          "name": "武康路",
+          "query": "武康路",
+          "lon": 121.440627,
+          "lat": 31.209252,
+          "intro": "沿梧桐街道向北走，听建筑师与居民的故事。少追店铺清单，多留一点时间看路口与房屋的尺度。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/wukang/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-wukang.webp",
+            "alt": "武康路实景照片",
+            "author": "Livelikerw",
+            "source": "https://commons.wikimedia.org/wiki/File:Street_View_of_Wukang_Road.JPG",
+            "license": "CC BY-SA 3.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "公共街区散步；特展、场馆及私有建筑另看规则。",
+            "url": "",
+            "wx": "",
+            "senior": "公共街区免费；收费展馆按具体场馆核对70+优惠。",
+            "help": "公共街道及开放街区无需门票；故居、特展和私人空间另看规则。",
+            "source": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B0IA3PHRXP",
+          "approximate": false,
+          "time": "10:00",
+          "end": "10:45"
+        },
+        {
+          "id": "sh-anfu",
+          "name": "安福路",
+          "query": "安福路",
+          "lon": 121.444314,
+          "lat": 31.214156,
+          "intro": "适合午饭、咖啡与小店。遇到长队换一家，坐下来休息也是这条路线的一部分。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/wukang/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-anfu.webp",
+            "alt": "安福路284号花园住宅外观",
+            "author": "Fayhoo",
+            "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Dramatic_Arts_Center.JPG",
+            "license": "CC BY-SA 3.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "公共街区散步；特展、场馆及私有建筑另看规则。",
+            "url": "",
+            "wx": "",
+            "senior": "公共街区免费；收费展馆按具体场馆核对70+优惠。",
+            "help": "公共街道及开放街区无需门票；故居、特展和私人空间另看规则。",
+            "source": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B0IA3KDZMI",
+          "approximate": false,
+          "time": "11:00",
+          "end": "11:45"
+        },
+        {
+          "id": "sh-wulumuqi",
+          "name": "乌鲁木齐中路",
+          "query": "乌鲁木齐中路",
+          "lon": 121.44592,
+          "lat": 31.212771,
+          "intro": "从安福路向南转进街头生活更密集的一段，按营业挑小店，不必为了网红店折返。",
+          "minutes": 45,
+          "guide": null,
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-wulumuqi.webp",
+            "alt": "乌鲁木齐中路与安福路交叉口",
+            "author": "Vesekskiy",
+            "source": "https://commons.wikimedia.org/wiki/File:Wulumuqi_Rd._(M),_Shanghai_20251228_01.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "公共街区散步；特展、场馆及私有建筑另看规则。",
+            "url": "",
+            "wx": "",
+            "senior": "公共街区免费；收费展馆按具体场馆核对70+优惠。",
+            "help": "公共街道及开放街区无需门票；故居、特展和私人空间另看规则。",
+            "source": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/BZAFR00259",
+          "approximate": false,
+          "time": "13:30",
+          "end": "14:15"
+        }
+      ],
+      "deferred": [
+        {
+          "id": "sh-fuxingxi",
+          "name": "复兴西路",
+          "query": "复兴西路",
+          "lon": 121.442479,
+          "lat": 31.210704,
+          "intro": "用梧桐与老房子给散步收尾。按体力选择较短路段，私人建筑仅外观。",
+          "minutes": 45,
+          "guide": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/wukang/index.html",
+          "photo": {
+            "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-fuxingxi.webp",
+            "alt": "复兴西路与乌鲁木齐中路交叉口",
+            "author": "Vesekskiy",
+            "source": "https://commons.wikimedia.org/wiki/File:Wulumuqi_Rd._(M),_Shanghai_20251228_02.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "ticket": {
+            "price": "公共区域免费",
+            "reservation": "公共街区散步；特展、场馆及私有建筑另看规则。",
+            "url": "",
+            "wx": "",
+            "senior": "公共街区免费；收费展馆按具体场馆核对70+优惠。",
+            "help": "公共街道及开放街区无需门票；故居、特展和私人空间另看规则。",
+            "source": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+            "checkedAt": "2026-10-25"
+          },
+          "source": "https://ditu.amap.com/place/B00155PR2Q",
+          "approximate": false
+        }
+      ],
+      "anchors": [],
+      "routeSource": "城市资料包",
+      "foods": [
+        {
+          "id": "sh-lanxin",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "兰心餐厅（进贤路）",
+          "dishes": [
+            "红烧肉",
+            "酱鸭",
+            "油爆虾"
+          ],
+          "area": "进贤路 / 茂名南路",
+          "address": "进贤路 130 号",
+          "budget": "人均约 80–130 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            80,
+            130
+          ],
+          "mapQuery": "上海 兰心餐厅 进贤路130号",
+          "tip": "11 月 1 日若想吃本帮菜，可从复兴西路一带接驳过来；它不在武康路沿线，别当成步行必经点。",
+          "verificationNote": "2026 年上海政府英文美食专题提及兰心红烧肉；具体地址由门店页面补充。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 上海本地风味",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260509/3cb184e834064f4cbb1af26cfc34dc1e.html",
+              "kind": "official"
+            },
+            {
+              "title": "去哪儿：兰心餐厅",
+              "url": "https://touch.travel.qunar.com/poi/3165802",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-haijinze",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "海金滋（陕西南路店）",
+          "dishes": [
+            "葱烤大排",
+            "红烧肉",
+            "本帮时蔬"
+          ],
+          "area": "进贤路 / 陕西南路",
+          "address": "进贤路 240 号",
+          "budget": "人均约 70–110 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            70,
+            110
+          ],
+          "mapQuery": "上海 海金滋 陕西南路店 进贤路240号",
+          "tip": "可与兰心二选一，适合点两三道菜。分店名称虽写陕西南路，实际核对地址为进贤路 240 号。",
+          "verificationNote": "2026 年更新的公开店铺资料核对地址；本地媒体历史报道支持葱烤大排等菜式线索。",
+          "sources": [
+            {
+              "title": "城市惠：海金滋陕西南路店",
+              "url": "https://www.cityhui.com/shop/17938.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "周到上海：海金滋",
+              "url": "https://static.zhoudaosh.com/files/63AE2C5EC299E10FDAB0550435E2BD18969CC2B31B39961F436485FF8706393C/6ab32a272a99cc126725643ea2f4ddb84ac50a08.html",
+              "kind": "local_media"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-oldjesse",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "老吉士饭馆（天平路店）",
+          "dishes": [
+            "红烧肉",
+            "熏鱼",
+            "蟹粉豆腐"
+          ],
+          "area": "天平路 / 淮海中路",
+          "address": "天平路 41 号",
+          "budget": "人均约 150–250 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            150,
+            250
+          ],
+          "mapQuery": "上海 老吉士饭馆 天平路41号",
+          "tip": "离武康大楼片区较近，作为提高一餐预算的可选项。先确认订位和菜单；若按经济预算吃，可选兰心或海金滋。",
+          "verificationNote": "高德核对具体天平路门店地址；菜式为公开餐厅介绍线索，预算不代表当前菜单。",
+          "sources": [
+            {
+              "title": "高德地图：老吉士饭馆",
+              "url": "https://ditu.amap.com/place/B00156G74J",
+              "kind": "map_listing"
+            },
+            {
+              "title": "上海餐厅指南：Old Jesse",
+              "url": "https://www.shanghai-restaurant.com/restaurant/old-jesse/",
+              "kind": "restaurant_guide"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiaoshaoxing",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "小绍兴（山西南路新店）",
+          "dishes": [
+            "白斩鸡",
+            "鸡粥",
+            "桂花米乳"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路新店，具体门牌请高德确认",
+          "budget": "人均约 50–90 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            50,
+            90
+          ],
+          "mapQuery": "上海 小绍兴 山西南路",
+          "tip": "10 月 31 日南京东路步行前后吃白斩鸡，点半只或小份先问店员。2026 年有迁址信息，别照旧攻略跑云南南路。",
+          "verificationNote": "上海市政府 2026-02-11 公开报道核对迁至山西南路；未编造新店门牌。鸡粥是否当日供应请看菜单。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-xiandelai",
+          "city": "上海",
+          "type": "snack",
+          "name": "鲜得来（福建中路新总店）",
+          "dishes": [
+            "排骨年糕"
+          ],
+          "area": "福建中路 / 南京东路片区",
+          "address": "福建中路新总店，具体门牌请高德确认",
+          "budget": "人均约 30–50 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            30,
+            50
+          ],
+          "mapQuery": "上海 鲜得来 总店 福建中路",
+          "tip": "31 日想用一份上海小吃解决简餐时可选，与小绍兴挑一个就够。优先核对新总店，旧云南南路信息可能已过时。",
+          "verificationNote": "2026 年上海市政府报道明确其总店迁至福建中路，并介绍排骨年糕。",
+          "sources": [
+            {
+              "title": "上海市政府：小绍兴鲜得来迁址后的新店",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260211/11359d7cb6ef484c86b26abdc4bd05bc.html",
+              "kind": "official"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-dahuchun",
+          "city": "上海",
+          "type": "snack",
+          "name": "大壶春（山西南路店）",
+          "dishes": [
+            "生煎"
+          ],
+          "area": "山西南路 / 南京东路",
+          "address": "山西南路与南京路步行街交叉口附近，西北方向约 40 米",
+          "budget": "人均约 20–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            20,
+            35
+          ],
+          "mapQuery": "上海 大壶春 山西南路店",
+          "tip": "住人民广场或南京东路时适合早餐；生煎先小口咬开，趁热慢吃。",
+          "verificationNote": "上海民政局转发的 2026 年公开报道核对山西南路新店已开；高德核对路口位置。",
+          "sources": [
+            {
+              "title": "上海民政：山西南路新店信息",
+              "url": "https://mzj.sh.gov.cn/lnb-xw/20260113/492b829efb374c35953724c97036d5b4.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：大壶春山西南路店",
+              "url": "https://www.amap.com/place/B0L3TX90XG",
+              "kind": "map_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-shendacheng",
+          "city": "上海",
+          "type": "snack",
+          "name": "沈大成（南京东路总店）",
+          "dishes": [
+            "条头糕",
+            "双酿团",
+            "时令糕团"
+          ],
+          "area": "南京东路步行街",
+          "address": "南京东路 636 号",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 沈大成 南京东路636号",
+          "tip": "在步行街顺路买一两样分着吃；打包前确认保存方式，鲜糕团不宜一路久放。",
+          "verificationNote": "2026 年上海政府美食专题与高德均核对南京东路 636 号；糕团品种按当日出品。",
+          "sources": [
+            {
+              "title": "上海市政府：2026 沈大成风味信息",
+              "url": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260618/a74fedaf5c884243855303f04741060b.html",
+              "kind": "official"
+            },
+            {
+              "title": "高德地图：沈大成南京东路总店",
+              "url": "https://www.amap.com/place/B00155H99S",
+              "kind": "map_listing"
+            },
+            {
+              "title": "Trip.com：沈大成",
+              "url": "https://tw.trip.com/restaurant/china/shanghai/detail/shen-dacheng-10561270/",
+              "kind": "venue_listing"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-baiyulan",
+          "city": "上海",
+          "type": "snack",
+          "name": "白玉兰食品（甜云店）",
+          "dishes": [
+            "烧卖",
+            "肉包",
+            "蟹壳黄"
+          ],
+          "area": "北外滩 / 白玉兰广场",
+          "address": "东长治路 588 号白玉兰广场 LG2-M59-60",
+          "budget": "人均约 15–35 元 · 规划估计",
+          "budgetCnyPerPerson": [
+            15,
+            35
+          ],
+          "mapQuery": "上海 白玉兰食品 甜云店 白玉兰广场",
+          "tip": "只在外滩线愿意延伸到北外滩时选，不为了它硬加路程。",
+          "yamiEvidence": "partner_program_brand_only",
+          "yamiLabel": "鸭觅合作节目提及品牌 · 非 App 当前推荐认证",
+          "verificationNote": "具体分店地址由门店资料核对；鸭觅合作节目只支持品牌线索，不支持该分店的当前 App 推荐、评分或金勺子状态。",
+          "sources": [
+            {
+              "title": "Trip.com：白玉兰食品甜云店",
+              "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-70027295/",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "携程：白玉兰食品甜云店",
+              "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/24937256.html",
+              "kind": "venue_listing"
+            },
+            {
+              "title": "小宇宙：鸭觅合作节目大食话 Vol-102",
+              "url": "https://www.xiaoyuzhoufm.com/episode/697c7834073030367a788c20",
+              "kind": "partner_program"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-jiangzhanggui",
+          "city": "上海",
+          "type": "restaurant",
+          "name": "蒋掌柜·老上海本帮美食（武康大楼店）",
+          "dishes": [
+            "排骨年糕",
+            "响油鳝丝面",
+            "罗宋汤"
+          ],
+          "area": "武康大楼 · 淮海中路",
+          "address": "淮海中路1793号",
+          "budgetCnyPerPerson": [
+            60,
+            100
+          ],
+          "mapQuery": "上海 蒋掌柜 老上海本帮美食 武康大楼店 淮海中路1793号",
+          "tip": "适合武康路开始前吃午饭。喜欢浓油赤酱可选本帮面，清淡口味可少点浇头；分一份排骨年糕再各选主食。",
+          "verificationNote": "已读09/30探店正文；高德与Trip.com交叉核对门牌。",
+          "sources": [
+            {
+              "title": "高德：蒋掌柜老上海本帮美食",
+              "url": "https://www.amap.com/place/B0HA9U9FSU",
+              "kind": "map_listing"
+            },
+            {
+              "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+              "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+              "kind": "xiaohongshu_note"
+            }
+          ],
+          "xhsEvidence": {
+            "title": "小红书：武康大楼附近吃什么（09/30，10/21读取）",
+            "url": "https://www.xiaohongshu.com/explore/6abd289100000000150118a0",
+            "kind": "xiaohongshu_note",
+            "text": "探店笔记偏爱排骨年糕与鳝丝面，同时提到咸甜偏浓、吃多易腻；可按口味少量点。"
+          },
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-kukuang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "酷矿冰淇淋（武康大楼店）",
+          "area": "武康大楼淮海中路1852号",
+          "address": "武康大楼淮海中路1852号",
+          "mapQuery": "上海 酷矿冰淇淋（武康大楼店）",
+          "dishes": [
+            "牛乳冰淇淋"
+          ],
+          "tip": "若天冷不想吃冰可直接跳过。 武康大楼底层约0–3分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B0FFKSCPJF"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://k.sina.com.cn/article_5140679079_1326889a701900ujs6.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-wangjiasha-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "王家沙点心店（南京西路总店）",
+          "area": "南京西路805号",
+          "address": "南京西路805号",
+          "mapQuery": "上海 王家沙点心店（南京西路总店）",
+          "dishes": [
+            "挑当日柜台点心，或以一碗馄饨作简餐"
+          ],
+          "tip": "柜台糕点适合带走；青团属季节品，不保证11月供应。 张园北行至南京西路约5–10分钟",
+          "budgetCnyPerPerson": [
+            20,
+            45
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.amap.com/place/B00155HNAR"
+            },
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260123/1cc9dd0a374945aeb3bb8517d30adb28.html"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        },
+        {
+          "id": "sh-nanxiang-new",
+          "city": "上海",
+          "type": "snack",
+          "name": "南翔馒头店（城隍庙店）",
+          "area": "豫园路87号",
+          "address": "豫园路87号",
+          "mapQuery": "上海 南翔馒头店（城隍庙店）",
+          "dishes": [
+            "鲜肉小笼，一笼分着尝"
+          ],
+          "tip": "小笼店也有堂食套餐；只安排一笼传统点心，不默认要吃整餐。排队过长就跳过。 豫园外商城约3–5分钟",
+          "budgetCnyPerPerson": [
+            30,
+            60
+          ],
+          "sources": [
+            {
+              "title": "门店与地图公开资料",
+              "url": "https://ditu.amap.com/place/B00155IMN4"
+            }
+          ],
+          "checkedAt": "2026-10-25"
+        }
+      ],
+      "hotel": null,
+      "mapPositions": {
+        "sh-wukangbuilding": [
+          105,
+          535,
+          "wukang"
+        ],
+        "sh-wukang": [
+          150,
+          365,
+          "house"
+        ],
+        "sh-anfu": [
+          285,
+          165,
+          "shop"
+        ],
+        "sh-wulumuqi": [
+          380,
+          285,
+          "shop"
+        ],
+        "sh-fuxingxi": [
+          255,
+          425,
+          "house"
+        ]
+      },
+      "transport": [],
+      "rest": [
+        {
+          "time": "12:30",
+          "end": "13:30",
+          "title": "午饭与休息"
+        }
+      ],
+      "legs": [
+        {
+          "from": "sh-wukangbuilding",
+          "to": "sh-wukang",
+          "mode": "步行",
+          "minutes": 15,
+          "label": "约 15–25 分钟",
+          "estimated": true,
+          "km": 0.8
+        },
+        {
+          "from": "sh-wukang",
+          "to": "sh-anfu",
+          "mode": "步行",
+          "minutes": 15,
+          "label": "约 15–25 分钟",
+          "estimated": true,
+          "km": 0.8
+        },
+        {
+          "from": "sh-anfu",
+          "to": "sh-wulumuqi",
+          "mode": "步行",
+          "minutes": 5,
+          "label": "约 5–15 分钟",
+          "estimated": true,
+          "km": 0.3
+        }
+      ],
+      "walkKm": 1.9,
+      "hotelLeg": null
+    }
+  ],
+  "conflicts": [],
+  "todo": [
+    "2026-11-02 苏州 住宿待定。",
+    "2026-11-03 苏州 住宿待定。",
+    "2026-11-04 上海 住宿待定。",
+    "2026-11-05 上海 住宿待定。",
+    "2026-11-04 苏州→上海：待选车次/航班，确定后再锁定当天游览时间。"
+  ],
+  "guides": [
+    {
+      "name": "留园",
+      "url": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/liuyuan/index.html",
+      "city": "苏州",
+      "photo": {
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-liuyuan.webp",
+        "alt": "留园实景照片",
+        "author": "钉钉",
+        "source": "https://commons.wikimedia.org/wiki/File:Lingering_Garden2.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "name": "拙政园",
+      "url": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/zhuozheng/index.html",
+      "city": "苏州",
+      "photo": {
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sz-zhuozheng.webp",
+        "alt": "拙政园实景照片",
+        "author": "King of Hearts",
+        "source": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_008.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "name": "外白渡桥",
+      "url": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/bund/index.html",
+      "city": "上海",
+      "photo": {
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-waibaidu.webp",
+        "alt": "外白渡桥实景照片",
+        "author": "kallerna",
+        "source": "https://commons.wikimedia.org/wiki/File:Waibaidu_Bridge_Shanghai.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "name": "安福路",
+      "url": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/guides/wukang/index.html",
+      "city": "上海",
+      "photo": {
+        "src": "https://xiamiaozhao.github.io/Watertiu.github.io/china-trip-2026/assets/scenes/sh-anfu.webp",
+        "alt": "安福路284号花园住宅外观",
+        "author": "Fayhoo",
+        "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Dramatic_Arts_Center.JPG",
+        "license": "CC BY-SA 3.0"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-26T03:07:45.641Z",
+  "usage": {
+    "calls": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "errors": []
+}

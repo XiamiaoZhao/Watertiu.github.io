@@ -68,3 +68,16 @@ html{scroll-padding-top:80px}body{background-color:var(--paper);color:var(--ink)
 
 /* Approved square brush logo, preserving the existing brand layout. */
 .brand-mark{border-radius:3px!important;background:none!important;border:0!important;overflow:hidden;width:40px!important;height:40px!important;flex:0 0 40px}.brand-mark img{display:block;width:100%;height:100%;object-fit:contain}.guide-logo-v8{display:block;width:42px;height:42px;object-fit:contain;border-radius:3px;flex-shrink:0}
+
+/* Elapsed days retain the painting with deeper ink and readable ivory type. */
+.travel-calendar .calendar-day.elapsed:before{background:linear-gradient(180deg,#173b30b0,#173b30b8),var(--calendar-art) center/cover;opacity:1;filter:saturate(1.5) contrast(1.08)}
+.travel-calendar .calendar-day.elapsed,.travel-calendar .calendar-day.elapsed .calendar-number,.travel-calendar .calendar-day.elapsed .calendar-city,.travel-calendar .calendar-day.elapsed .calendar-month,.travel-calendar .calendar-day.elapsed .calendar-traces{color:#fff7df;text-shadow:0 1px 3px #10281f80}
+.travel-calendar .calendar-day.elapsed.active{border-color:#b39758;box-shadow:inset 0 0 0 2px #f2dfae,0 3px 8px #264f3522}
+.travel-calendar .calendar-day.elapsed:after{background:#efd68d}
+.calendar-traces .people-3{width:52px;height:21px}
+.booking-warning{border-left:3px solid #ac603d;background:#f8eee3;padding:14px 18px;border-radius:4px;line-height:1.8}
+.travel-option{border-top:1px solid #e4decd;margin-top:16px;padding-top:14px}.travel-option p{margin:8px 0}
+.hotel-grid,.train-grid{min-width:0}.train-card,.hotel-card,.guide-card{min-width:0;overflow-wrap:anywhere}
+.source-foot{font-size:12px;color:#796e58;line-height:1.7;margin-top:22px}
+@media(max-width:760px){.calendar-traces .people-3{width:36px;height:19px}.calendar-day .calendar-city{font-size:10px}.day-links a{max-width:100%;overflow-wrap:anywhere}.hotel-row{gap:12px}.booking-warning{padding:12px 14px}}
+@media(max-width:360px){.calendar-traces .people-3{width:30px}.calendar-day .calendar-city{font-size:9px}}

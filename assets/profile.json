@@ -1,0 +1,242 @@
+{
+  "name": {
+    "zh": "赵夏淼",
+    "en": "Xiamiao Zhao"
+  },
+  "email": "zxm23@mails.tsinghua.edu.cn",
+  "website": "https://xiamiaozhao.github.io/Watertiu.github.io/",
+  "scholar": "https://scholar.google.com/citations?user=CRjqCMsAAAAJ",
+  "github": "https://github.com/XiamiaoZhao",
+  "position": {
+    "zh": "清华大学数学系 · 博士研究生",
+    "en": "PhD student · Tsinghua University"
+  },
+  "education": [
+    {
+      "institution": {
+        "zh": "清华大学",
+        "en": "Tsinghua University"
+      },
+      "degree": {
+        "zh": "数学系 · 博士研究生",
+        "en": "PhD student, Department of Mathematical Sciences"
+      },
+      "period": {
+        "zh": "2023 — 至今",
+        "en": "2023 — present"
+      },
+      "details": [
+        {
+          "zh": "导师：陆玫教授",
+          "en": "Advisor: Professor Mei Lu"
+        }
+      ]
+    },
+    {
+      "institution": {
+        "zh": "南开大学",
+        "en": "Nankai University"
+      },
+      "degree": {
+        "zh": "数学专业 · 本科学习",
+        "en": "Undergraduate studies, mathematics"
+      },
+      "period": {
+        "zh": "2023 年之前",
+        "en": "Before 2023"
+      },
+      "details": []
+    }
+  ],
+  "visits": [
+    {
+      "institution": {
+        "zh": "Alfréd Rényi 数学研究所",
+        "en": "Alfréd Rényi Institute of Mathematics"
+      },
+      "period": {
+        "zh": "为期一年的研究交流",
+        "en": "One-year research visit"
+      },
+      "details": [
+        {
+          "zh": "匈牙利布达佩斯 · 国家留学基金委资助",
+          "en": "Budapest, Hungary · China Scholarship Council support"
+        },
+        {
+          "zh": "与 Ervin Győri、Dániel Gerbner 开展研究合作",
+          "en": "Research with Ervin Győri and Dániel Gerbner"
+        }
+      ]
+    }
+  ],
+  "honors": [
+    {
+      "year": 2026,
+      "title": {
+        "zh": "兆易奖学金 · 一等",
+        "en": "GigaDevice Scholarship, First Class"
+      }
+    },
+    {
+      "year": 2025,
+      "title": {
+        "zh": "秦晓奖学金 · 一等",
+        "en": "Qin Xiao Scholarship, First Class"
+      }
+    },
+    {
+      "year": 2024,
+      "title": {
+        "zh": "武汉英才奖学金 · 一等",
+        "en": "Wuhan Yingcai Scholarship, First Class"
+      }
+    }
+  ],
+  "research": {
+    "summary": {
+      "zh": "研究领域为组合数学与图论，关注图与超图的极值问题、子图计数与熵方法。",
+      "en": "Research in combinatorics and graph theory, focusing on extremal graphs and hypergraphs, subgraph counting, and entropy methods."
+    },
+    "areas": [
+      {
+        "title": {
+          "zh": "极值图论与子图计数",
+          "en": "Extremal graph theory and subgraph counting"
+        },
+        "description": {
+          "zh": "研究广义 Turán 问题，以及有界匹配数和禁用路、圈条件下的计数与极值结构。",
+          "en": "Generalized Turán problems, counting, and extremal structures under bounds on matching number and restrictions on paths and cycles."
+        }
+      },
+      {
+        "title": {
+          "zh": "超图极值问题",
+          "en": "Extremal hypergraph problems"
+        },
+        "description": {
+          "zh": "研究 Berge 超图中的禁用结构与极值问题，包括 Berge 匹配的 Turán 数。",
+          "en": "Forbidden structures and extremal problems in Berge hypergraphs, including Turán numbers of Berge matchings."
+        }
+      },
+      {
+        "title": {
+          "zh": "熵方法与诱导子图计数",
+          "en": "Entropy methods and induced subgraph counts"
+        },
+        "description": {
+          "zh": "利用熵方法研究给定边数下的诱导子图计数，以及路与圈的相关上界。",
+          "en": "Entropy methods for induced subgraph counts in graphs with a prescribed number of edges, including bounds for paths and cycles."
+        }
+      }
+    ]
+  },
+  "contributions": [
+    {
+      "title": {
+        "zh": "scButterfly：单细胞跨模态转换研究",
+        "en": "scButterfly: single-cell cross-modality translation"
+      },
+      "details": [
+        {
+          "zh": "Nature Communications 论文第二作者，参与结果分析。",
+          "en": "Second author of the Nature Communications publication; participated in results analysis."
+        }
+      ],
+      "publicationId": "cao2024scbutterfly"
+    },
+    {
+      "title": {
+        "zh": "熵方法与诱导子图计数研究",
+        "en": "Entropy methods for induced subgraph counting"
+      },
+      "details": [
+        {
+          "zh": "合作研究给定边数下的诱导子图计数，利用熵方法给出路与圈的相关上界。",
+          "en": "Collaborative research on induced subgraph counts in graphs with a prescribed number of edges, using entropy to obtain bounds for paths and cycles."
+        }
+      ],
+      "publicationId": "wang2026entropy"
+    }
+  ],
+  "skills": [
+    {
+      "zh": "Python",
+      "en": "Python"
+    }
+  ],
+  "scenarios": {
+    "faculty": {
+      "objective": {
+        "zh": "高校数学系教职申请",
+        "en": "Faculty application · Mathematics departments"
+      },
+      "summary": {
+        "zh": "清华大学数学系博士研究生。研究领域为组合数学与图论，关注极值问题、子图计数和熵方法。曾赴 Alfréd Rényi 数学研究所开展为期一年的研究交流。",
+        "en": "PhD student in mathematical sciences at Tsinghua University. Research interests include combinatorics, graph theory, extremal problems, subgraph counting, and entropy methods. Completed a one-year research visit at the Alfréd Rényi Institute of Mathematics."
+      }
+    },
+    "llm": {
+      "objective": {
+        "zh": "大模型算法研究实习 / Research Scientist 实习",
+        "en": "LLM algorithm research / Research Scientist internship"
+      },
+      "summary": {
+        "zh": "清华大学数学系博士研究生，申请大模型算法研究实习。研究背景包括组合数学、图论与熵方法；曾作为 scButterfly 论文第二作者参与结果分析。",
+        "en": "PhD student in mathematical sciences at Tsinghua University seeking an LLM algorithm research internship. Research background in combinatorics, graph theory, and entropy methods; second author of scButterfly, with a contribution to results analysis."
+      }
+    }
+  },
+  "expectedGraduation": "2028-06",
+  "updatedAt": "2026-11-25",
+  "site": {
+    "aboutFirst": {
+      "zh": "我是清华大学数学系博士研究生，导师为陆玫教授。本科就读于南开大学，研究方向为组合数学与图论。",
+      "en": "I am a PhD student in the Department of Mathematical Sciences at Tsinghua University, advised by Professor Mei Lu. Before joining Tsinghua, I studied at Nankai University."
+    },
+    "aboutSecond": {
+      "zh": "我曾获国家留学基金委资助，赴匈牙利布达佩斯 Alfréd Rényi 数学研究所进行为期一年的交流，与 Ervin Győri 和 Dániel Gerbner 开展研究合作。",
+      "en": "My research centers on combinatorics and graph theory. I visited the Alfréd Rényi Institute of Mathematics in Budapest for one year with support from the China Scholarship Council, working with Ervin Győri and Dániel Gerbner."
+    },
+    "phdDate": {
+      "zh": "2023 — 至今",
+      "en": "2023 — present"
+    },
+    "nankaiDate": {
+      "zh": "2023 年之前",
+      "en": "Before 2023"
+    },
+    "visitDate": {
+      "zh": "为期一年的研究交流",
+      "en": "One-year research visit"
+    },
+    "phdDetail": {
+      "zh": "数学系 · 博士研究生",
+      "en": "PhD student, Department of Mathematical Sciences"
+    },
+    "nankaiDetail": {
+      "zh": "数学专业 · 本科学习",
+      "en": "Undergraduate studies, mathematics"
+    },
+    "visitDetail": {
+      "zh": "匈牙利布达佩斯 · 国家留学基金委资助",
+      "en": "Budapest, Hungary · China Scholarship Council support"
+    },
+    "visitCollab": {
+      "zh": "与 Ervin Győri、Dániel Gerbner 开展研究合作",
+      "en": "Research with Ervin Győri and Dániel Gerbner"
+    },
+    "advisor": {
+      "zh": "导师：陆玫教授",
+      "en": "Advisor: Professor Mei Lu"
+    },
+    "contactLocation": {
+      "zh": "清华大学数学系\n中国北京，100084",
+      "en": "Department of Mathematical Sciences, Tsinghua University\nBeijing 100084, China"
+    },
+    "heroDescription": {
+      "zh": "我的研究领域是组合数学与图论。",
+      "en": "My research interests are combinatorics and graph theory."
+    }
+  }
+}
